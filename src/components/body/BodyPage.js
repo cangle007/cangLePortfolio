@@ -1,5 +1,5 @@
 import React from 'react';
-import MyBioComponent from './MyBioComponent';
+// import MyBioComponent from './MyBioComponent';
 // import PortfolioComponent from './PortfolioComponent';
 import InspectorComponent from '../projects/InspectorComponent';
 

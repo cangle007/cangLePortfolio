@@ -4,7 +4,7 @@ import MyBioComponent from '../body/MyBioComponent';
 import PortfolioComponent from '../body/PortfolioComponent';
 import BannerComponent from '../headers/BannerComponent';
 import SidebarComponent from '../sidebars/SidebarComponent';
-import InquiryComponent from '../contact/InquiryComponent';
+// import InquiryComponent from '../contact/InquiryComponent';
 
 export default class MainComponent extends Component {
   constructor(props) {

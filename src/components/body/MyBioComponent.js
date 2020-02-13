@@ -25,13 +25,17 @@ export default function MyBioComponent({ handle_openTabGithub, handle_openTabLin
       </div>
 
       <div id='github-item' onClick={handle_openTabGithub}>
-        <Icon name='github' />
-        <p>GITHUB</p>
+        <span href='#'>
+          <Icon name='github' />
+          <p>GITHUB</p>
+        </span>
       </div>
 
       <div id='linkedin-item' onClick={handle_openTabLinkedin}>
-        <Icon name='linkedin' />
-        <p>LINKEDIN</p>
+        <span>
+          <Icon name='linkedin' />
+          <p>LINKEDIN</p>
+        </span>
       </div>
 
       <div id='expertise-item' className='expertise-container'>
