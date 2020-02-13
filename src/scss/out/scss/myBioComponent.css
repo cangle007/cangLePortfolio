@@ -5,7 +5,7 @@
   grid-template-areas: 'myBio-item resume-item' 'myBio-item linkedin-item' 'myBio-item github-item' 'expertise-container expertise-container';
   text-align: justify;
   text-justify: inter-word;
-  padding: 80px; }
+  padding: 0 80px; }
   .myBio-container #myBio-item {
     grid-area: myBio-item;
     place-self: center;

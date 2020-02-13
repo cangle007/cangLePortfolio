@@ -11,7 +11,6 @@ import BannerContainer from './redux/containers/BannerContainer';
 import GmailContainer from './redux/containers/GmailContainer';
 import InspectorContainer from './redux/containers/InspectorContainer';
 import IotProfileContainer from './redux/containers/IotProfileContainer';
-import MyContactContainer from './redux/containers/MyContactContainer';
 import MainContainer from './redux/containers/MainContainer';
 import PokemonContainer from './redux/containers/PokemonContainer';
 import ResponsiveContainer from './redux/containers/ResponsiveContainer';
@@ -31,7 +30,6 @@ export default class App extends Component {
             <Switch>
               <Route exact path='/' component={MainContainer} />
               <Route exact path='/art' component={ArtContainer} />
-              <Route exact path='/contact' component={MyContactContainer} />
               <Route exact path='/body' component={BodyContainer} />
               <Route exact path='/devhistory' component={DeviceHistoryContainer} />
               <Route exact path='/gmail' component={GmailContainer} />

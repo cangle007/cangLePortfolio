@@ -22,32 +22,48 @@ export default class MainComponent extends Component {
     win.focus();
   };
 
-  handle_routeArt = () => {
-    this.props.history.push(`/art`);
-  };
-  handle_routeDeviceHistory = () => {
-    this.props.history.push(`/devhistory`);
-  };
-  handle_routeGmail = () => {
-    this.props.history.push(`/gmail`);
-  };
   handle_routeInspector = () => {
+    window.scrollTo(0, 0);
     this.props.history.push(`/inspector`);
   };
+
+  handle_routeDeviceHistory = () => {
+    window.scrollTo(0, 0);
+    this.props.history.push(`/devhistory`);
+  };
+
   handle_routeIoT = () => {
+    window.scrollTo(0, 0);
     this.props.history.push(`/iot`);
   };
+
   handle_routePokemon = () => {
+    window.scrollTo(0, 0);
     this.props.history.push(`/pokemon`);
   };
+
   handle_routeResponsive = () => {
+    window.scrollTo(0, 0);
     this.props.history.push(`/responsive`);
   };
+
+  handle_routeGmail = () => {
+    window.scrollTo(0, 0);
+    this.props.history.push(`/gmail`);
+  };
+
+  handle_routeArt = () => {
+    window.scrollTo(0, 0);
+    this.props.history.push(`/art`);
+  };
+
   handle_routeTodo = () => {
+    window.scrollTo(0, 0);
     this.props.history.push(`/todo`);
   };
 
   handle_routeMain = () => {
+    window.scrollTo(0, 0);
     this.props.history.push(`/`);
   };
 
@@ -85,12 +101,12 @@ export default class MainComponent extends Component {
           <SidebarComponent history={history} handle_routeMain={this.handle_routeMain} />
         </div>
 
-        <div id='inquiryComp'>
+        {/* <div id='inquiryComp'>
           <InquiryComponent
             handle_openTabGithub={this.handle_openTabGithub}
             handle_openTabLinkedin={this.handle_openTabLinkedin}
           />
-        </div>
+        </div> */}
       </div>
     );
   }
