@@ -1,0 +1,49 @@
+.sidebar-container {
+  display: grid;
+  grid-template-areas:
+    '.'
+    'sidebar-about-item'
+    'sidebar-work-item'
+    'sidebar-contact-item'
+    '.';
+  grid-template-rows: minMax(50px, auto) 200px 200px 200px minMax(50px, auto);
+  width: 200px; //250
+  height: 100vh;
+  border-right: 1px solid #eee;
+  place-items: center;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  //display: none; //delete
+
+  #sidebar-about-item,
+  #sidebar-work-item,
+  #sidebar-contact-item {
+    color: black;
+
+    i.icon {
+      font-size: 20px;
+    }
+
+    p:nth-child(1) {
+      margin: 0.5em 0 0.5em;
+      line-height: 1em;
+      font-size: 22px;
+      font-weight: bold;
+      font-family: 'din-condensed-web', 'Trebuchet MS', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    p:nth-child(3) {
+      font-size: 15px;
+      letter-spacing: 2px;
+      font-family: 'ff-tisa-web-pro', Palatino, ' Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
+    }
+
+    &:hover {
+      color: rgb(204, 51, 51);
+      cursor: pointer;
+    }
+  }
+}

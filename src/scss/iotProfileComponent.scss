@@ -1,0 +1,67 @@
+.iot-container {
+  display: grid;
+  grid-template-areas:
+    'sidebarComp iot-bio-item'
+    'sidebarComp iot-details-item';
+  grid-template-columns: 200px auto;
+
+  #iot-bio-item {
+    grid-area: iot-bio-item;
+    font-family: 'ff-tisa-web-pro', Palatino, ' Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
+    font-size: 18px;
+    text-align: center;
+    margin: 50px 30px;
+
+    article {
+      h1 {
+        margin: 0.5em 0 0.5em;
+        line-height: 1em;
+        font-size: 30px;
+        font-weight: bold;
+        font-family: 'din-condensed-web', 'Trebuchet MS', 'Arial Narrow', Arial, sans-serif;
+      }
+
+      p:nth-child(2) {
+        letter-spacing: 2px;
+        font-size: 20px;
+      }
+
+      p:nth-child(3) {
+        text-align: justify;
+        text-justify: inter-word;
+      }
+    }
+  }
+
+  #iot-details-item {
+    grid-area: iot-details-item;
+
+    section {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: lighten(#0b6171, 5%);
+      color: white;
+      text-align: justify;
+      text-justify: inter-word;
+      padding: 30px;
+    }
+
+    section > p {
+      padding: 0 50px;
+    }
+
+    section:nth-child(1) {
+      img {
+        width: 1000px;
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+      }
+    }
+    section:nth-child(2) {
+      img {
+        width: 750px;
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+      }
+    }
+  }
+}

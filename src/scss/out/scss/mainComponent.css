@@ -1,0 +1,18 @@
+.main-container {
+  display: grid;
+  grid-template-areas: 'sidebarComp bannerComp' 'sidebarComp myBioComp' 'sidebarComp portfolioComp' 'sidebarComp inquiryComp';
+  grid-template-columns: 200px 1fr;
+  grid-template-rows: auto auto auto auto; }
+  .main-container #bannerComp {
+    grid-area: bannerComp; }
+  .main-container #myBioComp {
+    grid-area: myBioComp;
+    place-items: center; }
+  .main-container #portfolioComp {
+    grid-area: portfolioComp;
+    place-items: center; }
+  .main-container #sidebarComp {
+    grid-area: sidebarComp; }
+  .main-container #inquiryComp {
+    grid-area: inquiryComp;
+    place-self: center; }

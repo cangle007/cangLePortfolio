@@ -1,0 +1,368 @@
+.portfolio-container {
+  display: grid;
+  grid-template-areas: 'professional-title-item professional-title-item professional-title-item' 'inspector-item inspector-item deviceHistory-item' '. iotProfile-item iotProfile-item' 'personal-title-item personal-title-item personal-title-item' 'pokemonBattleArea-item pokemonBattleArea-item responsiveGrid-item' 'gmailClone-item artAcademy-item toDos-item';
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: 150px 200px 200px 150px 200px 200px;
+  grid-gap: 20px;
+  padding: 80px;
+  /* Hover affects */ }
+  .portfolio-container #professional-title-item {
+    grid-area: professional-title-item;
+    place-self: center;
+    text-align: center; }
+    .portfolio-container #professional-title-item p:nth-child(1) {
+      margin: 0.5em 0 0.5em;
+      line-height: 1em;
+      font-size: 30px;
+      font-weight: bold;
+      font-family: 'din-condensed-web', 'Trebuchet MS', 'Arial Narrow', Arial, sans-serif; }
+    .portfolio-container #professional-title-item p:nth-child(2) {
+      font-family: 'ff-tisa-web-pro', Palatino, ' Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
+      letter-spacing: 2px;
+      font-size: 20px; }
+  .portfolio-container #personal-title-item {
+    grid-area: personal-title-item;
+    place-self: center;
+    text-align: center; }
+    .portfolio-container #personal-title-item p {
+      font-family: 'ff-tisa-web-pro', Palatino, ' Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
+      letter-spacing: 2px;
+      font-size: 20px; }
+  .portfolio-container #inspector-item {
+    grid-area: inspector-item;
+    display: flex;
+    position: relative;
+    align-items: center;
+    background-color: black;
+    cursor: pointer; }
+    .portfolio-container #inspector-item #inspector-logo {
+      position: relative;
+      max-width: 100%;
+      max-height: 100%;
+      left: 10%;
+      transform: translateX(-10%); }
+  .portfolio-container #deviceHistory-item {
+    grid-area: deviceHistory-item;
+    display: flex;
+    position: relative;
+    align-items: center;
+    place-content: center;
+    background-color: black;
+    cursor: pointer; }
+    .portfolio-container #deviceHistory-item #deviceHistory-logo {
+      position: relative;
+      max-width: 100%;
+      max-height: 100%; }
+  .portfolio-container #iotProfile-item {
+    grid-area: iotProfile-item;
+    display: flex;
+    position: relative;
+    align-items: center;
+    background-color: black;
+    cursor: pointer; }
+    .portfolio-container #iotProfile-item #iotProfile-logo {
+      max-width: 100%;
+      max-height: 100%;
+      position: relative;
+      left: 90%;
+      transform: translateX(-90%); }
+  .portfolio-container #pokemonBattleArea-item {
+    grid-area: pokemonBattleArea-item;
+    display: flex;
+    position: relative;
+    align-items: center;
+    background-color: black;
+    cursor: pointer; }
+    .portfolio-container #pokemonBattleArea-item #pokemon-logo {
+      position: relative;
+      left: 10%;
+      transform: translateX(-10%); }
+  .portfolio-container #responsiveGrid-item {
+    grid-area: responsiveGrid-item;
+    display: flex;
+    position: relative;
+    align-items: center;
+    place-content: center;
+    background-color: black;
+    cursor: pointer; }
+    .portfolio-container #responsiveGrid-item #respGrid-logo {
+      position: relative;
+      max-width: 90%; }
+  .portfolio-container #gmailClone-item {
+    grid-area: gmailClone-item;
+    display: flex;
+    position: relative;
+    align-items: center;
+    place-content: center;
+    background-color: black;
+    cursor: pointer; }
+    .portfolio-container #gmailClone-item #gmailClone-logo {
+      position: relative;
+      max-width: 50%; }
+  .portfolio-container #artAcademy-item {
+    grid-area: artAcademy-item;
+    display: flex;
+    position: relative;
+    align-items: center;
+    place-content: center;
+    background-color: black;
+    cursor: pointer; }
+    .portfolio-container #artAcademy-item #artAcademy-logo {
+      position: relative;
+      max-width: 70%; }
+  .portfolio-container #toDos-item {
+    grid-area: toDos-item;
+    display: flex;
+    position: relative;
+    align-items: center;
+    place-content: center;
+    background-color: black;
+    cursor: pointer; }
+    .portfolio-container #toDos-item #toDos-logo {
+      position: relative;
+      max-width: 100%; }
+  .portfolio-container .card-text {
+    position: absolute;
+    font-family: 'ff-tisa-web-pro', Palatino, ' Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
+    letter-spacing: 1px;
+    color: white;
+    text-align: center;
+    width: 100%;
+    word-wrap: break-word;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity ease-out 250ms; }
+    .portfolio-container .card-text span {
+      font-size: 22px;
+      font-weight: bold; }
+    .portfolio-container .card-text p {
+      font-size: 17px; }
+  .portfolio-container #deviceHistory-item::before, .portfolio-container #deviceHistory-item::after,
+  .portfolio-container #inspector-item::before,
+  .portfolio-container #inspector-item::after,
+  .portfolio-container #iotProfile-item::before,
+  .portfolio-container #iotProfile-item::after,
+  .portfolio-container #pokemonBattleArea-item::before,
+  .portfolio-container #pokemonBattleArea-item::after,
+  .portfolio-container #responsiveGrid-item::before,
+  .portfolio-container #responsiveGrid-item::after,
+  .portfolio-container #gmailClone-item::before,
+  .portfolio-container #gmailClone-item::after,
+  .portfolio-container #artAcademy-item::before,
+  .portfolio-container #artAcademy-item::after,
+  .portfolio-container #toDos-item::before,
+  .portfolio-container #toDos-item::after {
+    content: '';
+    position: absolute;
+    top: 0.7em;
+    bottom: 0.7em;
+    left: 0.7em;
+    right: 0.7em;
+    opacity: 1;
+    transition: transform ease-out 250ms; }
+  .portfolio-container #deviceHistory-item::before,
+  .portfolio-container #inspector-item::before,
+  .portfolio-container #iotProfile-item::before,
+  .portfolio-container #pokemonBattleArea-item::before,
+  .portfolio-container #responsiveGrid-item::before,
+  .portfolio-container #gmailClone-item::before,
+  .portfolio-container #artAcademy-item::before,
+  .portfolio-container #toDos-item::before {
+    transform: scale(0, 1);
+    border-top: 1px solid white;
+    border-bottom: 1px solid white; }
+  .portfolio-container #deviceHistory-item::after,
+  .portfolio-container #inspector-item::after,
+  .portfolio-container #iotProfile-item::after,
+  .portfolio-container #pokemonBattleArea-item::after,
+  .portfolio-container #responsiveGrid-item::after,
+  .portfolio-container #gmailClone-item::after,
+  .portfolio-container #artAcademy-item::after,
+  .portfolio-container #toDos-item::after {
+    transform: scale(1, 0);
+    border-right: 1px solid white;
+    border-left: 1px solid white; }
+  .portfolio-container #deviceHistory-item:hover::before,
+  .portfolio-container #inspector-item:hover::before,
+  .portfolio-container #iotProfile-item:hover::before,
+  .portfolio-container #pokemonBattleArea-item:hover::before,
+  .portfolio-container #responsiveGrid-item:hover::before,
+  .portfolio-container #gmailClone-item:hover::before,
+  .portfolio-container #artAcademy-item:hover::before,
+  .portfolio-container #toDos-item:hover::before {
+    transform: scale(1.05, 1); }
+  .portfolio-container #deviceHistory-item:hover::after,
+  .portfolio-container #inspector-item:hover::after,
+  .portfolio-container #iotProfile-item:hover::after,
+  .portfolio-container #pokemonBattleArea-item:hover::after,
+  .portfolio-container #responsiveGrid-item:hover::after,
+  .portfolio-container #gmailClone-item:hover::after,
+  .portfolio-container #artAcademy-item:hover::after,
+  .portfolio-container #toDos-item:hover::after {
+    transform: scale(1, 1.2); }
+  .portfolio-container #deviceHistory-item:hover,
+  .portfolio-container #inspector-item:hover,
+  .portfolio-container #iotProfile-item:hover,
+  .portfolio-container #pokemonBattleArea-item:hover,
+  .portfolio-container #responsiveGrid-item:hover,
+  .portfolio-container #gmailClone-item:hover,
+  .portfolio-container #artAcademy-item:hover,
+  .portfolio-container #toDos-item:hover {
+    background: #cc3333; }
+    .portfolio-container #deviceHistory-item:hover .card-text,
+    .portfolio-container #inspector-item:hover .card-text,
+    .portfolio-container #iotProfile-item:hover .card-text,
+    .portfolio-container #pokemonBattleArea-item:hover .card-text,
+    .portfolio-container #responsiveGrid-item:hover .card-text,
+    .portfolio-container #gmailClone-item:hover .card-text,
+    .portfolio-container #artAcademy-item:hover .card-text,
+    .portfolio-container #toDos-item:hover .card-text {
+      opacity: 1; }
+    .portfolio-container #deviceHistory-item:hover #deviceHistory-logo,
+    .portfolio-container #deviceHistory-item:hover #inspector-logo,
+    .portfolio-container #deviceHistory-item:hover #iotProfile-logo,
+    .portfolio-container #deviceHistory-item:hover #pokemon-logo,
+    .portfolio-container #deviceHistory-item:hover #respGrid-logo,
+    .portfolio-container #deviceHistory-item:hover #gmailClone-logo,
+    .portfolio-container #deviceHistory-item:hover #artAcademy-logo,
+    .portfolio-container #deviceHistory-item:hover #toDos-logo,
+    .portfolio-container #inspector-item:hover #deviceHistory-logo,
+    .portfolio-container #inspector-item:hover #inspector-logo,
+    .portfolio-container #inspector-item:hover #iotProfile-logo,
+    .portfolio-container #inspector-item:hover #pokemon-logo,
+    .portfolio-container #inspector-item:hover #respGrid-logo,
+    .portfolio-container #inspector-item:hover #gmailClone-logo,
+    .portfolio-container #inspector-item:hover #artAcademy-logo,
+    .portfolio-container #inspector-item:hover #toDos-logo,
+    .portfolio-container #iotProfile-item:hover #deviceHistory-logo,
+    .portfolio-container #iotProfile-item:hover #inspector-logo,
+    .portfolio-container #iotProfile-item:hover #iotProfile-logo,
+    .portfolio-container #iotProfile-item:hover #pokemon-logo,
+    .portfolio-container #iotProfile-item:hover #respGrid-logo,
+    .portfolio-container #iotProfile-item:hover #gmailClone-logo,
+    .portfolio-container #iotProfile-item:hover #artAcademy-logo,
+    .portfolio-container #iotProfile-item:hover #toDos-logo,
+    .portfolio-container #pokemonBattleArea-item:hover #deviceHistory-logo,
+    .portfolio-container #pokemonBattleArea-item:hover #inspector-logo,
+    .portfolio-container #pokemonBattleArea-item:hover #iotProfile-logo,
+    .portfolio-container #pokemonBattleArea-item:hover #pokemon-logo,
+    .portfolio-container #pokemonBattleArea-item:hover #respGrid-logo,
+    .portfolio-container #pokemonBattleArea-item:hover #gmailClone-logo,
+    .portfolio-container #pokemonBattleArea-item:hover #artAcademy-logo,
+    .portfolio-container #pokemonBattleArea-item:hover #toDos-logo,
+    .portfolio-container #responsiveGrid-item:hover #deviceHistory-logo,
+    .portfolio-container #responsiveGrid-item:hover #inspector-logo,
+    .portfolio-container #responsiveGrid-item:hover #iotProfile-logo,
+    .portfolio-container #responsiveGrid-item:hover #pokemon-logo,
+    .portfolio-container #responsiveGrid-item:hover #respGrid-logo,
+    .portfolio-container #responsiveGrid-item:hover #gmailClone-logo,
+    .portfolio-container #responsiveGrid-item:hover #artAcademy-logo,
+    .portfolio-container #responsiveGrid-item:hover #toDos-logo,
+    .portfolio-container #gmailClone-item:hover #deviceHistory-logo,
+    .portfolio-container #gmailClone-item:hover #inspector-logo,
+    .portfolio-container #gmailClone-item:hover #iotProfile-logo,
+    .portfolio-container #gmailClone-item:hover #pokemon-logo,
+    .portfolio-container #gmailClone-item:hover #respGrid-logo,
+    .portfolio-container #gmailClone-item:hover #gmailClone-logo,
+    .portfolio-container #gmailClone-item:hover #artAcademy-logo,
+    .portfolio-container #gmailClone-item:hover #toDos-logo,
+    .portfolio-container #artAcademy-item:hover #deviceHistory-logo,
+    .portfolio-container #artAcademy-item:hover #inspector-logo,
+    .portfolio-container #artAcademy-item:hover #iotProfile-logo,
+    .portfolio-container #artAcademy-item:hover #pokemon-logo,
+    .portfolio-container #artAcademy-item:hover #respGrid-logo,
+    .portfolio-container #artAcademy-item:hover #gmailClone-logo,
+    .portfolio-container #artAcademy-item:hover #artAcademy-logo,
+    .portfolio-container #artAcademy-item:hover #toDos-logo,
+    .portfolio-container #toDos-item:hover #deviceHistory-logo,
+    .portfolio-container #toDos-item:hover #inspector-logo,
+    .portfolio-container #toDos-item:hover #iotProfile-logo,
+    .portfolio-container #toDos-item:hover #pokemon-logo,
+    .portfolio-container #toDos-item:hover #respGrid-logo,
+    .portfolio-container #toDos-item:hover #gmailClone-logo,
+    .portfolio-container #toDos-item:hover #artAcademy-logo,
+    .portfolio-container #toDos-item:hover #toDos-logo {
+      opacity: 0; }
+
+@media (max-width: 1000px) {
+  .portfolio-container {
+    grid-template-areas: 'professional-title-item' 'inspector-item' 'deviceHistory-item' 'iotProfile-item' 'personal-title-item' 'pokemonBattleArea-item' 'responsiveGrid-item' 'gmailClone-item' 'artAcademy-item' 'toDos-item';
+    grid-template-columns: auto;
+    grid-template-rows: repeat(10, 250px);
+    place-content: center; }
+    .portfolio-container #deviceHistory-item,
+    .portfolio-container #inspector-item,
+    .portfolio-container #iotProfile-item,
+    .portfolio-container #pokemonBattleArea-item,
+    .portfolio-container #responsiveGrid-item,
+    .portfolio-container #gmailClone-item,
+    .portfolio-container #artAcademy-item,
+    .portfolio-container #toDos-item {
+      place-content: center; }
+      .portfolio-container #deviceHistory-item #deviceHistory-logo,
+      .portfolio-container #deviceHistory-item #inspector-logo,
+      .portfolio-container #deviceHistory-item #iotProfile-logo,
+      .portfolio-container #deviceHistory-item #pokemon-logo,
+      .portfolio-container #deviceHistory-item #respGrid-logo,
+      .portfolio-container #deviceHistory-item #gmailClone-logo,
+      .portfolio-container #deviceHistory-item #artAcademy-logo,
+      .portfolio-container #deviceHistory-item #toDos-logo,
+      .portfolio-container #inspector-item #deviceHistory-logo,
+      .portfolio-container #inspector-item #inspector-logo,
+      .portfolio-container #inspector-item #iotProfile-logo,
+      .portfolio-container #inspector-item #pokemon-logo,
+      .portfolio-container #inspector-item #respGrid-logo,
+      .portfolio-container #inspector-item #gmailClone-logo,
+      .portfolio-container #inspector-item #artAcademy-logo,
+      .portfolio-container #inspector-item #toDos-logo,
+      .portfolio-container #iotProfile-item #deviceHistory-logo,
+      .portfolio-container #iotProfile-item #inspector-logo,
+      .portfolio-container #iotProfile-item #iotProfile-logo,
+      .portfolio-container #iotProfile-item #pokemon-logo,
+      .portfolio-container #iotProfile-item #respGrid-logo,
+      .portfolio-container #iotProfile-item #gmailClone-logo,
+      .portfolio-container #iotProfile-item #artAcademy-logo,
+      .portfolio-container #iotProfile-item #toDos-logo,
+      .portfolio-container #pokemonBattleArea-item #deviceHistory-logo,
+      .portfolio-container #pokemonBattleArea-item #inspector-logo,
+      .portfolio-container #pokemonBattleArea-item #iotProfile-logo,
+      .portfolio-container #pokemonBattleArea-item #pokemon-logo,
+      .portfolio-container #pokemonBattleArea-item #respGrid-logo,
+      .portfolio-container #pokemonBattleArea-item #gmailClone-logo,
+      .portfolio-container #pokemonBattleArea-item #artAcademy-logo,
+      .portfolio-container #pokemonBattleArea-item #toDos-logo,
+      .portfolio-container #responsiveGrid-item #deviceHistory-logo,
+      .portfolio-container #responsiveGrid-item #inspector-logo,
+      .portfolio-container #responsiveGrid-item #iotProfile-logo,
+      .portfolio-container #responsiveGrid-item #pokemon-logo,
+      .portfolio-container #responsiveGrid-item #respGrid-logo,
+      .portfolio-container #responsiveGrid-item #gmailClone-logo,
+      .portfolio-container #responsiveGrid-item #artAcademy-logo,
+      .portfolio-container #responsiveGrid-item #toDos-logo,
+      .portfolio-container #gmailClone-item #deviceHistory-logo,
+      .portfolio-container #gmailClone-item #inspector-logo,
+      .portfolio-container #gmailClone-item #iotProfile-logo,
+      .portfolio-container #gmailClone-item #pokemon-logo,
+      .portfolio-container #gmailClone-item #respGrid-logo,
+      .portfolio-container #gmailClone-item #gmailClone-logo,
+      .portfolio-container #gmailClone-item #artAcademy-logo,
+      .portfolio-container #gmailClone-item #toDos-logo,
+      .portfolio-container #artAcademy-item #deviceHistory-logo,
+      .portfolio-container #artAcademy-item #inspector-logo,
+      .portfolio-container #artAcademy-item #iotProfile-logo,
+      .portfolio-container #artAcademy-item #pokemon-logo,
+      .portfolio-container #artAcademy-item #respGrid-logo,
+      .portfolio-container #artAcademy-item #gmailClone-logo,
+      .portfolio-container #artAcademy-item #artAcademy-logo,
+      .portfolio-container #artAcademy-item #toDos-logo,
+      .portfolio-container #toDos-item #deviceHistory-logo,
+      .portfolio-container #toDos-item #inspector-logo,
+      .portfolio-container #toDos-item #iotProfile-logo,
+      .portfolio-container #toDos-item #pokemon-logo,
+      .portfolio-container #toDos-item #respGrid-logo,
+      .portfolio-container #toDos-item #gmailClone-logo,
+      .portfolio-container #toDos-item #artAcademy-logo,
+      .portfolio-container #toDos-item #toDos-logo {
+        left: 0;
+        transform: translateX(0); } }

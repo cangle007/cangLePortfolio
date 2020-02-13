@@ -1,0 +1,84 @@
+.myContact-container {
+  padding: 80px; }
+  .myContact-container #inputField-item {
+    padding: 25px;
+    text-align: center;
+    background: #f9f9f9;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    width: 500px;
+    text-align: center; }
+    .myContact-container #inputField-item p:nth-child(1) {
+      margin: 0.5em 0 0.5em;
+      line-height: 1em;
+      font-size: 30px;
+      font-weight: bold;
+      text-transform: uppercase;
+      font-family: 'din-condensed-web', 'Trebuchet MS', 'Arial Narrow', Arial, sans-serif; }
+    .myContact-container #inputField-item p:nth-child(2) {
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-size: 20px;
+      font-family: 'ff-tisa-web-pro', Palatino, ' Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif; }
+    .myContact-container #inputField-item input {
+      border: 1px solid #ccc;
+      padding: 10px;
+      width: 100%;
+      margin: 0 0 10px; }
+    .myContact-container #inputField-item textarea {
+      border: 1px solid #ccc;
+      width: 100%;
+      height: 100px;
+      margin: 0 0 10px; }
+    .myContact-container #inputField-item button {
+      cursor: pointer;
+      position: relative;
+      outline: none;
+      background: #cc3333;
+      width: 100%;
+      margin: 0 0 24px;
+      padding: 12px 24px;
+      border: 0;
+      border-radius: 100px;
+      color: #ffffff;
+      font-family: 'RobotoDraft', 'Roboto', sans-serif;
+      font-size: 14px;
+      font-weight: 600;
+      text-align: center;
+      text-transform: uppercase;
+      overflow: hidden; }
+      .myContact-container #inputField-item button:hover:before {
+        left: -10%; }
+      .myContact-container #inputField-item button:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: -100%;
+        background: rgba(255, 255, 255, 0.3);
+        width: 60%;
+        height: 100%;
+        transform: skew(-45deg);
+        transition: 0.3s ease; }
+    .myContact-container #inputField-item input:focus,
+    .myContact-container #inputField-item select:focus,
+    .myContact-container #inputField-item textarea:focus,
+    .myContact-container #inputField-item button:focus {
+      outline: none;
+      border: 1px solid #999; }
+  .myContact-container #socialMedia-item div {
+    display: inline-block;
+    cursor: pointer;
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+    color: #cc3333; }
+    .myContact-container #socialMedia-item div i.icon {
+      font-size: 30px;
+      line-height: 1em; }
+    .myContact-container #socialMedia-item div p {
+      font-size: 20px;
+      letter-spacing: 2px;
+      font-family: 'ff-tisa-web-pro', Palatino, ' Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif; }
+    .myContact-container #socialMedia-item div a {
+      color: #cc3333; }
+    .myContact-container #socialMedia-item div:hover {
+      color: black; }
