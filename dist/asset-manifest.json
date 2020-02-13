@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.f7872902.chunk.css",
-    "main.js": "/static/js/main.a5743c28.chunk.js",
+    "main.js": "/static/js/main.e4cd1e04.chunk.js",
     "runtime-main.js": "/static/js/runtime-main.a7444c66.js",
-    "static/js/2.30f7372e.chunk.js": "/static/js/2.30f7372e.chunk.js",
+    "static/js/2.42833b30.chunk.js": "/static/js/2.42833b30.chunk.js",
     "index.html": "/index.html",
-    "precache-manifest.fc5fc1714a19846ebfa1b0cc83056523.js": "/precache-manifest.fc5fc1714a19846ebfa1b0cc83056523.js",
+    "precache-manifest.5b97ab8fbb22a74b5080c09db6b7a2ef.js": "/precache-manifest.5b97ab8fbb22a74b5080c09db6b7a2ef.js",
     "service-worker.js": "/service-worker.js",
-    "static/js/2.30f7372e.chunk.js.LICENSE": "/static/js/2.30f7372e.chunk.js.LICENSE",
+    "static/js/2.42833b30.chunk.js.LICENSE": "/static/js/2.42833b30.chunk.js.LICENSE",
     "static/media/af-device-history-logo.svg": "/static/media/af-device-history-logo.1f294d84.svg",
     "static/media/af-inspector-logo.svg": "/static/media/af-inspector-logo.5bfc747c.svg",
     "static/media/af-iotProfile-logo.png": "/static/media/af-iotProfile-logo.b5f30fa9.png",
@@ -41,8 +41,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.a7444c66.js",
-    "static/js/2.30f7372e.chunk.js",
+    "static/js/2.42833b30.chunk.js",
     "static/css/main.f7872902.chunk.css",
-    "static/js/main.a5743c28.chunk.js"
+    "static/js/main.e4cd1e04.chunk.js"
   ]
 }
