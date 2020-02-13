@@ -7,7 +7,7 @@
     'sidebarComp inquiryComp';
   grid-template-columns: 200px 1fr;
   grid-template-rows: repeact(4, auto);
-  grid-gap: 50px;
+  grid-row-gap: 50px;
 
   #bannerComp {
     grid-area: bannerComp;
