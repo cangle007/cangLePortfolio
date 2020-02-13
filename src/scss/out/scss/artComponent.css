@@ -38,3 +38,6 @@
 
 .launch-website {
   color: #cc3333; }
+  .launch-website :hover {
+    color: black;
+    cursor: pointer; }

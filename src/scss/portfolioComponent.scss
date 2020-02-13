@@ -7,11 +7,10 @@
     'personal-title-item personal-title-item personal-title-item'
     'pokemonBattleArea-item pokemonBattleArea-item responsiveGrid-item'
     'gmailClone-item artAcademy-item toDos-item';
-  // grid-template-columns: repeat(3, 320px);
   grid-template-columns: repeat(3, auto);
   grid-template-rows: 150px 200px 200px 150px 200px 200px;
   grid-gap: 20px;
-  padding: 80px;
+  padding: 0 80px;
 
   #professional-title-item {
     grid-area: professional-title-item;
@@ -28,7 +27,7 @@
     p:nth-child(2) {
       font-family: 'ff-tisa-web-pro', Palatino, ' Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
       letter-spacing: 2px;
-      font-size: 20px;
+      font-size: 18px;
     }
   }
 
@@ -40,7 +39,7 @@
     p {
       font-family: 'ff-tisa-web-pro', Palatino, ' Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
       letter-spacing: 2px;
-      font-size: 20px;
+      font-size: 18px;
     }
   }
 
@@ -69,6 +68,7 @@
     place-content: center;
     background-color: black;
     cursor: pointer;
+    padding: 0 10px;
 
     #deviceHistory-logo {
       position: relative;

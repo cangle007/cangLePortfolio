@@ -23,8 +23,8 @@ export default class IotProfileComponent extends Component {
             <h1>IOT PROFILE</h1>
             <p>mock-up for mobile app.</p>
             <p>
-              This was a mock-up version of Afero Mobile SDKS, it outlines how user create accounts, manage and interact
-              with devices, and how it connects to Afero Softhub and Wi-Fi
+              This was a mock-up version of Afero Mobile SDKS, it outlines how a user creates an account, manages and
+              interacts with their devices, and how they connect to Afero's softhub and Wi-Fi
             </p>
           </article>
 

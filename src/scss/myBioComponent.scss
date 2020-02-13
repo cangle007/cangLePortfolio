@@ -7,10 +7,9 @@
     'myBio-item linkedin-item'
     'myBio-item github-item'
     'expertise-container expertise-container';
-  padding: 80px;
   text-align: justify;
   text-justify: inter-word;
-  // text-align: center;
+  padding: 80px;
 
   #myBio-item {
     grid-area: myBio-item;
@@ -125,7 +124,8 @@
   .myBio-container {
     grid-template-areas:
       'myBio-item myBio-item myBio-item'
-      'resume-item linkedin-item github-item';
+      'resume-item linkedin-item github-item'
+      'expertise-container expertise-container expertise-container';
     grid-template-columns: repeat(3, 220px);
     grid-template-rows: auto;
     grid-column-gap: 0px;

@@ -4,7 +4,7 @@
   grid-template-columns: repeat(3, auto);
   grid-template-rows: 150px 200px 200px 150px 200px 200px;
   grid-gap: 20px;
-  padding: 80px;
+  padding: 0 80px;
   /* Hover affects */ }
   .portfolio-container #professional-title-item {
     grid-area: professional-title-item;
@@ -19,7 +19,7 @@
     .portfolio-container #professional-title-item p:nth-child(2) {
       font-family: 'ff-tisa-web-pro', Palatino, ' Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
       letter-spacing: 2px;
-      font-size: 20px; }
+      font-size: 18px; }
   .portfolio-container #personal-title-item {
     grid-area: personal-title-item;
     place-self: center;
@@ -27,7 +27,7 @@
     .portfolio-container #personal-title-item p {
       font-family: 'ff-tisa-web-pro', Palatino, ' Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
       letter-spacing: 2px;
-      font-size: 20px; }
+      font-size: 18px; }
   .portfolio-container #inspector-item {
     grid-area: inspector-item;
     display: flex;
@@ -48,7 +48,8 @@
     align-items: center;
     place-content: center;
     background-color: black;
-    cursor: pointer; }
+    cursor: pointer;
+    padding: 0 10px; }
     .portfolio-container #deviceHistory-item #deviceHistory-logo {
       position: relative;
       max-width: 100%;

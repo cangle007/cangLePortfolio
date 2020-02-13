@@ -56,4 +56,9 @@
 
 .launch-website {
   color: rgb(204, 51, 51);
+
+  :hover {
+    color: black;
+    cursor: pointer;
+  }
 }

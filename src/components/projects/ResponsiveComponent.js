@@ -24,10 +24,13 @@ export default class ResponsiveComponent extends Component {
             <h1>RESPONSIVE WEB</h1>
             <p>website displaying css-grid system</p>
             <p>
-              This is a responsive website, constructed using CSS-Grid, hence it is compatible with desktops, tablets,
-              and mobile phone. CSS Grid Layout is the most powerful layout system available in CSS. It is a
-              2-dimensional system, meaning it can handle both columns and rows, unlike flexbox which is largely a
-              1-dimensional system.
+              This is a responsive website constructed using Css-Grid, compatible with desktops, tablets, and mobile
+              phones.
+              <br />
+              <br />I developed this project to learn the new Css-Grid layout system that is capable of 2-dimensional
+              system, meaning it can handle both columns and rows, unlike flexbox which is largely a 1-dimensional
+              system. I applied this new technogy to my profession designs app. because it compatible to React's
+              philosophy of component driven development.
             </p>
           </article>
 
@@ -45,10 +48,7 @@ export default class ResponsiveComponent extends Component {
           </section>
 
           <section>
-            <p>
-              Demo to show how this web's grid would response to the width of the screen. It is compatible with
-              desktops, tablets, and mobile phone screen size.
-            </p>
+            <p>Demo to show how the web's grid responds to changes of the width of the screen.</p>
           </section>
 
           <section>

@@ -16,7 +16,6 @@
     text-align: center; }
   .pokemon-container #pokemon-bio-item {
     grid-area: pokemon-bio-item;
-    place-self: center;
     margin: 50px 30px; }
     .pokemon-container #pokemon-bio-item article h1 {
       margin: 0.5em 0 0.5em;

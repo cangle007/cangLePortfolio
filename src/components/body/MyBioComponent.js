@@ -1,5 +1,5 @@
 import React from 'react';
-import { Icon, Divider } from 'semantic-ui-react';
+import { Icon } from 'semantic-ui-react';
 import resume from '../../images/cl_resume.pdf';
 
 export default function MyBioComponent({ handle_openTabGithub, handle_openTabLinkedin }) {

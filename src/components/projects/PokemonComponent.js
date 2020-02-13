@@ -25,14 +25,14 @@ export default class PokemonComponent extends Component {
         <div id='pokemon-bio-item'>
           <article>
             <h1>POKEMON BATTLE ARENA</h1>
-            <p>real-time battle between multiple players</p>
+            <p>real-time battles between multiple players</p>
             <p>
               This is a Pokemon CRUD app that revolves around users building their own Pokemon deck to battle other
               players in real time!!
             </p>
             <p>
-              It is a fully loaded application consisting of a back-end to manage over 500+ players worth of data, and a
-              front-end that have beautiful UI and authentication to keep your pokemon data safe.
+              A full stack application consisting of a back-end to manage over 500+ players worth of data, and a
+              beautiful front-end UI design with authentication to keep your Pokemon data safe.
             </p>
           </article>
 
@@ -63,8 +63,9 @@ export default class PokemonComponent extends Component {
           <section id='poke_intro'>
             <img src={poke_intro} alt='poke_intro' />
             <p>
-              Construct your deck from a list of 18 unique pokemon wtih special attack and defense of their own. Then
-              connect with your friend or a random player to battle it out to see who have the best team of pokemon.
+              Start by building your team from a list of 18 unique Pokemon with different strategies and moves. Then
+              connect online with your friends or find new players to battle it out to see who has the best team of
+              Pokemon.
             </p>
           </section>
           <section id='poke_select'>

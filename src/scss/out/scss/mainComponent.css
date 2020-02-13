@@ -2,7 +2,7 @@
   display: grid;
   grid-template-areas: 'sidebarComp bannerComp' 'sidebarComp myBioComp' 'sidebarComp portfolioComp' 'sidebarComp inquiryComp';
   grid-template-columns: 200px 1fr;
-  grid-template-rows: auto auto auto auto; }
+  grid-template-rows: repeact(4, auto); }
   .main-container #bannerComp {
     grid-area: bannerComp; }
   .main-container #myBioComp {

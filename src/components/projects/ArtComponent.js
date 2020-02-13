@@ -25,13 +25,16 @@ export default class ArtComponent extends Component {
         <div id='art-bio-item'>
           <article>
             <h1>ART-ACADEMY</h1>
-            <p>pixel-Art with raw CSS & HTML</p>
+            <p>pixel-Art with vanilla JavaScriptL</p>
             <p>
-              Created a pixel art maker through vanilla Javascript which will allow a user to choose colors from a
-              palette and then paint pixel art.
+              Created a pixel art maker through vanilla Javascript with functionality to paint pixel from a variety of
+              colors
             </p>
             <div className='launch-website' onClick={this.handle_openArtAcademy}>
-              <span>LAUNCH WEBSITE</span> <Icon name='external alternate' />
+              <span>
+                LAUNCH ART-ACADEMY
+                <Icon name='external alternate' />
+              </span>
             </div>
           </article>
 
