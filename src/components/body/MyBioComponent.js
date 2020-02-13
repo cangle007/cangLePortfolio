@@ -13,8 +13,13 @@ export default function MyBioComponent({ handle_openTabGithub, handle_openTabLin
         <p>
           I'm looking to grow personally and professionally anywhere in the world. I want to be involved in projects
           that I can be proud of, join an amazing team and advance my development career. Take some time to look at my
-          work, credentials and if you're interested in helping me make this happen, let's get in touch.
+          work, credentials and if you're interested in helping me make this happen.
         </p>
+        <p>
+          When I am not coding I train at the gym to shape up for the Ironman Triathlon, and occasionally skydive. I
+          believe in having an efficient workflow and constantly work toward the inbox zero.
+        </p>
+        <p>Let's get in touch!</p>
       </section>
 
       <div id='resume-item'>
