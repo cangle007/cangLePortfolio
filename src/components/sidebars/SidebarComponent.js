@@ -17,7 +17,7 @@ export default function SidebarComponent({ handle_routeMain }) {
         <p>VIEW CASE STUDIES</p>
       </a>
 
-      <a href='#inputField-item' id='sidebar-contact-item' onClick={handle_routeMain}>
+      <a href='#inquiryComp' id='sidebar-contact-item' onClick={handle_routeMain}>
         <p>CONTACT</p>
         <Icon name='phone' />
         <p>LET'S GET IN TOUCH</p>

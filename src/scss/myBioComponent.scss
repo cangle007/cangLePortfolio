@@ -5,7 +5,8 @@
   grid-template-areas:
     'myBio-item resume-item'
     'myBio-item linkedin-item'
-    'myBio-item github-item';
+    'myBio-item github-item'
+    'expertise-container expertise-container';
   padding: 80px;
   text-align: justify;
   text-justify: inter-word;
@@ -15,6 +16,10 @@
     grid-area: myBio-item;
     place-self: center;
     font-size: 22px;
+  }
+
+  #expertise-item {
+    grid-area: expertise-container;
   }
 
   #resume-item {
@@ -58,6 +63,61 @@
     :hover {
       color: black;
     }
+  }
+}
+
+.expertise-container {
+  display: grid;
+  grid-template-areas:
+    'expertHeader-item expertHeader-item expertHeader-item'
+    'frontend-item backend-item others-item';
+  font-size: 18px;
+  letter-spacing: 2px;
+  font-family: 'ff-tisa-web-pro', Palatino, ' Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
+  // justify-content: center;
+  // place-content: center;
+  justify-items: center;
+  text-align: center;
+  margin-top: 60px;
+
+  i.icon {
+    font-size: 30px;
+    line-height: 2em;
+    color: rgb(204, 51, 51);
+  }
+
+  #expertHeader-item {
+    grid-area: expertHeader-item;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #dcdcdc;
+    line-height: 0.1em;
+    //margin: 10px 0 20px;
+    // border: 3px solid red;
+
+    span {
+      background: #fff;
+      padding: 0 20px;
+    }
+  }
+
+  #frontend-item {
+    grid-area: frontend-item;
+  }
+
+  #backend-item {
+    grid-area: backend-item;
+  }
+
+  #others-item {
+    grid-area: others-item;
+  }
+
+  #backend-item,
+  #frontend-item,
+  #others-item {
+    line-height: 1.3em;
+    list-style-type: none;
   }
 }
 

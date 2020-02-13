@@ -22,16 +22,16 @@ export default class DeviceHistoryComponent extends Component {
       <div className='devHistory-container'>
         <div id='devHistory-bio-item'>
           <article>
-            <h1>DEVICE HISTORY</h1>
-            <p>query IoT device's historical data devices</p>
+            <h1>AFERO DEVICE HISTORY</h1>
+            <p>query historical device data</p>
             <p>
-              Task of querying historical data could be time consuming and mundane if don't have the right tool, and
-              this is exactly what is holding back Afero's QA from optimizing their productivity.
+              The process of querying historical data can be time consuming and mundane if you don't have the right
+              tool, a common problem holding back most QA teams from optimizing their productivity.
               <br />
               <br />
-              This internal application was developed to facilitate the QA team's daily task on querying historical
-              data, and this result in 70% increase in productivity. It allows user to query their device's history,
-              version history, routes, and channel membership data
+              This internal application was developed to facilitate the QA team's daily task of querying historical
+              data, increasing productivity by 70%. The software provides a clean and easy to use interface to query and
+              filter device historical data for the entire life of the device.
             </p>
           </article>
           <Label as='a' tag>

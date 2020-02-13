@@ -30,7 +30,7 @@ export default function PortfolioComponent({
         <img id='inspector-logo' src={inspectorLogo} alt='inspector-logo' />
         <div className='card-text'>
           <span>AFERO INSPECTOR</span>
-          <p>real-time app. to track 100M+ unit of IoT devices devices</p>
+          <p>real-time app. enabling large scale tracking of IoT devices</p>
         </div>
       </div>
 
@@ -38,7 +38,7 @@ export default function PortfolioComponent({
         <img id='deviceHistory-logo' src={devHistoryLogo} alt='devHistoryLogo' />
         <section className='card-text'>
           <span>AFERO DEVICE HISTORY</span>
-          <p>query historical data devices</p>
+          <p>query historical device data</p>
         </section>
       </div>
 

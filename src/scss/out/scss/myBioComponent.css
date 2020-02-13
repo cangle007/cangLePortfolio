@@ -2,7 +2,7 @@
   display: grid;
   grid-column-gap: 30px;
   grid-template-columns: 1fr auto;
-  grid-template-areas: 'myBio-item resume-item' 'myBio-item linkedin-item' 'myBio-item github-item';
+  grid-template-areas: 'myBio-item resume-item' 'myBio-item linkedin-item' 'myBio-item github-item' 'expertise-container expertise-container';
   padding: 80px;
   text-align: justify;
   text-justify: inter-word; }
@@ -10,6 +10,8 @@
     grid-area: myBio-item;
     place-self: center;
     font-size: 22px; }
+  .myBio-container #expertise-item {
+    grid-area: expertise-container; }
   .myBio-container #resume-item {
     grid-area: resume-item;
     justify-self: center; }
@@ -45,6 +47,40 @@
     .myBio-container #linkedin-item :hover,
     .myBio-container #github-item :hover {
       color: black; }
+
+.expertise-container {
+  display: grid;
+  grid-template-areas: 'expertHeader-item expertHeader-item expertHeader-item' 'frontend-item backend-item others-item';
+  font-size: 18px;
+  letter-spacing: 2px;
+  font-family: 'ff-tisa-web-pro', Palatino, ' Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
+  justify-items: center;
+  text-align: center;
+  margin-top: 60px; }
+  .expertise-container i.icon {
+    font-size: 30px;
+    line-height: 2em;
+    color: #cc3333; }
+  .expertise-container #expertHeader-item {
+    grid-area: expertHeader-item;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #dcdcdc;
+    line-height: 0.1em; }
+    .expertise-container #expertHeader-item span {
+      background: #fff;
+      padding: 0 20px; }
+  .expertise-container #frontend-item {
+    grid-area: frontend-item; }
+  .expertise-container #backend-item {
+    grid-area: backend-item; }
+  .expertise-container #others-item {
+    grid-area: others-item; }
+  .expertise-container #backend-item,
+  .expertise-container #frontend-item,
+  .expertise-container #others-item {
+    line-height: 1.3em;
+    list-style-type: none; }
 
 @media (max-width: 1000px) {
   .myBio-container {
