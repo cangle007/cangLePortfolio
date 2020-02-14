@@ -54,10 +54,3 @@
     }
   }
 }
-
-@media (max-width: 1000px) {
-  .banner-container {
-    // grid-template-columns: repeat(auto-fill, minmax(250px, 1000px));
-    grid-template-columns: 800px;
-  }
-}

@@ -4,7 +4,7 @@
   grid-template-columns: repeat(3, auto);
   grid-template-rows: 150px 200px 200px 150px 200px 200px;
   grid-gap: 20px;
-  padding: 0 80px;
+  padding: 0 80px 50px;
   /* Hover affects */ }
   .portfolio-container .portfolio-title {
     text-align: center; }
@@ -55,7 +55,7 @@
     align-items: center;
     background-color: black;
     cursor: pointer; }
-    .portfolio-container #iotProfile-item #iotProfile-logo {
+    .portfolio-container #iotProfile-item img {
       max-width: 100%;
       max-height: 100%;
       position: relative;
@@ -68,7 +68,7 @@
     align-items: center;
     background-color: black;
     cursor: pointer; }
-    .portfolio-container #pokemonBattleArea-item #pokemon-logo {
+    .portfolio-container #pokemonBattleArea-item img {
       position: relative;
       left: 10%;
       transform: translateX(-10%); }
@@ -80,9 +80,10 @@
     place-content: center;
     background-color: black;
     cursor: pointer; }
-    .portfolio-container #responsiveGrid-item #respGrid-logo {
+    .portfolio-container #responsiveGrid-item img {
       position: relative;
-      max-width: 90%; }
+      max-width: 75%;
+      min-width: 75%; }
   .portfolio-container #gmailClone-item {
     grid-area: gmailClone-item;
     display: flex;
@@ -91,9 +92,9 @@
     place-content: center;
     background-color: black;
     cursor: pointer; }
-    .portfolio-container #gmailClone-item #gmailClone-logo {
+    .portfolio-container #gmailClone-item img {
       position: relative;
-      max-width: 50%; }
+      max-width: 40%; }
   .portfolio-container #artAcademy-item {
     grid-area: artAcademy-item;
     display: flex;
@@ -102,9 +103,10 @@
     place-content: center;
     background-color: black;
     cursor: pointer; }
-    .portfolio-container #artAcademy-item #artAcademy-logo {
+    .portfolio-container #artAcademy-item img {
       position: relative;
-      max-width: 70%; }
+      max-width: 50%;
+      min-width: 50%; }
   .portfolio-container #toDos-item {
     grid-area: toDos-item;
     display: flex;
@@ -113,7 +115,7 @@
     place-content: center;
     background-color: black;
     cursor: pointer; }
-    .portfolio-container #toDos-item #toDos-logo {
+    .portfolio-container #toDos-item img {
       position: relative;
       max-width: 100%; }
   .portfolio-container .card-text {

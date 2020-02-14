@@ -41,7 +41,3 @@
       font-family: 'ff-tisa-web-pro', Palatino, ' Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
       letter-spacing: 2px;
       font-size: 18px; }
-
-@media (max-width: 1000px) {
-  .banner-container {
-    grid-template-columns: 800px; } }

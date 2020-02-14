@@ -10,7 +10,7 @@
   grid-template-columns: repeat(3, auto);
   grid-template-rows: 150px 200px 200px 150px 200px 200px;
   grid-gap: 20px;
-  padding: 0 80px;
+  padding: 0 80px 50px;
 
   .portfolio-title {
     text-align: center;
@@ -78,7 +78,7 @@
     background-color: black;
     cursor: pointer;
 
-    #iotProfile-logo {
+    img {
       max-width: 100%;
       max-height: 100%;
       position: relative;
@@ -95,7 +95,7 @@
     background-color: black;
     cursor: pointer;
 
-    #pokemon-logo {
+    img {
       position: relative;
       left: 10%;
       transform: translateX(-10%);
@@ -111,9 +111,11 @@
     background-color: black;
     cursor: pointer;
 
-    #respGrid-logo {
+    img {
       position: relative;
-      max-width: 90%;
+      max-width: 75%;
+      min-width: 75%;
+      //object-fit: cover;
     }
   }
 
@@ -126,9 +128,9 @@
     background-color: black;
     cursor: pointer;
 
-    #gmailClone-logo {
+    img {
       position: relative;
-      max-width: 50%;
+      max-width: 40%;
     }
   }
 
@@ -141,9 +143,10 @@
     background-color: black;
     cursor: pointer;
 
-    #artAcademy-logo {
+    img {
       position: relative;
-      max-width: 70%;
+      max-width: 50%;
+      min-width: 50%;
     }
   }
 
@@ -156,7 +159,7 @@
     background-color: black;
     cursor: pointer;
 
-    #toDos-logo {
+    img {
       position: relative;
       max-width: 100%;
     }
@@ -174,7 +177,6 @@
     transform: translateX(-50%);
     opacity: 0; //subject to change for dev, 0
     transition: opacity ease-out 250ms;
-    // border: 2px solid yellowgreen;
 
     span {
       font-size: 22px;

@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.f7872902.chunk.css",
-    "main.js": "/static/js/main.71545911.chunk.js",
+    "main.css": "/static/css/main.f66a6e92.chunk.css",
+    "main.js": "/static/js/main.5c715c6f.chunk.js",
     "runtime-main.js": "/static/js/runtime-main.a7444c66.js",
     "static/js/2.42833b30.chunk.js": "/static/js/2.42833b30.chunk.js",
     "index.html": "/index.html",
-    "precache-manifest.d6a901d7390f8ed71da2113d4a60e38c.js": "/precache-manifest.d6a901d7390f8ed71da2113d4a60e38c.js",
+    "precache-manifest.656af1274ac42ccf816392dddb24f25d.js": "/precache-manifest.656af1274ac42ccf816392dddb24f25d.js",
     "service-worker.js": "/service-worker.js",
     "static/js/2.42833b30.chunk.js.LICENSE": "/static/js/2.42833b30.chunk.js.LICENSE",
     "static/media/af-device-history-logo.svg": "/static/media/af-device-history-logo.1f294d84.svg",
@@ -14,7 +14,7 @@
     "static/media/artAcademy-logo.png": "/static/media/artAcademy-logo.1479234c.png",
     "static/media/art_demo.gif": "/static/media/art_demo.eff283e2.gif",
     "static/media/cang01.jpg": "/static/media/cang01.1d832637.jpg",
-    "static/media/cl_resume.pdf": "/static/media/cl_resume.4c67d309.pdf",
+    "static/media/cl_resume.pdf": "/static/media/cl_resume.d958156c.pdf",
     "static/media/bannerComponent.css": "/static/media/cover02.55fc5b0a.jpg",
     "static/media/gmail-clone-logo.png": "/static/media/gmail-clone-logo.351d1fbe.png",
     "static/media/gmail_demo.gif": "/static/media/gmail_demo.626a8901.gif",
@@ -42,7 +42,7 @@
   "entrypoints": [
     "static/js/runtime-main.a7444c66.js",
     "static/js/2.42833b30.chunk.js",
-    "static/css/main.f7872902.chunk.css",
-    "static/js/main.71545911.chunk.js"
+    "static/css/main.f66a6e92.chunk.css",
+    "static/js/main.5c715c6f.chunk.js"
   ]
 }
