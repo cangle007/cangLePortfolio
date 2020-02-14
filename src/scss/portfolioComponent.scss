@@ -12,35 +12,28 @@
   grid-gap: 20px;
   padding: 0 80px;
 
-  #professional-title-item {
-    grid-area: professional-title-item;
-    place-self: center;
+  .portfolio-title {
     text-align: center;
-
-    p:nth-child(1) {
+    h1 {
       margin: 0.5em 0 0.5em;
       line-height: 1em;
       font-size: 30px;
-      font-weight: bold;
-      font-family: 'din-condensed-web', 'Trebuchet MS', 'Arial Narrow', Arial, sans-serif;
     }
-    p:nth-child(2) {
+    p {
       font-family: 'ff-tisa-web-pro', Palatino, ' Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
       letter-spacing: 2px;
-      font-size: 18px;
+      font-size: 20px;
     }
+  }
+
+  #professional-title-item {
+    grid-area: professional-title-item;
+    place-self: center;
   }
 
   #personal-title-item {
     grid-area: personal-title-item;
     place-self: center;
-    text-align: center;
-
-    p {
-      font-family: 'ff-tisa-web-pro', Palatino, ' Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
-      letter-spacing: 2px;
-      font-size: 18px;
-    }
   }
 
   #inspector-item {
@@ -291,6 +284,22 @@
         left: 0;
         transform: translateX(0);
       }
+    }
+  }
+
+  .main-container {
+    grid-template-areas:
+      'bannerComp'
+      'myBioComp'
+      'portfolioComp'
+      'inquiryComp';
+
+    grid-template-columns: auto;
+    grid-template-rows: repeact(4, auto);
+    place-content: center;
+
+    #sidebarComp {
+      display: none;
     }
   }
 }

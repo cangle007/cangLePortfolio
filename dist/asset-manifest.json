@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.f7872902.chunk.css",
-    "main.js": "/static/js/main.cd9c989c.chunk.js",
+    "main.js": "/static/js/main.71545911.chunk.js",
     "runtime-main.js": "/static/js/runtime-main.a7444c66.js",
     "static/js/2.42833b30.chunk.js": "/static/js/2.42833b30.chunk.js",
     "index.html": "/index.html",
-    "precache-manifest.1c5bfe4390f2f41ca19735ac588ff55e.js": "/precache-manifest.1c5bfe4390f2f41ca19735ac588ff55e.js",
+    "precache-manifest.d6a901d7390f8ed71da2113d4a60e38c.js": "/precache-manifest.d6a901d7390f8ed71da2113d4a60e38c.js",
     "service-worker.js": "/service-worker.js",
     "static/js/2.42833b30.chunk.js.LICENSE": "/static/js/2.42833b30.chunk.js.LICENSE",
     "static/media/af-device-history-logo.svg": "/static/media/af-device-history-logo.1f294d84.svg",
@@ -43,6 +43,6 @@
     "static/js/runtime-main.a7444c66.js",
     "static/js/2.42833b30.chunk.js",
     "static/css/main.f7872902.chunk.css",
-    "static/js/main.cd9c989c.chunk.js"
+    "static/js/main.71545911.chunk.js"
   ]
 }

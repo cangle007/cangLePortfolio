@@ -10,11 +10,26 @@ export default function MyBioComponent({ handle_openTabGithub, handle_openTabLin
           Graduated from San Jose State University with a Finance/Economics degree and spent 5 years in Corporate
           Finance but decided to make a career switch to become a Frontend developer.
         </p>
+        <p>2 years of hands-on software engineering experience, specializing in:</p>
+        <ul>
+          <li>Frontend development (UI) with Javascript and React-Redux</li>
+          <li>UX/UI design with CSS/HTML, SASS/SCSS, and CSS-Grid</li>
+          <li>Backend development (APIs) with Nodes.js and PostgreSQL</li>
+          <li>Object-oriented programming and design patterns</li>
+          <li>Data modeling, persistence, and relational databases</li>
+        </ul>
         <p>
-          I'm looking to grow personally and professionally anywhere in the world. I want to be involved in projects
-          that I can be proud of, join an amazing team and advance my development career. Take some time to look at my
-          work, credentials and if you're interested in helping me make this happen.
+          1+ years of leading and developing product design (UI/UX), managing the product development lifecycle and
+          roadmap, and as well as release management and production support
         </p>
+
+        <p>1+ years of spearheading medium-scale projects from scratch at an early-stage tech startup environment</p>
+
+        <p>
+          Fortune 500 companies such as Home Depot & Kenmore are using my software design for data mining to improve
+          their product functionality
+        </p>
+
         <p>
           When I am not coding I train at the gym to shape up for the Ironman Triathlon, and occasionally skydive. I
           believe in having an efficient workflow and constantly work toward the inbox zero.

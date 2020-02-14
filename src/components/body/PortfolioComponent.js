@@ -21,8 +21,8 @@ export default function PortfolioComponent({
 }) {
   return (
     <div className='portfolio-container'>
-      <div id='professional-title-item'>
-        <p>PROFESSIONAL WORK</p>
+      <div className='portfolio-title' id='professional-title-item'>
+        <h1>PROFESSIONAL WORK</h1>
         <p>A SHOWCASE OF PROFESSIONAL DESIGN AND DEVELOPMENT</p>
       </div>
 
@@ -50,7 +50,7 @@ export default function PortfolioComponent({
         </section>
       </div>
 
-      <div id='personal-title-item'>
+      <div className='portfolio-title' id='personal-title-item'>
         <h1>PERSONAL WORK</h1>
         <p>A SHOWCASE OF PERSONAL DESIGN</p>
       </div>
@@ -69,7 +69,7 @@ export default function PortfolioComponent({
         <img id='respGrid-logo' src={respGridLogo} alt='respGridlogo' />
         <section className='card-text'>
           <span>RESPONSIVE-GRID</span>
-          <p>responsive Website with Css-Grid</p>
+          <p>responsive Website with CSS-Grid</p>
         </section>
       </div>
 

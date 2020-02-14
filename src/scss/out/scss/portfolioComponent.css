@@ -6,28 +6,22 @@
   grid-gap: 20px;
   padding: 0 80px;
   /* Hover affects */ }
-  .portfolio-container #professional-title-item {
-    grid-area: professional-title-item;
-    place-self: center;
+  .portfolio-container .portfolio-title {
     text-align: center; }
-    .portfolio-container #professional-title-item p:nth-child(1) {
+    .portfolio-container .portfolio-title h1 {
       margin: 0.5em 0 0.5em;
       line-height: 1em;
-      font-size: 30px;
-      font-weight: bold;
-      font-family: 'din-condensed-web', 'Trebuchet MS', 'Arial Narrow', Arial, sans-serif; }
-    .portfolio-container #professional-title-item p:nth-child(2) {
+      font-size: 30px; }
+    .portfolio-container .portfolio-title p {
       font-family: 'ff-tisa-web-pro', Palatino, ' Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
       letter-spacing: 2px;
-      font-size: 18px; }
+      font-size: 20px; }
+  .portfolio-container #professional-title-item {
+    grid-area: professional-title-item;
+    place-self: center; }
   .portfolio-container #personal-title-item {
     grid-area: personal-title-item;
-    place-self: center;
-    text-align: center; }
-    .portfolio-container #personal-title-item p {
-      font-family: 'ff-tisa-web-pro', Palatino, ' Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
-      letter-spacing: 2px;
-      font-size: 18px; }
+    place-self: center; }
   .portfolio-container #inspector-item {
     grid-area: inspector-item;
     display: flex;
@@ -366,4 +360,11 @@
       .portfolio-container #toDos-item #artAcademy-logo,
       .portfolio-container #toDos-item #toDos-logo {
         left: 0;
-        transform: translateX(0); } }
+        transform: translateX(0); }
+  .main-container {
+    grid-template-areas: 'bannerComp' 'myBioComp' 'portfolioComp' 'inquiryComp';
+    grid-template-columns: auto;
+    grid-template-rows: repeact(4, auto);
+    place-content: center; }
+    .main-container #sidebarComp {
+      display: none; } }

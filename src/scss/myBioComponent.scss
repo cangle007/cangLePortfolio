@@ -14,7 +14,11 @@
   #myBio-item {
     grid-area: myBio-item;
     place-self: center;
-    font-size: 22px;
+    font-size: 20px;
+
+    ul > li {
+      margin: 0 0 5px 0;
+    }
   }
 
   #expertise-item {
@@ -73,8 +77,6 @@
   font-size: 18px;
   letter-spacing: 2px;
   font-family: 'ff-tisa-web-pro', Palatino, ' Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
-  // justify-content: center;
-  // place-content: center;
   justify-items: center;
   text-align: center;
   margin-top: 60px;
@@ -91,8 +93,6 @@
     text-align: center;
     border-bottom: 1px solid #dcdcdc;
     line-height: 0.1em;
-    //margin: 10px 0 20px;
-    // border: 3px solid red;
 
     span {
       background: #fff;

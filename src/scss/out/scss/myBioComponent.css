@@ -9,7 +9,9 @@
   .myBio-container #myBio-item {
     grid-area: myBio-item;
     place-self: center;
-    font-size: 22px; }
+    font-size: 20px; }
+    .myBio-container #myBio-item ul > li {
+      margin: 0 0 5px 0; }
   .myBio-container #expertise-item {
     grid-area: expertise-container; }
   .myBio-container #resume-item {

@@ -3,8 +3,8 @@
   grid-template-areas:
     'sidebarComp bannerComp'
     'sidebarComp myBioComp'
-    'sidebarComp portfolioComp'
-    'sidebarComp inquiryComp';
+    'sidebarComp portfolioComp';
+  // 'sidebarComp inquiryComp';
   grid-template-columns: 200px 1fr;
   grid-template-rows: repeact(4, auto);
   grid-row-gap: 50px;
@@ -23,8 +23,8 @@
   #sidebarComp {
     grid-area: sidebarComp;
   }
-  #inquiryComp {
-    grid-area: inquiryComp;
-    place-self: center;
-  }
+  // #inquiryComp {
+  //   grid-area: inquiryComp;
+  //   place-self: center;
+  // }
 }

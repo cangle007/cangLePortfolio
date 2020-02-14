@@ -24,7 +24,7 @@ export default class ResponsiveComponent extends Component {
             <h1>RESPONSIVE WEB</h1>
             <p>website displaying css-grid system</p>
             <p>
-              This is a responsive website constructed using Css-Grid, compatible with desktops, tablets, and mobile
+              This is a responsive website constructed using CSS-Grid, compatible with desktops, tablets, and mobile
               phones.
               <br />
               <br />I developed this project to learn the new Css-Grid layout system that is capable of 2-dimensional
@@ -45,9 +45,6 @@ export default class ResponsiveComponent extends Component {
         <div id='responsive-details-item'>
           <section>
             <img src={responsive} alt='responsive' />
-          </section>
-
-          <section>
             <p>Demo to show how the web's grid responds to changes of the width of the screen.</p>
           </section>
 
