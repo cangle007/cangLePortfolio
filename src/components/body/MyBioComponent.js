@@ -19,15 +19,15 @@ export default function MyBioComponent({ handle_openTabGithub, handle_openTabLin
           <li>Data modeling, persistence, and relational databases</li>
         </ul>
         <p>
-          1+ years of leading and developing product design (UI/UX), managing the product development lifecycle and
-          roadmap, and as well as release management and production support
+          2 years of leading and developing product design (UI/UX), managing the product development lifecycle and
+          roadmap, and as well as release management and production support.
         </p>
 
-        <p>1+ years of spearheading medium-scale projects from scratch at an early-stage tech startup environment</p>
+        <p>2 years of spearheading medium-scale projects from scratch at an early-stage tech startup environment.</p>
 
         <p>
           Fortune 500 companies such as Home Depot & Kenmore are using my software design for data mining to improve
-          their product functionality
+          their product functionality.
         </p>
 
         <p>
