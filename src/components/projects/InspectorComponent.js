@@ -22,7 +22,9 @@ export default class InspectorComponent extends Component {
         <div id='inspector-bio-item'>
           <article>
             <h1>INSPECTOR</h1>
+
             <p>real-time IoT connectivity and data analytics</p>
+
             <p>
               Inspector is reliable and industry proven software that allows developers to view and interact with their
               IoT devices at a massive scale with an in depth, real-time view of the state of all their connected IoT
@@ -30,6 +32,7 @@ export default class InspectorComponent extends Component {
               such as Home Depot & Kenmore enabling data mining for improving product functionality.
             </p>
           </article>
+
           <Label as='a' tag>
             React-Redux
           </Label>
@@ -51,6 +54,7 @@ export default class InspectorComponent extends Component {
           <p id='homeTxt-item'>
             This landing page offers basic details of IoT devices, such as connectivity status, icon, and device's name.
           </p>
+
           <span id='homeImg-item'>
             <img src={inspector_home} alt='inspector_home' />
           </span>
@@ -58,11 +62,13 @@ export default class InspectorComponent extends Component {
           <span id='mainImg-item'>
             <img src={inspector_main} alt='inspector_main' />
           </span>
+
           <p id='mainTxt-item'>
             This tool allows developers to view the state of their IoT devices when testing and debugging device
             behavior. The app displays data analytics of all IoT devices associated with a user's account in real-time.
           </p>
         </div>
+
         <SidebarComponent id='sidebarComp' handle_routeMain={this.handle_routeMain} />
       </div>
     );

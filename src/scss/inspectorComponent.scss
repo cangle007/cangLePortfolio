@@ -56,8 +56,6 @@
       'mainTxt-item mainTxt-item';
     background-color: lighten(#0b6171, 5%);
     grid-template-columns: auto auto;
-    color: white;
-    grid-row-gap: 10px;
 
     #homeTxt-item {
       grid-area: homeTxt-item;
@@ -71,6 +69,13 @@
       margin: 0 150px;
     }
 
+    #homeTxt-item,
+    #mainTxt-item {
+      color: white;
+      text-align: justify;
+      text-justify: inter-word;
+    }
+
     #homeImg-item {
       grid-area: homeImg-item;
     }
@@ -82,9 +87,10 @@
     #mainImg-item,
     #homeImg-item {
       padding: 20px 0;
+      place-self: center;
 
       img {
-        max-height: 650px;
+        max-height: 600px;
         box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
       }
     }
