@@ -3,11 +3,11 @@
   grid-template-areas:
     'sidebarComp inspector-header-item'
     'sidebarComp inspector-bio-item'
-    'sidebarComp inspector-details-item';
+    'sidebarComp inspector-details-container';
   grid-template-columns: 200px auto;
 
   #inspector-bio-item,
-  #inspector-details-item {
+  #inspector-details-container {
     font-family: 'ff-tisa-web-pro', Palatino, ' Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
     font-size: 18px;
     text-align: center;
@@ -47,34 +47,44 @@
     }
   }
 
-  #inspector-details-item {
-    grid-area: inspector-details-item;
+  #inspector-details-container {
+    grid-area: inspector-details-container;
+    display: grid;
+    grid-template-areas:
+      'homeTxt-item homeImg-item'
+      'mainImg-item mainImg-item'
+      'mainTxt-item mainTxt-item';
+    background-color: lighten(#0b6171, 5%);
+    grid-template-columns: auto auto;
+    color: white;
+    grid-row-gap: 10px;
 
-    section {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      background-color: lighten(#0b6171, 5%);
-      color: white;
-      text-align: justify;
-      text-justify: inter-word;
-      padding: 30px;
+    #homeTxt-item {
+      grid-area: homeTxt-item;
+      place-self: center;
+      padding: 100px;
     }
 
-    section > p {
-      padding: 0 50px;
+    #mainTxt-item {
+      grid-area: mainTxt-item;
+      padding: 0 50px 50px 50px;
+      margin: 0 150px;
     }
 
-    section:nth-child(1) {
+    #homeImg-item {
+      grid-area: homeImg-item;
+    }
+
+    #mainImg-item {
+      grid-area: mainImg-item;
+    }
+
+    #mainImg-item,
+    #homeImg-item {
+      padding: 20px 0;
+
       img {
-        width: 450px;
-        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-      }
-    }
-
-    section:nth-child(2) {
-      img {
-        width: 750px;
+        max-height: 650px;
         box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
       }
     }

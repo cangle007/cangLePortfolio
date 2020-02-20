@@ -31,8 +31,8 @@
       text-align: justify;
       text-justify: inter-word;
       padding: 30px; }
-    .devHistory-container #devHistory-details-item section > p {
-      padding: 0 50px; }
+      .devHistory-container #devHistory-details-item section p {
+        padding: 0 50px; }
     .devHistory-container #devHistory-details-item section:nth-child(1) img {
       width: 1000px;
       box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
