@@ -48,17 +48,17 @@ export default class DisplayWorkComponent extends Component {
       case 'deviceHistory':
         return <DeviceHistoryComponent handle_routeMain={this.handle_routeMain} />;
       case 'iotProfile':
-        return <IotProfileComponent />;
+        return <IotProfileComponent handle_routeMain={this.handle_routeMain} />;
       case 'pokemonArena':
-        return <PokemonComponent />;
+        return <PokemonComponent handle_routeMain={this.handle_routeMain} />;
       case 'responsiveGrid':
-        return <ResponsiveComponent />;
+        return <ResponsiveComponent handle_routeMain={this.handle_routeMain} />;
       case 'gmailClone':
-        return <GmailComponent />;
+        return <GmailComponent handle_routeMain={this.handle_routeMain} />;
       case 'artAcademy':
-        return <ArtComponent />;
+        return <ArtComponent handle_routeMain={this.handle_routeMain} />;
       case 'toDos':
-        return <TodoComponent />;
+        return <TodoComponent handle_routeMain={this.handle_routeMain} />;
       default:
         return <MainComponent />;
     }
