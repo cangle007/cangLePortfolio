@@ -1,11 +1,13 @@
 import { compose, lifecycle } from 'recompose';
 import { connect } from 'react-redux';
 import { withRouter } from 'react-router-dom';
-import MainPage from '../../components/main/MainPage';
+import DisplayWorkPage from '../../components/main/DisplayWorkPage';
 import displayWorkProcess from '../thunks/displayWorkProcess';
 
 function mapStateToProps(state, ownProps) {
-  return {};
+  return {
+    displayWork: state.displayWork
+  };
 }
 
 function mapDispatchToProps(dispatch, ownProps) {
@@ -17,17 +19,18 @@ function mapDispatchToProps(dispatch, ownProps) {
 }
 
 const withlifecycle = lifecycle({
-  /*LifeCycle: Birth/Mounting*/
-  //static getDerivedStateFromProps(props, state) {},
-  componentDidMount() {}
-  /*LifeCycle: Growth/Update*/
-  //static getDerivedStateFromProps(props, state) {},
-  // getSnapshotBeforeUpdate(prevProps, prevState) {},
-  // componentDidUpdate(prevProps, prevState) {},
-  /*LifeCycle: Death/Unmount*/
-  // componentWillUnmount() {}
+  componentDidMount() {
+    let cur_displayWork = localStorage.getItem('cur_displayWork');
+
+    let { history } = this.props;
+    if (cur_displayWork) {
+      this.props.display_work(cur_displayWork);
+    } else {
+      history.push(`/`);
+    }
+  }
 });
 
 const connectToStore = connect(mapStateToProps, mapDispatchToProps);
 
-export default compose(connectToStore, withlifecycle)(withRouter(MainPage));
+export default compose(connectToStore, withlifecycle)(withRouter(DisplayWorkPage));

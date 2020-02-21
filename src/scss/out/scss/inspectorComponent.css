@@ -35,32 +35,33 @@
   .inspector-container #inspector-details-container {
     grid-area: inspector-details-container;
     display: grid;
-    grid-template-areas: 'homeTxt-item homeImg-item' 'mainImg-item mainImg-item' 'mainTxt-item mainTxt-item';
+    grid-template-areas: 'inspector-homeTxt-item inspector-homeImg-item' 'inspector-mainImg-item inspector-mainImg-item' 'inspector-mainTxt-item inspector-mainTxt-item';
     background-color: #0d7588;
-    grid-template-columns: auto auto; }
-    .inspector-container #inspector-details-container #homeTxt-item {
-      grid-area: homeTxt-item;
+    grid-template-columns: auto auto;
+    padding: 30px; }
+    .inspector-container #inspector-details-container #inspector-homeTxt-item {
+      grid-area: inspector-homeTxt-item;
       place-self: center;
       padding: 100px; }
-    .inspector-container #inspector-details-container #mainTxt-item {
-      grid-area: mainTxt-item;
+    .inspector-container #inspector-details-container #inspector-mainTxt-item {
+      grid-area: inspector-mainTxt-item;
       padding: 0 50px 50px 50px;
       margin: 0 150px; }
-    .inspector-container #inspector-details-container #homeTxt-item,
-    .inspector-container #inspector-details-container #mainTxt-item {
+    .inspector-container #inspector-details-container #inspector-homeTxt-item,
+    .inspector-container #inspector-details-container #inspector-mainTxt-item {
       color: white;
       text-align: justify;
       text-justify: inter-word; }
-    .inspector-container #inspector-details-container #homeImg-item {
-      grid-area: homeImg-item; }
-    .inspector-container #inspector-details-container #mainImg-item {
-      grid-area: mainImg-item; }
-    .inspector-container #inspector-details-container #mainImg-item,
-    .inspector-container #inspector-details-container #homeImg-item {
-      padding: 20px 0;
+    .inspector-container #inspector-details-container #inspector-homeImg-item {
+      grid-area: inspector-homeImg-item; }
+    .inspector-container #inspector-details-container #inspector-mainImg-item {
+      grid-area: inspector-mainImg-item; }
+    .inspector-container #inspector-details-container #inspector-mainImg-item,
+    .inspector-container #inspector-details-container #inspector-homeImg-item {
+      padding: 0 0 30px 0;
       place-self: center; }
-      .inspector-container #inspector-details-container #mainImg-item img,
-      .inspector-container #inspector-details-container #homeImg-item img {
+      .inspector-container #inspector-details-container #inspector-mainImg-item img,
+      .inspector-container #inspector-details-container #inspector-homeImg-item img {
         max-height: 600px;
         box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
 

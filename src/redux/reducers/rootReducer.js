@@ -1,7 +1,7 @@
 export default function rootReducer(
   currentState = {
     pokemonImages: [],
-    checkerArr: []
+    displayWork: ''
   },
   action
 ) {
@@ -12,9 +12,8 @@ export default function rootReducer(
     case 'GET_IMAGES_SUCCESS':
       return { ...currentState, pokemonImages: action.pokemonImages };
 
-    //case 'CHECKER_ARRAY':
-    // console.log('root', action.checkerArr);
-    //return { ...currentState, checkerArr: action.checkerArr };
+    case 'UPDATE_WORK_COMPONENT':
+      return { ...currentState, displayWork: action.displayWork };
 
     default:
       return currentState;

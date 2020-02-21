@@ -22,45 +22,50 @@ export default class MainComponent extends Component {
     win.focus();
   };
 
-  handle_routeInspector = () => {
+  handle_routeDisplayWork = () => {
     window.scrollTo(0, 0);
-    this.props.history.push(`/inspector`);
+    this.props.history.push(`/displayWork`);
   };
 
-  handle_routeDeviceHistory = () => {
-    window.scrollTo(0, 0);
-    this.props.history.push(`/devhistory`);
-  };
+  // handle_routeInspector = () => {
+  //   window.scrollTo(0, 0);
+  //   this.props.history.push(`/inspector`);
+  // };
 
-  handle_routeIoT = () => {
-    window.scrollTo(0, 0);
-    this.props.history.push(`/iot`);
-  };
+  // handle_routeDeviceHistory = () => {
+  //   window.scrollTo(0, 0);
+  //   this.props.history.push(`/devhistory`);
+  // };
 
-  handle_routePokemon = () => {
-    window.scrollTo(0, 0);
-    this.props.history.push(`/pokemon`);
-  };
+  // handle_routeIoT = () => {
+  //   window.scrollTo(0, 0);
+  //   this.props.history.push(`/iot`);
+  // };
 
-  handle_routeResponsive = () => {
-    window.scrollTo(0, 0);
-    this.props.history.push(`/responsive`);
-  };
+  // handle_routePokemon = () => {
+  //   window.scrollTo(0, 0);
+  //   this.props.history.push(`/pokemon`);
+  // };
 
-  handle_routeGmail = () => {
-    window.scrollTo(0, 0);
-    this.props.history.push(`/gmail`);
-  };
+  // handle_routeResponsive = () => {
+  //   window.scrollTo(0, 0);
+  //   this.props.history.push(`/responsive`);
+  // };
 
-  handle_routeArt = () => {
-    window.scrollTo(0, 0);
-    this.props.history.push(`/art`);
-  };
+  // handle_routeGmail = () => {
+  //   window.scrollTo(0, 0);
+  //   this.props.history.push(`/gmail`);
+  // };
 
-  handle_routeTodo = () => {
-    window.scrollTo(0, 0);
-    this.props.history.push(`/todo`);
-  };
+  // handle_routeArt = () => {
+  //   window.scrollTo(0, 0);
+  //   this.props.history.push(`/art`);
+  // };
+
+  // handle_routeTodo = () => {
+  //   window.scrollTo(0, 0);
+  //   this.props.history.push(`/todo`);
+  // };
 
   handle_routeMain = () => {
     window.scrollTo(0, 0);
@@ -68,7 +73,7 @@ export default class MainComponent extends Component {
   };
 
   render() {
-    let { history } = this.props;
+    let { history, display_work } = this.props;
 
     return (
       <div className='main-container'>
@@ -85,15 +90,17 @@ export default class MainComponent extends Component {
 
         <div id='portfolioComp'>
           <PortfolioComponent
-            handle_routeArt={this.handle_routeArt}
-            handle_routeDeviceHistory={this.handle_routeDeviceHistory}
-            handle_routeGmail={this.handle_routeGmail}
-            handle_routeMain={this.handle_routeMain}
-            handle_routeInspector={this.handle_routeInspector}
-            handle_routeIoT={this.handle_routeIoT}
-            handle_routePokemon={this.handle_routePokemon}
-            handle_routeResponsive={this.handle_routeResponsive}
-            handle_routeTodo={this.handle_routeTodo}
+            display_work={display_work}
+            handle_routeDisplayWork={this.handle_routeDisplayWork}
+            // handle_routeArt={this.handle_routeArt}
+            // handle_routeDeviceHistory={this.handle_routeDeviceHistory}
+            // handle_routeGmail={this.handle_routeGmail}
+            // handle_routeMain={this.handle_routeMain}
+            // handle_routeInspector={this.handle_routeInspector}
+            // handle_routeIoT={this.handle_routeIoT}
+            // handle_routePokemon={this.handle_routePokemon}
+            // handle_routeResponsive={this.handle_routeResponsive}
+            // handle_routeTodo={this.handle_routeTodo}
           />
         </div>
 

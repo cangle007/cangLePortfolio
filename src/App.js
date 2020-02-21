@@ -8,6 +8,7 @@ import ArtContainer from './redux/containers/ArtContainer';
 import DeviceHistoryContainer from './redux/containers/DeviceHistoryContainer';
 import BodyContainer from './redux/containers/BodyContainer';
 import BannerContainer from './redux/containers/BannerContainer';
+import DisplayWorkContainer from './redux/containers/DisplayWorkContainer';
 import GmailContainer from './redux/containers/GmailContainer';
 import HeaderNavContainer from './redux/containers/HeaderNavContainer';
 import InspectorContainer from './redux/containers/InspectorContainer';
@@ -33,6 +34,7 @@ export default class App extends Component {
               <Route exact path='/art' component={ArtContainer} />
               <Route exact path='/body' component={BodyContainer} />
               <Route exact path='/devhistory' component={DeviceHistoryContainer} />
+              <Route exact path='/displayWork' component={DisplayWorkContainer} />
               <Route exact path='/gmail' component={GmailContainer} />
               <Route exact path='/banner' component={BannerContainer} />
               <Route exact path='/header' component={HeaderNavContainer} />

@@ -10,6 +10,8 @@ import respGridLogo from '../../images/respGrid-logo.png';
 import toDosLogo from '../../images/toDos-logo.png';
 
 export default function PortfolioComponent({
+  display_work,
+  handle_routeDisplayWork,
   handle_routeArt,
   handle_routeDeviceHistory,
   handle_routeGmail,
@@ -25,8 +27,14 @@ export default function PortfolioComponent({
         <h1>PROFESSIONAL WORK</h1>
         <p>A SHOWCASE OF PROFESSIONAL DESIGN AND DEVELOPMENT</p>
       </div>
-
-      <div id='inspector-item' onClick={handle_routeInspector}>
+      {/* onClick={handle_routeInspector} */}
+      <div
+        id='inspector-item'
+        onClick={() => {
+          display_work('inspector');
+          handle_routeDisplayWork();
+        }}
+      >
         <img id='inspector-logo' src={inspectorLogo} alt='inspector-logo' />
         <div className='card-text'>
           <span>AFERO INSPECTOR</span>
@@ -34,7 +42,13 @@ export default function PortfolioComponent({
         </div>
       </div>
 
-      <div id='deviceHistory-item' onClick={handle_routeDeviceHistory}>
+      <div
+        id='deviceHistory-item'
+        onClick={() => {
+          display_work('deviceHistory');
+          handle_routeDisplayWork();
+        }}
+      >
         <img id='deviceHistory-logo' src={devHistoryLogo} alt='devHistoryLogo' />
         <section className='card-text'>
           <span>AFERO DEVICE HISTORY</span>
@@ -42,7 +56,13 @@ export default function PortfolioComponent({
         </section>
       </div>
 
-      <div id='iotProfile-item' onClick={handle_routeIoT}>
+      <div
+        id='iotProfile-item'
+        onClick={() => {
+          display_work('iotProfile');
+          handle_routeDisplayWork();
+        }}
+      >
         <img id='iotProfile-logo' src={iotProfileLogo} alt='iotProfileLogo' />
         <section className='card-text'>
           <span>AFERO PROFILE</span>
@@ -55,7 +75,13 @@ export default function PortfolioComponent({
         <p>A SHOWCASE OF PERSONAL DESIGN</p>
       </div>
 
-      <div id='pokemonBattleArea-item' onClick={handle_routePokemon}>
+      <div
+        id='pokemonBattleArea-item'
+        onClick={() => {
+          display_work('pokemonArena');
+          handle_routeDisplayWork();
+        }}
+      >
         <img id='pokemon-logo' src={pokemonLogo} alt='pokemonlogo' />
         <section className='card-text'>
           <div>
@@ -65,7 +91,13 @@ export default function PortfolioComponent({
         </section>
       </div>
 
-      <div id='responsiveGrid-item' onClick={handle_routeResponsive}>
+      <div
+        id='responsiveGrid-item'
+        onClick={() => {
+          display_work('responsiveGrid');
+          handle_routeDisplayWork();
+        }}
+      >
         <img id='respGrid-logo' src={respGridLogo} alt='respGridlogo' />
         <section className='card-text'>
           <span>RESPONSIVE-GRID</span>
@@ -73,7 +105,13 @@ export default function PortfolioComponent({
         </section>
       </div>
 
-      <div id='gmailClone-item' onClick={handle_routeGmail}>
+      <div
+        id='gmailClone-item'
+        onClick={() => {
+          display_work('gmailClone');
+          handle_routeDisplayWork();
+        }}
+      >
         <img id='gmailClone-logo' src={gmailCloneLogo} alt='gmailCloneLogo' />
         <section className='card-text'>
           <span>GMAIL-CLONE</span>
@@ -81,7 +119,13 @@ export default function PortfolioComponent({
         </section>
       </div>
 
-      <div id='artAcademy-item' onClick={handle_routeArt}>
+      <div
+        id='artAcademy-item'
+        onClick={() => {
+          display_work('artAcademy');
+          handle_routeDisplayWork();
+        }}
+      >
         <img id='artAcademy-logo' src={artAcademyLogo} alt='artAcademylogo' />
         <section className='card-text'>
           <span>ART-ACADEMY</span>
@@ -89,7 +133,13 @@ export default function PortfolioComponent({
         </section>
       </div>
 
-      <div id='toDos-item' onClick={handle_routeTodo}>
+      <div
+        id='toDos-item'
+        onClick={() => {
+          display_work('toDos');
+          handle_routeDisplayWork();
+        }}
+      >
         <img id='toDos-logo' src={toDosLogo} alt='toDosLogo' />
         <section className='card-text'>
           <span>TO-DO'S</span>

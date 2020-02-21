@@ -1,10 +1,10 @@
 import React from 'react';
 import HeaderNavComponent from './HeaderNavComponent';
 
-export default function HeaderNavPage() {
+export default function HeaderNavPage({ history }) {
   return (
     <div>
-      <HeaderNavComponent />
+      <HeaderNavComponent history={history} />
     </div>
   );
 }

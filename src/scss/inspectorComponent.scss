@@ -10,10 +10,6 @@
 
   #headerNavComp {
     grid-area: headerNavComp;
-    //position: fixed;
-    //width: 100%;
-    //background-color: pink;
-    //height: 100px;
   }
 
   #inspector-bio-item,
@@ -61,42 +57,43 @@
     grid-area: inspector-details-container;
     display: grid;
     grid-template-areas:
-      'homeTxt-item homeImg-item'
-      'mainImg-item mainImg-item'
-      'mainTxt-item mainTxt-item';
+      'inspector-homeTxt-item inspector-homeImg-item'
+      'inspector-mainImg-item inspector-mainImg-item'
+      'inspector-mainTxt-item inspector-mainTxt-item';
     background-color: lighten(#0b6171, 5%);
     grid-template-columns: auto auto;
+    padding: 30px;
 
-    #homeTxt-item {
-      grid-area: homeTxt-item;
+    #inspector-homeTxt-item {
+      grid-area: inspector-homeTxt-item;
       place-self: center;
       padding: 100px;
     }
 
-    #mainTxt-item {
-      grid-area: mainTxt-item;
+    #inspector-mainTxt-item {
+      grid-area: inspector-mainTxt-item;
       padding: 0 50px 50px 50px;
       margin: 0 150px;
     }
 
-    #homeTxt-item,
-    #mainTxt-item {
+    #inspector-homeTxt-item,
+    #inspector-mainTxt-item {
       color: white;
       text-align: justify;
       text-justify: inter-word;
     }
 
-    #homeImg-item {
-      grid-area: homeImg-item;
+    #inspector-homeImg-item {
+      grid-area: inspector-homeImg-item;
     }
 
-    #mainImg-item {
-      grid-area: mainImg-item;
+    #inspector-mainImg-item {
+      grid-area: inspector-mainImg-item;
     }
 
-    #mainImg-item,
-    #homeImg-item {
-      padding: 20px 0;
+    #inspector-mainImg-item,
+    #inspector-homeImg-item {
+      padding: 0 0 30px 0;
       place-self: center;
 
       img {
@@ -165,41 +162,41 @@
 //     grid-area: inspector-details-container;
 //     display: grid;
 //     grid-template-areas:
-//       'homeTxt-item homeImg-item'
-//       'mainImg-item mainImg-item'
-//       'mainTxt-item mainTxt-item';
+//       'inspector-homeTxt-item inspector-homeImg-item'
+//       'inspector-mainImg-item inspector-mainImg-item'
+//       'inspector-mainTxt-item inspector-mainTxt-item';
 //     background-color: lighten(#0b6171, 5%);
 //     grid-template-columns: auto auto;
 
-//     #homeTxt-item {
-//       grid-area: homeTxt-item;
+//     #inspector-homeTxt-item {
+//       grid-area: inspector-homeTxt-item;
 //       place-self: center;
 //       padding: 100px;
 //     }
 
-//     #mainTxt-item {
-//       grid-area: mainTxt-item;
+//     #inspector-mainTxt-item {
+//       grid-area: inspector-mainTxt-item;
 //       padding: 0 50px 50px 50px;
 //       margin: 0 150px;
 //     }
 
-//     #homeTxt-item,
-//     #mainTxt-item {
+//     #inspector-homeTxt-item,
+//     #inspector-mainTxt-item {
 //       color: white;
 //       text-align: justify;
 //       text-justify: inter-word;
 //     }
 
-//     #homeImg-item {
-//       grid-area: homeImg-item;
+//     #inspector-homeImg-item {
+//       grid-area: inspector-homeImg-item;
 //     }
 
-//     #mainImg-item {
-//       grid-area: mainImg-item;
+//     #inspector-mainImg-item {
+//       grid-area: inspector-mainImg-item;
 //     }
 
-//     #mainImg-item,
-//     #homeImg-item {
+//     #inspector-mainImg-item,
+//     #inspector-homeImg-item {
 //       padding: 20px 0;
 //       place-self: center;
 
