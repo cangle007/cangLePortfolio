@@ -21,24 +21,18 @@
       text-align: justify;
       text-justify: inter-word; }
   .devHistory-container #devHistory-details-item {
-    grid-area: devHistory-details-item; }
+    grid-area: devHistory-details-item;
+    background-color: #0d7588;
+    padding: 20px; }
     .devHistory-container #devHistory-details-item section {
       display: flex;
       justify-content: center;
       align-items: center;
-      background-color: #0d7588;
-      color: white;
-      text-align: justify;
-      text-justify: inter-word;
-      padding: 30px; }
-      .devHistory-container #devHistory-details-item section p {
-        padding: 0 50px; }
+      padding: 0 0 40px 0; }
     .devHistory-container #devHistory-details-item section:nth-child(1) img {
       width: 1000px;
       box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
-    .devHistory-container #devHistory-details-item section:nth-child(2) img {
-      width: 750px;
-      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
+    .devHistory-container #devHistory-details-item section:nth-child(2) img,
     .devHistory-container #devHistory-details-item section:nth-child(3) img {
       width: 750px;
       box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }

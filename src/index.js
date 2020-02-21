@@ -7,6 +7,7 @@ import './scss/out/scss/artComponent.css';
 import './scss/out/scss/bannerComponent.css';
 import './scss/out/scss/deviceHistoryComponent.css';
 import './scss/out/scss/gmailComponent.css';
+import './scss/out/scss/headerNavComponent.css';
 import './scss/out/scss/inspectorComponent.css';
 import './scss/out/scss/inquiryComponent.css';
 import './scss/out/scss/iotProfileComponent.css';

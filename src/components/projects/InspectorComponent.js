@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 import { Label } from 'semantic-ui-react';
-import SidebarComponent from '../sidebars/SidebarComponent';
+import HeaderNavComponent from '../headers/HeaderNavComponent';
 import inspector_home from '../../images/inspector_home.png';
 import inspector_main from '../../images/inspector_main.png';
 
@@ -15,10 +15,31 @@ export default class InspectorComponent extends Component {
     this.props.history.push(`/`);
   };
 
+  handle_headerScroll = () => {
+    const element = document.querySelector('.headerNav-container');
+
+    if (window.scrollY > 0) {
+      element.setAttribute('id', 'headerNav-fixed');
+    } else {
+      element.removeAttribute('id');
+    }
+  };
+
+  componentDidMount() {
+    window.addEventListener('scroll', this.handle_headerScroll);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('scroll', this.handle_headerScroll);
+  }
+
   render() {
     return (
       <div className='inspector-container'>
-        <div id='inspector-header-item'></div>
+        <HeaderNavComponent id='headerNavComp' handle_routeMain={this.handle_routeMain} />
+
+        <div id='inspector-header-item' />
+
         <div id='inspector-bio-item'>
           <article>
             <h1>INSPECTOR</h1>
@@ -68,8 +89,6 @@ export default class InspectorComponent extends Component {
             behavior. The app displays data analytics of all IoT devices associated with a user's account in real-time.
           </p>
         </div>
-
-        <SidebarComponent id='sidebarComp' handle_routeMain={this.handle_routeMain} />
       </div>
     );
   }

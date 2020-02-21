@@ -9,6 +9,7 @@ import DeviceHistoryContainer from './redux/containers/DeviceHistoryContainer';
 import BodyContainer from './redux/containers/BodyContainer';
 import BannerContainer from './redux/containers/BannerContainer';
 import GmailContainer from './redux/containers/GmailContainer';
+import HeaderNavContainer from './redux/containers/HeaderNavContainer';
 import InspectorContainer from './redux/containers/InspectorContainer';
 import IotProfileContainer from './redux/containers/IotProfileContainer';
 import MainContainer from './redux/containers/MainContainer';
@@ -33,7 +34,8 @@ export default class App extends Component {
               <Route exact path='/body' component={BodyContainer} />
               <Route exact path='/devhistory' component={DeviceHistoryContainer} />
               <Route exact path='/gmail' component={GmailContainer} />
-              <Route exact path='/header' component={BannerContainer} />
+              <Route exact path='/banner' component={BannerContainer} />
+              <Route exact path='/header' component={HeaderNavContainer} />
               <Route exact path='/inspector' component={InspectorContainer} />
               <Route exact path='/iot' component={IotProfileContainer} />
               <Route exact path='/pokemon' component={PokemonContainer} />

@@ -1,3 +1,85 @@
+// .devHistory-container {
+//   display: grid;
+//   grid-template-areas:
+//     'sidebarComp devHistory-bio-item'
+//     'sidebarComp devHistory-details-container';
+//   grid-template-columns: 200px auto;
+
+//   #devHistory-bio-item {
+//     grid-area: devHistory-bio-item;
+//     font-family: 'ff-tisa-web-pro', Palatino, ' Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
+//     font-size: 18px;
+//     text-align: center;
+//     margin: 50px 30px;
+
+//     article {
+//       h1 {
+//         margin: 0.5em 0 0.5em;
+//         line-height: 1em;
+//         font-size: 30px;
+//         font-weight: bold;
+//         font-family: 'din-condensed-web', 'Trebuchet MS', 'Arial Narrow', Arial, sans-serif;
+//       }
+
+//       p:nth-child(2) {
+//         letter-spacing: 2px;
+//         font-size: 20px;
+//       }
+
+//       p:nth-child(3) {
+//         text-align: justify;
+//         text-justify: inter-word;
+//       }
+//     }
+//   }
+
+//   #devHistory-details-container {
+//     grid-area: devHistory-details-container;
+//     display: grid;
+//     grid-template-areas: 'historyDev-query-item historyDev-bar-item historyDev-google-item';
+//     background-color: lighten(#0b6171, 5%);
+//     padding: 20px;
+
+//     #historyDev-query-item {
+//       grid-area: historyDev-query-item;
+//       img {
+//         width: 800px;
+//         box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+//       }
+//     }
+
+//     #historyDev-bar-item {
+//       grid-area: historyDev-bar-item;
+//     }
+
+//     #historyDev-google-item {
+//       grid-area: historyDev-google-item;
+//     }
+
+//     section {
+//       display: flex;
+//       justify-content: center;
+//       align-items: center;
+//       padding: 0 0 40px 0;
+//     }
+
+//     section:nth-child(1) {
+//       img {
+//         width: 1000px;
+//         box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+//       }
+//     }
+
+//     section:nth-child(2),
+//     section:nth-child(3) {
+//       img {
+//         width: 750px;
+//         box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+//       }
+//     }
+//   }
+// }
+
 .devHistory-container {
   display: grid;
   grid-template-areas:
@@ -35,20 +117,14 @@
 
   #devHistory-details-item {
     grid-area: devHistory-details-item;
+    background-color: lighten(#0b6171, 5%);
+    padding: 20px;
 
     section {
       display: flex;
       justify-content: center;
       align-items: center;
-      background-color: lighten(#0b6171, 5%);
-      color: white;
-      text-align: justify;
-      text-justify: inter-word;
-      padding: 30px;
-
-      p {
-        padding: 0 50px;
-      }
+      padding: 0 0 40px 0;
     }
 
     section:nth-child(1) {
@@ -58,13 +134,7 @@
       }
     }
 
-    section:nth-child(2) {
-      img {
-        width: 750px;
-        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-      }
-    }
-
+    section:nth-child(2),
     section:nth-child(3) {
       img {
         width: 750px;

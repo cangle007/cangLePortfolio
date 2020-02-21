@@ -1,7 +1,10 @@
 .inspector-container {
   display: grid;
-  grid-template-areas: 'sidebarComp inspector-header-item' 'sidebarComp inspector-bio-item' 'sidebarComp inspector-details-container';
-  grid-template-columns: 200px auto; }
+  grid-template-areas: 'headerNavComp' 'inspector-header-item' 'inspector-bio-item' 'inspector-details-container';
+  grid-template-columns: auto;
+  grid-template-rows: 65px auto auto auto; }
+  .inspector-container #headerNavComp {
+    grid-area: headerNavComp; }
   .inspector-container #inspector-bio-item,
   .inspector-container #inspector-details-container {
     font-family: 'ff-tisa-web-pro', Palatino, ' Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
@@ -60,8 +63,6 @@
       .inspector-container #inspector-details-container #homeImg-item img {
         max-height: 600px;
         box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
-  .inspector-container #sidebarComp {
-    grid-area: sidebarComp; }
 
 .ui.label {
   margin: 20px;
