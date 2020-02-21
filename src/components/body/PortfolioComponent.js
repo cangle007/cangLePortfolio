@@ -9,25 +9,13 @@ import pokemonLogo from '../../images/pokemon-logo.png';
 import respGridLogo from '../../images/respGrid-logo.png';
 import toDosLogo from '../../images/toDos-logo.png';
 
-export default function PortfolioComponent({
-  display_work,
-  handle_routeDisplayWork,
-  handle_routeArt,
-  handle_routeDeviceHistory,
-  handle_routeGmail,
-  handle_routeInspector,
-  handle_routeIoT,
-  handle_routePokemon,
-  handle_routeResponsive,
-  handle_routeTodo
-}) {
+export default function PortfolioComponent({ display_work, handle_routeDisplayWork }) {
   return (
     <div className='portfolio-container'>
       <div className='portfolio-title' id='professional-title-item'>
         <h1>PROFESSIONAL WORK</h1>
         <p>A SHOWCASE OF PROFESSIONAL DESIGN AND DEVELOPMENT</p>
       </div>
-      {/* onClick={handle_routeInspector} */}
       <div
         id='inspector-item'
         onClick={() => {
@@ -52,7 +40,7 @@ export default function PortfolioComponent({
         <img id='deviceHistory-logo' src={devHistoryLogo} alt='devHistoryLogo' />
         <section className='card-text'>
           <span>AFERO DEVICE HISTORY</span>
-          <p>query historical device data</p>
+          <p>query historical data</p>
         </section>
       </div>
 
@@ -66,7 +54,7 @@ export default function PortfolioComponent({
         <img id='iotProfile-logo' src={iotProfileLogo} alt='iotProfileLogo' />
         <section className='card-text'>
           <span>AFERO PROFILE</span>
-          <p>mock-up for mobile app.</p>
+          <p>mock-up for mobile app</p>
         </section>
       </div>
 
@@ -143,7 +131,7 @@ export default function PortfolioComponent({
         <img id='toDos-logo' src={toDosLogo} alt='toDosLogo' />
         <section className='card-text'>
           <span>TO-DO'S</span>
-          <p>mock-up for mobile phone</p>
+          <p>mock-up for mobile app</p>
         </section>
       </div>
     </div>

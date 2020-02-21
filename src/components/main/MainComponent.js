@@ -89,19 +89,7 @@ export default class MainComponent extends Component {
         </div>
 
         <div id='portfolioComp'>
-          <PortfolioComponent
-            display_work={display_work}
-            handle_routeDisplayWork={this.handle_routeDisplayWork}
-            // handle_routeArt={this.handle_routeArt}
-            // handle_routeDeviceHistory={this.handle_routeDeviceHistory}
-            // handle_routeGmail={this.handle_routeGmail}
-            // handle_routeMain={this.handle_routeMain}
-            // handle_routeInspector={this.handle_routeInspector}
-            // handle_routeIoT={this.handle_routeIoT}
-            // handle_routePokemon={this.handle_routePokemon}
-            // handle_routeResponsive={this.handle_routeResponsive}
-            // handle_routeTodo={this.handle_routeTodo}
-          />
+          <PortfolioComponent display_work={display_work} handle_routeDisplayWork={this.handle_routeDisplayWork} />
         </div>
 
         <div id='sidebarComp'>
