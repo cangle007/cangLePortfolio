@@ -26,7 +26,7 @@ export default function PortfolioComponent({ display_work, handle_routeDisplayWo
         <img id='inspector-logo' src={inspectorLogo} alt='inspector-logo' />
         <div className='card-text'>
           <span>AFERO INSPECTOR</span>
-          <p>real-time app. enabling large scale tracking of IoT devices</p>
+          <p> real-time IoT connectivity and data analytics</p>
         </div>
       </div>
 
