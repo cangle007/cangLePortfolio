@@ -25,8 +25,7 @@
       margin: 0.5em 0 0.5em;
       line-height: 1em;
       font-size: 22px;
-      font-weight: bold;
-      font-family: 'din-condensed-web', 'Trebuchet MS', 'Arial Narrow', Arial, sans-serif; }
+      font-weight: bold; }
     .sidebar-container #sidebar-about-item p:nth-child(3),
     .sidebar-container #sidebar-work-item p:nth-child(3),
     .sidebar-container #sidebar-contact-item p:nth-child(3) {

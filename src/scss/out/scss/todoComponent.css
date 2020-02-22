@@ -16,12 +16,9 @@
     .todo-container #todo-bio-item article h1 {
       margin: 0.5em 0 0.5em;
       line-height: 1em;
-      font-size: 30px;
-      font-weight: bold;
-      font-family: 'din-condensed-web', 'Trebuchet MS', 'Arial Narrow', Arial, sans-serif; }
+      font-size: 30px; }
     .todo-container #todo-bio-item article p:nth-child(2) {
-      letter-spacing: 2px;
-      font-size: 20px; }
+      letter-spacing: 2px; }
     .todo-container #todo-bio-item article p:nth-child(3) {
       text-align: justify;
       text-justify: inter-word; }

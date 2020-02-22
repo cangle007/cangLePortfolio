@@ -7,9 +7,9 @@
     grid-area: headerNavComp; }
   .inspector-container #inspector-bio-item,
   .inspector-container #inspector-details-container {
-    font-family: 'ff-tisa-web-pro', Palatino, ' Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
     font-size: 18px;
-    text-align: center; }
+    text-align: center;
+    font-family: 'ff-tisa-web-pro', Palatino, ' Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif; }
   .inspector-container #inspector-header-item {
     grid-area: inspector-header-item;
     background: url(../../../images/inspector_header.png);
@@ -24,12 +24,9 @@
     .inspector-container #inspector-bio-item article h1 {
       margin: 0.5em 0 0.5em;
       line-height: 1em;
-      font-size: 30px;
-      font-weight: bold;
-      font-family: 'din-condensed-web', 'Trebuchet MS', 'Arial Narrow', Arial, sans-serif; }
+      font-size: 30px; }
     .inspector-container #inspector-bio-item article p:nth-child(2) {
-      letter-spacing: 2px;
-      font-size: 20px; }
+      letter-spacing: 2px; }
     .inspector-container #inspector-bio-item article p:nth-child(3) {
       text-align: justify;
       text-justify: inter-word; }
