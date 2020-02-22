@@ -27,46 +27,6 @@ export default class MainComponent extends Component {
     this.props.history.push(`/displayWork`);
   };
 
-  // handle_routeInspector = () => {
-  //   window.scrollTo(0, 0);
-  //   this.props.history.push(`/inspector`);
-  // };
-
-  // handle_routeDeviceHistory = () => {
-  //   window.scrollTo(0, 0);
-  //   this.props.history.push(`/devhistory`);
-  // };
-
-  // handle_routeIoT = () => {
-  //   window.scrollTo(0, 0);
-  //   this.props.history.push(`/iot`);
-  // };
-
-  // handle_routePokemon = () => {
-  //   window.scrollTo(0, 0);
-  //   this.props.history.push(`/pokemon`);
-  // };
-
-  // handle_routeResponsive = () => {
-  //   window.scrollTo(0, 0);
-  //   this.props.history.push(`/responsive`);
-  // };
-
-  // handle_routeGmail = () => {
-  //   window.scrollTo(0, 0);
-  //   this.props.history.push(`/gmail`);
-  // };
-
-  // handle_routeArt = () => {
-  //   window.scrollTo(0, 0);
-  //   this.props.history.push(`/art`);
-  // };
-
-  // handle_routeTodo = () => {
-  //   window.scrollTo(0, 0);
-  //   this.props.history.push(`/todo`);
-  // };
-
   handle_routeMain = () => {
     window.scrollTo(0, 0);
     this.props.history.push(`/`);

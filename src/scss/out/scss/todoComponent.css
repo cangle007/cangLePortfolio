@@ -37,5 +37,5 @@
       padding: 30px;
       background-color: #0d7588; }
       .todo-container #todo-details-item section img {
-        width: 300px;
+        min-height: 540px;
         box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
