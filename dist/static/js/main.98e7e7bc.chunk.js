@@ -68,7 +68,7 @@
       e.exports = a.p + 'static/media/poke_deck.264b7238.png';
     },
     167: function(e, t, a) {
-      e.exports = a.p + 'static/media/poke_select.cecadfbc.png';
+      e.exports = a.p + 'static/media/poke-demo-item.cecadfbc.png';
     },
     168: function(e, t, a) {
       e.exports = a.p + 'static/media/poke_build.2bba9b8f.png';
@@ -1047,7 +1047,7 @@
                     ),
                     i.a.createElement(
                       'div',
-                      { id: 'pokemon-details-item' },
+                      { id: 'pokemon-details-container' },
                       i.a.createElement(
                         'section',
                         { id: 'poke_intro' },
@@ -1060,8 +1060,8 @@
                       ),
                       i.a.createElement(
                         'section',
-                        { id: 'poke_select' },
-                        i.a.createElement('img', { src: Xe.a, alt: 'poke_select' })
+                        { id: 'poke-demo-item' },
+                        i.a.createElement('img', { src: Xe.a, alt: 'poke-demo-item' })
                       ),
                       i.a.createElement(
                         'section',
@@ -1150,7 +1150,7 @@
                     ),
                     i.a.createElement(
                       'div',
-                      { id: 'responsive-details-item' },
+                      { id: 'responsive-details-container' },
                       i.a.createElement(
                         'section',
                         null,

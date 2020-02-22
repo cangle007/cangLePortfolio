@@ -39,6 +39,11 @@ export default class DisplayWorkComponent extends Component {
     this.props.history.push(`/`);
   };
 
+  handle_openArtAcademy = () => {
+    var win = window.open('http://faulty-breakfast.surge.sh/', '_blank');
+    win.focus();
+  };
+
   handle_displayWork = () => {
     let { displayWork } = this.props;
 
@@ -49,14 +54,16 @@ export default class DisplayWorkComponent extends Component {
         return <DeviceHistoryComponent handle_routeMain={this.handle_routeMain} />;
       case 'iotProfile':
         return <IotProfileComponent handle_routeMain={this.handle_routeMain} />;
-      case 'pokemonArena':
+      case 'pokemonBattleArea':
         return <PokemonComponent handle_routeMain={this.handle_routeMain} />;
       case 'responsiveGrid':
         return <ResponsiveComponent handle_routeMain={this.handle_routeMain} />;
       case 'gmailClone':
         return <GmailComponent handle_routeMain={this.handle_routeMain} />;
       case 'artAcademy':
-        return <ArtComponent handle_routeMain={this.handle_routeMain} />;
+        return (
+          <ArtComponent handle_routeMain={this.handle_routeMain} handle_openArtAcademy={this.handle_openArtAcademy} />
+        );
       case 'toDos':
         return <TodoComponent handle_routeMain={this.handle_routeMain} />;
       default:

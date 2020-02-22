@@ -1,14 +1,18 @@
 .todo-container {
   display: grid;
-  grid-template-areas: 'sidebarComp todo-bio-item' 'sidebarComp todo-details-item';
-  grid-template-columns: 200px auto; }
+  grid-template-areas: 'headerNavComp' 'todo-bio-item' 'todo-details-item';
+  grid-template-columns: auto;
+  grid-template-rows: 65px auto auto; }
+  .todo-container #headerNavComp {
+    grid-area: headerNavComp; }
   .todo-container #todo-bio-item {
     grid-area: todo-bio-item;
     font-family: 'ff-tisa-web-pro', Palatino, ' Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
     font-size: 18px;
     text-align: center;
     place-self: center;
-    margin: 50px 30px; }
+    margin: 50px 30px;
+    padding: 0 100px; }
     .todo-container #todo-bio-item article h1 {
       margin: 0.5em 0 0.5em;
       line-height: 1em;
@@ -27,11 +31,11 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      background-color: #0d7588;
       color: white;
       text-align: justify;
       text-justify: inter-word;
-      padding: 30px; }
+      padding: 30px;
+      background-color: #0d7588; }
       .todo-container #todo-details-item section img {
         width: 300px;
         box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }

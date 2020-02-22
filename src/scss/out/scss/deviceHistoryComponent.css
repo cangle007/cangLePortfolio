@@ -1,7 +1,8 @@
 .devHistory-container {
   display: grid;
   grid-template-areas: 'headerNavComp' 'devHistory-bio-item' 'devHistory-details-container';
-  grid-template-columns: auto; }
+  grid-template-columns: auto;
+  grid-template-rows: 65px auto auto; }
   .devHistory-container #headerNavComp {
     grid-area: headerNavComp; }
   .devHistory-container #devHistory-bio-item {
@@ -9,6 +10,7 @@
     font-family: 'ff-tisa-web-pro', Palatino, ' Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
     font-size: 18px;
     text-align: center;
+    padding: 0 100px;
     margin: 50px 30px; }
     .devHistory-container #devHistory-bio-item article h1 {
       margin: 0.5em 0 0.5em;
@@ -26,11 +28,12 @@
     grid-area: devHistory-details-container;
     display: grid;
     grid-template-areas: 'historyDev-query-item historyDev-bar-item' 'historyDev-query-item historyDev-google-item';
-    background-color: #0d7588;
     grid-template-columns: auto auto;
     grid-template-rows: auto auto;
+    grid-gap: 30px;
     place-items: center;
-    padding: 30px; }
+    padding: 30px;
+    background-color: #0d7588; }
     .devHistory-container #devHistory-details-container #historyDev-query-item {
       grid-area: historyDev-query-item;
       place-self: center; }
@@ -39,7 +42,7 @@
     .devHistory-container #devHistory-details-container #historyDev-google-item {
       grid-area: historyDev-google-item; }
     .devHistory-container #devHistory-details-container section:nth-child(1) img {
-      max-height: 500px;
+      max-height: 450px;
       box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
     .devHistory-container #devHistory-details-container section:nth-child(2) img,
     .devHistory-container #devHistory-details-container section:nth-child(3) img {

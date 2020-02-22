@@ -66,7 +66,7 @@ export default function PortfolioComponent({ display_work, handle_routeDisplayWo
       <div
         id='pokemonBattleArea-item'
         onClick={() => {
-          display_work('pokemonArena');
+          display_work('pokemonBattleArea');
           handle_routeDisplayWork();
         }}
       >

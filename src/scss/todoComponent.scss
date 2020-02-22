@@ -1,9 +1,15 @@
 .todo-container {
   display: grid;
   grid-template-areas:
-    'sidebarComp todo-bio-item'
-    'sidebarComp todo-details-item';
-  grid-template-columns: 200px auto;
+    'headerNavComp'
+    'todo-bio-item'
+    'todo-details-item';
+  grid-template-columns: auto;
+  grid-template-rows: 65px auto auto;
+
+  #headerNavComp {
+    grid-area: headerNavComp;
+  }
 
   #todo-bio-item {
     grid-area: todo-bio-item;
@@ -12,6 +18,7 @@
     text-align: center;
     place-self: center;
     margin: 50px 30px;
+    padding: 0 100px;
 
     article {
       h1 {
@@ -21,12 +28,10 @@
         font-weight: bold;
         font-family: 'din-condensed-web', 'Trebuchet MS', 'Arial Narrow', Arial, sans-serif;
       }
-
       p:nth-child(2) {
         letter-spacing: 2px;
         font-size: 20px;
       }
-
       p:nth-child(3) {
         text-align: justify;
         text-justify: inter-word;
@@ -41,11 +46,12 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      background-color: lighten(#0b6171, 5%);
       color: white;
       text-align: justify;
       text-justify: inter-word;
       padding: 30px;
+      background-color: lighten(#0b6171, 5%);
+
       img {
         width: 300px;
         box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);

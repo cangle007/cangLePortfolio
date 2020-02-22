@@ -1,14 +1,17 @@
 .gmail-container {
   display: grid;
-  grid-template-areas: 'sidebarComp gmail-bio-item' 'sidebarComp gmail-details-item';
-  grid-template-columns: 200px auto; }
+  grid-template-areas: 'headerNavComp' 'gmail-bio-item' 'gmail-details-item';
+  grid-template-columns: auto; }
+  .gmail-container #headerNavComp {
+    grid-area: headerNavComp; }
   .gmail-container #gmail-bio-item {
     grid-area: gmail-bio-item;
     font-family: 'ff-tisa-web-pro', Palatino, ' Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
     font-size: 18px;
     text-align: center;
     place-self: center;
-    margin: 50px 30px; }
+    margin: 50px 30px;
+    padding: 0 100px; }
     .gmail-container #gmail-bio-item article h1 {
       margin: 0.5em 0 0.5em;
       line-height: 1em;

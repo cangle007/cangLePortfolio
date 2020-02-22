@@ -10,6 +10,7 @@
     font-family: 'ff-tisa-web-pro', Palatino, ' Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
     font-size: 18px;
     text-align: center;
+    padding: 0 100px;
     margin: 50px 30px; }
     .iot-container #iot-bio-item article h1 {
       margin: 0.5em 0 0.5em;

@@ -14,15 +14,15 @@ export default function DeviceHistoryComponent({ handle_routeMain }) {
       <div id='devHistory-bio-item'>
         <article>
           <h1>AFERO DEVICE HISTORY</h1>
-          <p>query historical device data</p>
+          <p>query historical data</p>
           <p>
             The process of querying historical data can be time consuming and mundane if you don't have the right tool,
             a common problem holding back most QA teams from optimizing their productivity.
             <br />
             <br />
             This internal application was developed to facilitate the QA team's daily task of querying historical data,
-            increasing productivity by 70%. The software provides a clean and easy to use interface to query and filter
-            device historical data for the entire life of the device.
+            resulting in decreasing query execution time by 30 mins. The apps provided an easy-to-use interface to query
+            and filter devices’ data for their entire lifespan.
           </p>
         </article>
         <Label as='a' tag>

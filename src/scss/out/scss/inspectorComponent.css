@@ -19,7 +19,8 @@
     min-height: 500px; }
   .inspector-container #inspector-bio-item {
     grid-area: inspector-bio-item;
-    margin: 50px 30px; }
+    margin: 50px 30px;
+    padding: 0 100px; }
     .inspector-container #inspector-bio-item article h1 {
       margin: 0.5em 0 0.5em;
       line-height: 1em;
@@ -37,7 +38,7 @@
     display: grid;
     grid-template-areas: 'inspector-homeTxt-item inspector-homeImg-item' 'inspector-mainImg-item inspector-mainImg-item' 'inspector-mainTxt-item inspector-mainTxt-item';
     background-color: #0d7588;
-    grid-template-columns: auto auto;
+    grid-template-columns: repeat(2, auto);
     padding: 30px; }
     .inspector-container #inspector-details-container #inspector-homeTxt-item {
       grid-area: inspector-homeTxt-item;

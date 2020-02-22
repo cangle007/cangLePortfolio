@@ -15,14 +15,12 @@ export default function InspectorComponent({ handle_routeMain }) {
       <div id='inspector-bio-item'>
         <article>
           <h1>INSPECTOR</h1>
-
           <p>real-time IoT connectivity and data analytics</p>
-
           <p>
-            Inspector is reliable and industry proven software that allows developers to view and interact with their
-            IoT devices at a massive scale with an in depth, real-time view of the state of all their connected IoT
-            devices. My software is currently connecting 500K+ IoT devices to the cloud from Fortune 500 companies such
-            as Home Depot & Kenmore enabling data mining for improving product functionality.
+            Inspector, a software that allows developers to view and interact with their IoT devices at a massive scale
+            with an in-depth, real-time view of the state of all their connected IoT devices. Inspector is capable of
+            handling data from the cloud transmitted by 500K+ devices, and enable Fortune 500 companies such as Home
+            Depot & Kenmore to data mine for improving their product functionality.
           </p>
         </article>
 

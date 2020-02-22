@@ -14,7 +14,7 @@ code {
 }
 .art-container #art-bio-item {
   grid-area: art-bio-item;
-  font-family: ff-tisa-web-pro, Palatino, \Palatino Linotype, Palatino LT STD, Book Antiqua, Georgia, serif;
+  font-family: ff-tisa-web-pro, Palatino, \PalatinoLinotype, Palatino LT STD, Book Antiqua, Georgia, serif;
   font-size: 18px;
   text-align: center;
   place-self: center;
@@ -101,7 +101,7 @@ code {
   font-weight: 700;
 }
 .banner-container #myTitle-item p {
-  font-family: ff-tisa-web-pro, Palatino, \Palatino Linotype, Palatino LT STD, Book Antiqua, Georgia, serif;
+  font-family: ff-tisa-web-pro, Palatino, \PalatinoLinotype, Palatino LT STD, Book Antiqua, Georgia, serif;
   letter-spacing: 2px;
   font-size: 18px;
 }
@@ -112,7 +112,7 @@ code {
 }
 .devHistory-container #devHistory-bio-item {
   grid-area: devHistory-bio-item;
-  font-family: ff-tisa-web-pro, Palatino, \Palatino Linotype, Palatino LT STD, Book Antiqua, Georgia, serif;
+  font-family: ff-tisa-web-pro, Palatino, \PalatinoLinotype, Palatino LT STD, Book Antiqua, Georgia, serif;
   font-size: 18px;
   text-align: center;
   margin: 50px 30px;
@@ -164,7 +164,7 @@ code {
 }
 .gmail-container #gmail-bio-item {
   grid-area: gmail-bio-item;
-  font-family: ff-tisa-web-pro, Palatino, \Palatino Linotype, Palatino LT STD, Book Antiqua, Georgia, serif;
+  font-family: ff-tisa-web-pro, Palatino, \PalatinoLinotype, Palatino LT STD, Book Antiqua, Georgia, serif;
   font-size: 18px;
   text-align: center;
   place-self: center;
@@ -209,7 +209,7 @@ code {
 }
 .inspector-container #inspector-bio-item,
 .inspector-container #inspector-details-item {
-  font-family: ff-tisa-web-pro, Palatino, \Palatino Linotype, Palatino LT STD, Book Antiqua, Georgia, serif;
+  font-family: ff-tisa-web-pro, Palatino, \PalatinoLinotype, Palatino LT STD, Book Antiqua, Georgia, serif;
   font-size: 18px;
   text-align: center;
 }
@@ -289,7 +289,7 @@ code {
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 20px;
-  font-family: ff-tisa-web-pro, Palatino, \Palatino Linotype, Palatino LT STD, Book Antiqua, Georgia, serif;
+  font-family: ff-tisa-web-pro, Palatino, \PalatinoLinotype, Palatino LT STD, Book Antiqua, Georgia, serif;
 }
 .myContact-container #inputField-item input {
   border: 1px solid #ccc;
@@ -359,7 +359,7 @@ code {
 .myContact-container #socialMedia-item div p {
   font-size: 20px;
   letter-spacing: 2px;
-  font-family: ff-tisa-web-pro, Palatino, \Palatino Linotype, Palatino LT STD, Book Antiqua, Georgia, serif;
+  font-family: ff-tisa-web-pro, Palatino, \PalatinoLinotype, Palatino LT STD, Book Antiqua, Georgia, serif;
 }
 .myContact-container #socialMedia-item div a {
   color: #c33;
@@ -374,7 +374,7 @@ code {
 }
 .iot-container #iot-bio-item {
   grid-area: iot-bio-item;
-  font-family: ff-tisa-web-pro, Palatino, \Palatino Linotype, Palatino LT STD, Book Antiqua, Georgia, serif;
+  font-family: ff-tisa-web-pro, Palatino, \PalatinoLinotype, Palatino LT STD, Book Antiqua, Georgia, serif;
   font-size: 18px;
   text-align: center;
   margin: 50px 30px;
@@ -490,7 +490,7 @@ code {
 .myBio-container #resume-item p {
   font-size: 20px;
   letter-spacing: 2px;
-  font-family: ff-tisa-web-pro, Palatino, \Palatino Linotype, Palatino LT STD, Book Antiqua, Georgia, serif;
+  font-family: ff-tisa-web-pro, Palatino, \PalatinoLinotype, Palatino LT STD, Book Antiqua, Georgia, serif;
 }
 .myBio-container #github-item a,
 .myBio-container #linkedin-item a,
@@ -507,7 +507,7 @@ code {
   grid-template-areas: 'expertHeader-item expertHeader-item expertHeader-item' 'frontend-item backend-item others-item';
   font-size: 18px;
   letter-spacing: 2px;
-  font-family: ff-tisa-web-pro, Palatino, \Palatino Linotype, Palatino LT STD, Book Antiqua, Georgia, serif;
+  font-family: ff-tisa-web-pro, Palatino, \PalatinoLinotype, Palatino LT STD, Book Antiqua, Georgia, serif;
   justify-items: center;
   text-align: center;
   margin-top: 60px;
@@ -574,7 +574,7 @@ code {
   font-size: 30px;
 }
 .portfolio-container .portfolio-title p {
-  font-family: ff-tisa-web-pro, Palatino, \Palatino Linotype, Palatino LT STD, Book Antiqua, Georgia, serif;
+  font-family: ff-tisa-web-pro, Palatino, \PalatinoLinotype, Palatino LT STD, Book Antiqua, Georgia, serif;
   letter-spacing: 2px;
   font-size: 20px;
 }
@@ -703,7 +703,7 @@ code {
 }
 .portfolio-container .card-text {
   position: absolute;
-  font-family: ff-tisa-web-pro, Palatino, \Palatino Linotype, Palatino LT STD, Book Antiqua, Georgia, serif;
+  font-family: ff-tisa-web-pro, Palatino, \PalatinoLinotype, Palatino LT STD, Book Antiqua, Georgia, serif;
   letter-spacing: 1px;
   color: #fff;
   text-align: center;
@@ -982,7 +982,7 @@ code {
 }
 .pokemon-container {
   display: grid;
-  grid-template-areas: 'sidebarComp pokemon-header-item' 'sidebarComp pokemon-bio-item' 'sidebarComp pokemon-details-item';
+  grid-template-areas: 'sidebarComp pokemon-header-item' 'sidebarComp pokemon-bio-item' 'sidebarComp pokemon-details-container';
   grid-template-columns: 200px auto;
 }
 .pokemon-container #pokemon-header-item {
@@ -994,8 +994,8 @@ code {
   min-height: 600px;
 }
 .pokemon-container #pokemon-bio-item,
-.pokemon-container #pokemon-details-item {
-  font-family: ff-tisa-web-pro, Palatino, \Palatino Linotype, Palatino LT STD, Book Antiqua, Georgia, serif;
+.pokemon-container #pokemon-details-container {
+  font-family: ff-tisa-web-pro, Palatino, \PalatinoLinotype, Palatino LT STD, Book Antiqua, Georgia, serif;
   font-size: 18px;
   text-align: center;
 }
@@ -1018,10 +1018,10 @@ code {
   text-align: justify;
   text-justify: inter-word;
 }
-.pokemon-container #pokemon-details-item {
-  grid-area: pokemon-details-item;
+.pokemon-container #pokemon-details-container {
+  grid-area: pokemon-details-container;
 }
-.pokemon-container #pokemon-details-item section {
+.pokemon-container #pokemon-details-container section {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1031,25 +1031,25 @@ code {
   text-justify: inter-word;
   padding: 30px;
 }
-.pokemon-container #pokemon-details-item section > p {
+.pokemon-container #pokemon-details-container section > p {
   padding: 0 50px;
 }
-.pokemon-container #pokemon-details-item #poke_battle img,
-.pokemon-container #pokemon-details-item #poke_build img,
-.pokemon-container #pokemon-details-item #poke_deck img,
-.pokemon-container #pokemon-details-item #poke_intro img,
-.pokemon-container #pokemon-details-item #poke_select img {
+.pokemon-container #pokemon-details-container #poke_battle img,
+.pokemon-container #pokemon-details-container #poke_build img,
+.pokemon-container #pokemon-details-container #poke_deck img,
+.pokemon-container #pokemon-details-container #poke_intro img,
+.pokemon-container #pokemon-details-container #poke-demo-item img {
   width: 900px;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 .responsive-container {
   display: grid;
-  grid-template-areas: 'sidebarComp responsive-header-item' 'sidebarComp responsive-bio-item' 'sidebarComp responsive-details-item';
+  grid-template-areas: 'sidebarComp responsive-header-item' 'sidebarComp responsive-bio-item' 'sidebarComp responsive-details-container';
   grid-template-columns: 200px auto;
 }
 .responsive-container #responsive-bio-item,
-.responsive-container #responsive-details-item {
-  font-family: ff-tisa-web-pro, Palatino, \Palatino Linotype, Palatino LT STD, Book Antiqua, Georgia, serif;
+.responsive-container #responsive-details-container {
+  font-family: ff-tisa-web-pro, Palatino, \PalatinoLinotype, Palatino LT STD, Book Antiqua, Georgia, serif;
   font-size: 18px;
   text-align: center;
 }
@@ -1080,10 +1080,10 @@ code {
   text-align: justify;
   text-justify: inter-word;
 }
-.responsive-container #responsive-details-item {
-  grid-area: responsive-details-item;
+.responsive-container #responsive-details-container {
+  grid-area: responsive-details-container;
 }
-.responsive-container #responsive-details-item section {
+.responsive-container #responsive-details-container section {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1092,7 +1092,7 @@ code {
   padding: 30px;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
-.responsive-container #responsive-details-item section p {
+.responsive-container #responsive-details-container section p {
   padding: 0 20px;
 }
 .responsive-container #sidebarComp {
@@ -1140,7 +1140,7 @@ code {
 .sidebar-container #sidebar-work-item p:nth-child(3) {
   font-size: 15px;
   letter-spacing: 2px;
-  font-family: ff-tisa-web-pro, Palatino, \Palatino Linotype, Palatino LT STD, Book Antiqua, Georgia, serif;
+  font-family: ff-tisa-web-pro, Palatino, \PalatinoLinotype, Palatino LT STD, Book Antiqua, Georgia, serif;
 }
 .sidebar-container #sidebar-about-item:hover,
 .sidebar-container #sidebar-contact-item:hover,
@@ -1155,7 +1155,7 @@ code {
 }
 .todo-container #todo-bio-item {
   grid-area: todo-bio-item;
-  font-family: ff-tisa-web-pro, Palatino, \Palatino Linotype, Palatino LT STD, Book Antiqua, Georgia, serif;
+  font-family: ff-tisa-web-pro, Palatino, \PalatinoLinotype, Palatino LT STD, Book Antiqua, Georgia, serif;
   font-size: 18px;
   text-align: center;
   place-self: center;
