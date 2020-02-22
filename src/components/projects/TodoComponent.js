@@ -15,12 +15,14 @@ export default function TodoComponent({ handle_routeMain }) {
           <p>A CRUD application where users can input their chores that need to be done.</p>
         </article>
 
-        <Label as='a' tag>
-          Front-End Development
-        </Label>
-        <Label as='a' tag>
-          CSS-Grid
-        </Label>
+        <span>
+          <Label as='a' tag>
+            Front-End Development
+          </Label>
+          <Label as='a' tag>
+            CSS-Grid
+          </Label>
+        </span>
       </div>
 
       <div id='todo-details-item'>

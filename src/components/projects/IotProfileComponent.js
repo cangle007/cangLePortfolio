@@ -20,15 +20,17 @@ export default function IotProfileComponent({ handle_routeMain }) {
           </p>
         </article>
 
-        <Label as='a' tag>
-          CSS-Grid
-        </Label>
-        <Label as='a' tag>
-          Sass/Scss
-        </Label>
-        <Label as='a' tag>
-          UI/UX Design
-        </Label>
+        <span>
+          <Label as='a' tag>
+            CSS-Grid
+          </Label>
+          <Label as='a' tag>
+            Sass/Scss
+          </Label>
+          <Label as='a' tag>
+            UI/UX Design
+          </Label>
+        </span>
       </div>
 
       <div id='iot-details-container'>

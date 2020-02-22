@@ -27,27 +27,29 @@ export default function PokemonComponent({ handle_routeMain }) {
           </p>
         </article>
 
-        <Label as='a' tag>
-          React-Redux
-        </Label>
-        <Label as='a' tag>
-          Express.js
-        </Label>
-        <Label as='a' tag>
-          Node.Js
-        </Label>
-        <Label as='a' tag>
-          Socket.io
-        </Label>
-        <Label as='a' tag>
-          PostgreSQL
-        </Label>
-        <Label as='a' tag>
-          Front-End Development
-        </Label>
-        <Label as='a' tag>
-          Back-End Development
-        </Label>
+        <span>
+          <Label as='a' tag>
+            React-Redux
+          </Label>
+          <Label as='a' tag>
+            Express.js
+          </Label>
+          <Label as='a' tag>
+            Node.Js
+          </Label>
+          <Label as='a' tag>
+            Socket.io
+          </Label>
+          <Label as='a' tag>
+            PostgreSQL
+          </Label>
+          <Label as='a' tag>
+            Front-End Development
+          </Label>
+          <Label as='a' tag>
+            Back-End Development
+          </Label>
+        </span>
       </div>
 
       <div id='pokemon-details-container'>
@@ -61,6 +63,8 @@ export default function PokemonComponent({ handle_routeMain }) {
         </section>
         <section id='poke-deck-item'>
           <img src={poke_deck} alt='poke_deck' />
+        </section>
+        <section id='poke-battle-item'>
           <img src={poke_battle} alt='poke_battle' />
         </section>
         <section id='poke-home-item'>

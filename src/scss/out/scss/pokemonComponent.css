@@ -37,23 +37,13 @@
   .pokemon-container #pokemon-details-container {
     grid-area: pokemon-details-container;
     display: grid;
-    grid-template-areas: 'poke-demo-item' 'poke-deck-item' 'poke-home-item' 'poke-build-item';
-    grid-template-columns: repeat(2, auto);
-    grid-template-rows: repeat(5, auto);
-    grid-row-gap: 30px;
+    grid-template-areas: 'poke-demo-item poke-demo-item' 'poke-deck-item poke-battle-item' 'poke-home-item poke-home-item' 'poke-build-item poke-build-item';
+    grid-template-columns: auto auto;
+    grid-template-rows: repeat(4, auto);
+    grid-gap: 30px;
     place-items: center;
     padding: 30px;
     background-color: #0d7588; }
-    .pokemon-container #pokemon-details-container #poke-home-item {
-      grid-area: poke-home-item; }
-    .pokemon-container #pokemon-details-container #poke-build-item {
-      grid-area: poke-build-item; }
-    .pokemon-container #pokemon-details-container #poke-deck-item {
-      grid-area: poke-deck-item; }
-      .pokemon-container #pokemon-details-container #poke-deck-item img {
-        max-height: 500px; }
-      .pokemon-container #pokemon-details-container #poke-deck-item img:nth-child(1) {
-        margin-right: 30px; }
     .pokemon-container #pokemon-details-container #poke-demo-item {
       grid-area: poke-demo-item;
       display: flex;
@@ -67,8 +57,57 @@
       .pokemon-container #pokemon-details-container #poke-demo-item img {
         min-width: 600px;
         box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
+    .pokemon-container #pokemon-details-container #poke-deck-item {
+      grid-area: poke-deck-item; }
+      .pokemon-container #pokemon-details-container #poke-deck-item img {
+        max-height: 500px;
+        max-width: 500px;
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
+    .pokemon-container #pokemon-details-container #poke-battle-item {
+      grid-area: poke-battle-item; }
+      .pokemon-container #pokemon-details-container #poke-battle-item img {
+        max-height: 500px;
+        max-width: 800px;
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
+    .pokemon-container #pokemon-details-container #poke-home-item {
+      grid-area: poke-home-item; }
+    .pokemon-container #pokemon-details-container #poke-build-item {
+      grid-area: poke-build-item; }
     .pokemon-container #pokemon-details-container #poke-home-item img,
     .pokemon-container #pokemon-details-container #poke-build-item img {
       max-height: 900px;
       max-width: 900px;
       box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
+
+@media (max-width: 800px) {
+  .pokemon-container {
+    grid-template-areas: 'headerNavComp' 'pokemon-bio-item' 'pokemon-details-container';
+    grid-template-rows: 65px auto auto; }
+    .pokemon-container .headerNav-container {
+      grid-template-columns: auto auto auto; }
+      .pokemon-container .headerNav-container div {
+        display: none; }
+    .pokemon-container #pokemon-bio-item article p:nth-child(3),
+    .pokemon-container #pokemon-bio-item article :nth-child(4) {
+      display: none; }
+    .pokemon-container #pokemon-bio-item span .ui.tag.label,
+    .pokemon-container #pokemon-bio-item span .ui.tag.labels .label {
+      display: none; }
+    .pokemon-container #pokemon-details-container {
+      grid-template-areas: 'poke-demo-item' 'poke-deck-item' 'poke-battle-item' 'poke-home-item' 'poke-build-item';
+      grid-template-columns: auto;
+      grid-template-rows: repeat(5, auto); }
+      .pokemon-container #pokemon-details-container #poke-demo-item p,
+      .pokemon-container #pokemon-details-container #poke-deck-item p,
+      .pokemon-container #pokemon-details-container #poke-battle-item p,
+      .pokemon-container #pokemon-details-container #poke-home-item p,
+      .pokemon-container #pokemon-details-container #poke-build-item p {
+        display: none; }
+      .pokemon-container #pokemon-details-container #poke-demo-item img,
+      .pokemon-container #pokemon-details-container #poke-deck-item img,
+      .pokemon-container #pokemon-details-container #poke-battle-item img,
+      .pokemon-container #pokemon-details-container #poke-home-item img,
+      .pokemon-container #pokemon-details-container #poke-build-item img {
+        max-height: 500px;
+        max-width: 100%;
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); } }

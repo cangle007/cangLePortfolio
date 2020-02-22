@@ -57,34 +57,16 @@
     grid-area: pokemon-details-container;
     display: grid;
     grid-template-areas:
-      'poke-demo-item'
-      'poke-deck-item'
-      'poke-home-item'
-      'poke-build-item';
-    grid-template-columns: repeat(2, auto);
-    grid-template-rows: repeat(5, auto);
-    grid-row-gap: 30px;
+      'poke-demo-item poke-demo-item'
+      'poke-deck-item poke-battle-item'
+      'poke-home-item poke-home-item'
+      'poke-build-item poke-build-item';
+    grid-template-columns: auto auto;
+    grid-template-rows: repeat(4, auto);
+    grid-gap: 30px;
     place-items: center;
     padding: 30px;
     background-color: lighten(#0b6171, 5%);
-
-    #poke-home-item {
-      grid-area: poke-home-item;
-    }
-
-    #poke-build-item {
-      grid-area: poke-build-item;
-    }
-
-    #poke-deck-item {
-      grid-area: poke-deck-item;
-      img {
-        max-height: 500px;
-      }
-      img:nth-child(1) {
-        margin-right: 30px;
-      }
-    }
 
     #poke-demo-item {
       grid-area: poke-demo-item;
@@ -104,12 +86,98 @@
       }
     }
 
+    #poke-deck-item {
+      grid-area: poke-deck-item;
+      img {
+        max-height: 500px;
+        max-width: 500px;
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+      }
+    }
+
+    #poke-battle-item {
+      grid-area: poke-battle-item;
+      img {
+        max-height: 500px;
+        max-width: 800px;
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+      }
+    }
+
+    #poke-home-item {
+      grid-area: poke-home-item;
+    }
+
+    #poke-build-item {
+      grid-area: poke-build-item;
+    }
+
     #poke-home-item,
     #poke-build-item {
       img {
         max-height: 900px;
         max-width: 900px;
         box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+      }
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .pokemon-container {
+    grid-template-areas:
+      'headerNavComp'
+      'pokemon-bio-item'
+      'pokemon-details-container';
+    grid-template-rows: 65px auto auto;
+
+    .headerNav-container {
+      grid-template-columns: auto auto auto;
+      div {
+        display: none;
+      }
+    }
+
+    #pokemon-bio-item {
+      article {
+        p:nth-child(3),
+        :nth-child(4) {
+          display: none;
+        }
+      }
+
+      span {
+        .ui.tag.label,
+        .ui.tag.labels .label {
+          display: none;
+        }
+      }
+    }
+
+    #pokemon-details-container {
+      grid-template-areas:
+        'poke-demo-item'
+        'poke-deck-item'
+        'poke-battle-item'
+        'poke-home-item'
+        'poke-build-item';
+      grid-template-columns: auto;
+      grid-template-rows: repeat(5, auto);
+
+      #poke-demo-item,
+      #poke-deck-item,
+      #poke-battle-item,
+      #poke-home-item,
+      #poke-build-item {
+        p {
+          display: none;
+        }
+
+        img {
+          max-height: 500px;
+          max-width: 100%;
+          box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+        }
       }
     }
   }

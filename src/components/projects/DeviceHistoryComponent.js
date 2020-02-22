@@ -25,21 +25,24 @@ export default function DeviceHistoryComponent({ handle_routeMain }) {
             and filter devices’ data for their entire lifespan.
           </p>
         </article>
-        <Label as='a' tag>
-          React-Redux
-        </Label>
-        <Label as='a' tag>
-          CSS-Grid
-        </Label>
-        <Label as='a' tag>
-          Sass/Scss
-        </Label>
-        <Label as='a' tag>
-          UI/UX Design
-        </Label>
-        <Label as='a' tag>
-          Front-End Development
-        </Label>
+
+        <span>
+          <Label as='a' tag>
+            React-Redux
+          </Label>
+          <Label as='a' tag>
+            CSS-Grid
+          </Label>
+          <Label as='a' tag>
+            Sass/Scss
+          </Label>
+          <Label as='a' tag>
+            UI/UX Design
+          </Label>
+          <Label as='a' tag>
+            Front-End Development
+          </Label>
+        </span>
       </div>
 
       <div id='devHistory-details-container'>

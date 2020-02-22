@@ -25,12 +25,14 @@ export default function ResponsiveComponent({ handle_routeMain }) {
           </p>
         </article>
 
-        <Label as='a' tag>
-          Front-End Development
-        </Label>
-        <Label as='a' tag>
-          CSS-Grid
-        </Label>
+        <span>
+          <Label as='a' tag>
+            Front-End Development
+          </Label>
+          <Label as='a' tag>
+            CSS-Grid
+          </Label>
+        </span>
       </div>
 
       <div id='responsive-details-container'>

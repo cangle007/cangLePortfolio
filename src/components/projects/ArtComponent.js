@@ -24,15 +24,17 @@ export default function ArtComponent({ handle_routeMain, handle_openArtAcademy }
           </div>
         </article>
 
-        <Label as='a' tag>
-          HTML/CSS
-        </Label>
-        <Label as='a' tag>
-          Vanilla Javascript
-        </Label>
-        <Label as='a' tag>
-          Front-End Development
-        </Label>
+        <span>
+          <Label as='a' tag>
+            HTML/CSS
+          </Label>
+          <Label as='a' tag>
+            Vanilla Javascript
+          </Label>
+          <Label as='a' tag>
+            Front-End Development
+          </Label>
+        </span>
       </div>
 
       <div id='art-details-item'>

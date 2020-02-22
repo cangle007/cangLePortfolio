@@ -26,11 +26,6 @@ export default function MyBioComponent({ handle_openTabGithub, handle_openTabLin
         <p>2 years of spearheading medium-scale projects from scratch at an early-stage tech startup environment.</p>
 
         <p>
-          Fortune 500 companies such as Home Depot & Kenmore are using my software design for data mining to improve
-          their product functionality.
-        </p>
-
-        <p>
           When I am not coding I train at the gym to shape up for the Ironman Triathlon, and occasionally skydive. I
           believe in having an efficient workflow and constantly work toward the inbox zero.
         </p>

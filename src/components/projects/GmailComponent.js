@@ -18,21 +18,23 @@ export default function GmailComponent({ handle_routeMain }) {
           </p>
         </article>
 
-        <Label as='a' tag>
-          Front-End Development
-        </Label>
-        <Label as='a' tag>
-          Back-End Development
-        </Label>
-        <Label as='a' tag>
-          React
-        </Label>
-        <Label as='a' tag>
-          Materialize CSS
-        </Label>
-        <Label as='a' tag>
-          Airtable
-        </Label>
+        <span>
+          <Label as='a' tag>
+            Front-End Development
+          </Label>
+          <Label as='a' tag>
+            Back-End Development
+          </Label>
+          <Label as='a' tag>
+            React
+          </Label>
+          <Label as='a' tag>
+            Materialize CSS
+          </Label>
+          <Label as='a' tag>
+            Airtable
+          </Label>
+        </span>
       </div>
 
       <div id='gmail-details-item'>
