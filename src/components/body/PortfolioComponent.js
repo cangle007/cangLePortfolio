@@ -89,7 +89,7 @@ export default function PortfolioComponent({ display_work, handle_routeDisplayWo
         <img id='respGrid-logo' src={respGridLogo} alt='respGridlogo' />
         <section className='card-text'>
           <span>RESPONSIVE-GRID</span>
-          <p>responsive Website with CSS-Grid</p>
+          <p>responsive with css-grid system</p>
         </section>
       </div>
 
@@ -117,7 +117,7 @@ export default function PortfolioComponent({ display_work, handle_routeDisplayWo
         <img id='artAcademy-logo' src={artAcademyLogo} alt='artAcademylogo' />
         <section className='card-text'>
           <span>ART-ACADEMY</span>
-          <p>pixel-Art with raw CSS & HTML</p>
+          <p>pixel-Art with vanilla JavaScriptL</p>
         </section>
       </div>
 

@@ -13,7 +13,7 @@ export default function ResponsiveComponent({ handle_routeMain }) {
       <div id='responsive-bio-item'>
         <article>
           <h1>RESPONSIVE WEB</h1>
-          <p>website displaying css-grid system</p>
+          <p>responsive with css-grid system</p>
           <p>
             This is a responsive website constructed using CSS-Grid, compatible with desktops, tablets, and mobile
             phones.

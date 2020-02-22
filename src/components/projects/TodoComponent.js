@@ -11,7 +11,7 @@ export default function TodoComponent({ handle_routeMain }) {
       <div id='todo-bio-item'>
         <article>
           <h1>To-Do's</h1>
-          <p>mock-up for mobile phone</p>
+          <p>mock-up for mobile app</p>
           <p>A CRUD application where users can input their chores that need to be done.</p>
         </article>
 

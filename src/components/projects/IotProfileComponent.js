@@ -15,8 +15,8 @@ export default function IotProfileComponent({ handle_routeMain }) {
           <h1>IOT PROFILE</h1>
           <p>mock-up for mobile app.</p>
           <p>
-            This was a mock-up version of Afero Mobile SDKS, it outlines how a user creates an account, manages and
-            interacts with their devices, and how they connect to Afero's softhub and Wi-Fi
+            A mock-up version of Afero Mobile SDKS, it outlines how a user creates an account, manages and interacts
+            with their devices, and how they connect to Afero's softhub and Wi-Fi
           </p>
         </article>
 
@@ -32,12 +32,12 @@ export default function IotProfileComponent({ handle_routeMain }) {
       </div>
 
       <div id='iot-details-container'>
-        <section id='iot-static-item'>
-          <img src={iotprofile_cells} alt='iotprofile_cells' />
-        </section>
-
         <section id='iot-demo-item'>
           <img src={iotdemo} alt='iotdemo' />
+        </section>
+
+        <section id='iot-static-item'>
+          <img src={iotprofile_cells} alt='iotprofile_cells' />
         </section>
       </div>
     </div>

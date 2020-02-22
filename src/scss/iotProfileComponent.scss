@@ -5,7 +5,7 @@
     'iot-bio-item'
     'iot-details-container';
   grid-template-columns: auto;
-  grid-template-rows: 65px auto auto auto;
+  grid-template-rows: 65px auto auto;
 
   #headerNavComp {
     grid-area: headerNavComp;
@@ -16,8 +16,8 @@
     font-family: 'ff-tisa-web-pro', Palatino, ' Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
     font-size: 18px;
     text-align: center;
-    padding: 0 100px;
     margin: 50px 30px;
+    padding: 0 100px;
 
     article {
       h1 {
@@ -27,12 +27,10 @@
         font-weight: bold;
         font-family: 'din-condensed-web', 'Trebuchet MS', 'Arial Narrow', Arial, sans-serif;
       }
-
       p:nth-child(2) {
         letter-spacing: 2px;
         font-size: 20px;
       }
-
       p:nth-child(3) {
         text-align: justify;
         text-justify: inter-word;
@@ -44,13 +42,14 @@
     grid-area: iot-details-container;
     display: grid;
     grid-template-areas:
-      'iot-static-item'
-      'iot-demo-item';
-    background-color: lighten(#0b6171, 5%);
+      'iot-demo-item'
+      'iot-static-item';
     grid-template-columns: auto;
     grid-template-rows: auto;
+    grid-row-gap: 30px;
     place-items: center;
     padding: 30px;
+    background-color: lighten(#0b6171, 5%);
 
     #iot-static-item {
       grid-area: iot-static-item;
@@ -60,8 +59,6 @@
     }
 
     section {
-      padding-bottom: 30px;
-
       img {
         max-height: 400px;
         box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
