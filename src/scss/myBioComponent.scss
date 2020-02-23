@@ -1,12 +1,12 @@
 .myBio-container {
   display: grid;
-  grid-column-gap: 30px;
-  grid-template-columns: 1fr auto;
   grid-template-areas:
     'myBio-item resume-item'
     'myBio-item linkedin-item'
     'myBio-item github-item'
     'expertise-container expertise-container';
+  grid-template-columns: 1fr auto;
+  grid-column-gap: 30px;
   margin: 0 80px;
 
   #myBio-item {
@@ -29,17 +29,17 @@
 
   #resume-item {
     grid-area: resume-item;
-    justify-self: center;
+    align-self: end;
   }
 
   #linkedin-item {
     grid-area: linkedin-item;
-    justify-self: center;
+    place-self: center;
   }
 
   #github-item {
     grid-area: github-item;
-    justify-self: center;
+    align-self: start;
   }
 
   #resume-item,
@@ -80,7 +80,7 @@
   text-align: center;
   font-size: 18px;
   letter-spacing: 2px;
-  margin-top: 60px;
+  margin-top: 50px;
 
   i.icon {
     font-size: 30px;
