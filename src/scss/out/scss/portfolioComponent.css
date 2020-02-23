@@ -1,7 +1,7 @@
 .portfolio-container {
   display: grid;
   grid-template-areas: 'professional-title-item professional-title-item professional-title-item' 'inspector-item inspector-item deviceHistory-item' '. iotProfile-item iotProfile-item' 'personal-title-item personal-title-item personal-title-item' 'pokemonBattleArea-item pokemonBattleArea-item responsiveGrid-item' 'gmailClone-item artAcademy-item toDos-item';
-  grid-template-columns: repeat(3, auto);
+  grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 150px 200px 200px 150px 200px 200px;
   grid-gap: 20px;
   padding: 0 80px 50px;
@@ -25,21 +25,21 @@
   .portfolio-container #inspector-item {
     grid-area: inspector-item;
     display: flex;
-    position: relative;
     align-items: center;
+    position: relative;
     background-color: black;
     cursor: pointer; }
     .portfolio-container #inspector-item #inspector-logo {
       position: relative;
+      left: 10%;
       max-width: 100%;
       max-height: 100%;
-      left: 10%;
       transform: translateX(-10%); }
   .portfolio-container #deviceHistory-item {
     grid-area: deviceHistory-item;
     display: flex;
-    position: relative;
     align-items: center;
+    position: relative;
     place-content: center;
     background-color: black;
     cursor: pointer;
@@ -51,73 +51,77 @@
   .portfolio-container #iotProfile-item {
     grid-area: iotProfile-item;
     display: flex;
-    position: relative;
     align-items: center;
+    position: relative;
     background-color: black;
     cursor: pointer; }
     .portfolio-container #iotProfile-item img {
-      max-width: 100%;
-      max-height: 100%;
       position: relative;
       left: 90%;
+      max-width: 100%;
+      max-height: 100%;
       transform: translateX(-90%); }
   .portfolio-container #pokemonBattleArea-item {
     grid-area: pokemonBattleArea-item;
     display: flex;
-    position: relative;
     align-items: center;
+    position: relative;
     background-color: black;
     cursor: pointer; }
     .portfolio-container #pokemonBattleArea-item img {
       position: relative;
       left: 10%;
+      max-width: 70%;
+      max-height: 70%;
       transform: translateX(-10%); }
   .portfolio-container #responsiveGrid-item {
     grid-area: responsiveGrid-item;
     display: flex;
-    position: relative;
     align-items: center;
     place-content: center;
+    position: relative;
     background-color: black;
     cursor: pointer; }
     .portfolio-container #responsiveGrid-item img {
       position: relative;
-      max-width: 75%;
-      min-width: 75%; }
+      max-width: 90%;
+      max-height: 90%; }
   .portfolio-container #gmailClone-item {
     grid-area: gmailClone-item;
     display: flex;
-    position: relative;
     align-items: center;
     place-content: center;
+    position: relative;
     background-color: black;
     cursor: pointer; }
     .portfolio-container #gmailClone-item img {
       position: relative;
-      max-width: 40%; }
+      max-width: 60%;
+      max-height: 60%; }
   .portfolio-container #artAcademy-item {
     grid-area: artAcademy-item;
     display: flex;
-    position: relative;
     align-items: center;
     place-content: center;
+    position: relative;
     background-color: black;
     cursor: pointer; }
     .portfolio-container #artAcademy-item img {
       position: relative;
-      max-width: 50%;
-      min-width: 50%; }
+      max-width: 60%;
+      max-height: 60%; }
   .portfolio-container #toDos-item {
     grid-area: toDos-item;
     display: flex;
-    position: relative;
     align-items: center;
     place-content: center;
+    position: relative;
     background-color: black;
     cursor: pointer; }
     .portfolio-container #toDos-item img {
       position: relative;
-      max-width: 100%; }
+      max-width: 200%;
+      max-height: 200%; }
   .portfolio-container .card-text {
     position: absolute;
     font-family: 'ff-tisa-web-pro', Palatino, ' Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
@@ -285,7 +289,7 @@
 @media (max-width: 1000px) {
   .portfolio-container {
     grid-template-areas: 'professional-title-item' 'inspector-item' 'deviceHistory-item' 'iotProfile-item' 'personal-title-item' 'pokemonBattleArea-item' 'responsiveGrid-item' 'gmailClone-item' 'artAcademy-item' 'toDos-item';
-    grid-template-columns: auto;
+    grid-template-columns: 1fr;
     grid-template-rows: repeat(10, 250px);
     place-content: center; }
     .portfolio-container #deviceHistory-item,
@@ -365,7 +369,7 @@
         transform: translateX(0); }
   .main-container {
     grid-template-areas: 'bannerComp' 'myBioComp' 'portfolioComp' 'inquiryComp';
-    grid-template-columns: auto;
+    grid-template-columns: 1fr;
     grid-template-rows: repeact(4, auto);
     place-content: center; }
     .main-container #sidebarComp {
