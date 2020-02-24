@@ -7,9 +7,9 @@
     grid-area: headerNavComp; }
   .responsive-container #responsive-bio-item,
   .responsive-container #responsive-details-container {
-    font-size: 18px;
     text-align: center;
-    font-family: 'ff-tisa-web-pro', Palatino, ' Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif; }
+    font-size: 18px;
+    font-family: "ff-tisa-web-pro", Palatino, " Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif; }
   .responsive-container #responsive-header-item {
     grid-area: responsive-header-item;
     background: url(../../../images/cssGrid_banner.png);

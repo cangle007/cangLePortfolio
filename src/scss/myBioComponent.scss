@@ -1,3 +1,6 @@
+$myBio-font: 'ff-tisa-web-pro', Palatino, ' Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
+$myBio-fontSize: 18px;
+
 .myBio-container {
   display: grid;
   grid-template-areas:
@@ -15,8 +18,8 @@
     text-align: justify;
     text-justify: inter-word;
     letter-spacing: 0.2px;
-    font-size: 18px;
-    font-family: 'ff-tisa-web-pro', Palatino, ' Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
+    font-size: $myBio-fontSize;
+    font-family: $myBio-font;
 
     ul > li {
       margin: 0 0 5px 0;
@@ -54,17 +57,14 @@
       font-size: 30px;
       line-height: 1em;
     }
-
     p {
-      font-size: 20px;
       letter-spacing: 2px;
-      font-family: 'ff-tisa-web-pro', Palatino, ' Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
+      font-size: $myBio-fontSize;
+      font-family: $myBio-font;
     }
-
     a {
       color: rgb(204, 51, 51);
     }
-
     :hover {
       color: black;
     }

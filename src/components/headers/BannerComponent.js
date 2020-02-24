@@ -5,7 +5,7 @@ export default function BannerComponent() {
   return (
     <div className='banner-container'>
       <div id='banner-img-item'>
-        <img src={cang01} alt='Cang-headshot' />
+        <img src={cang01} alt='cang-headshot' />
       </div>
       <div id='myTitle-item'>
         <h1>CANG LE</h1>

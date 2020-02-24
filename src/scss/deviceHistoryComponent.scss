@@ -1,3 +1,9 @@
+$dev-p-font: 'ff-tisa-web-pro', Palatino, ' Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
+$dev-h1-fontSize: 30px;
+$dev-p-fontSize: 18px;
+$dev-backgroundColor: lighten(#0b6171, 5%);
+$dev-boxShadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+
 .devHistory-container {
   display: grid;
   grid-template-areas:
@@ -13,8 +19,8 @@
 
   #devHistory-bio-item {
     grid-area: devHistory-bio-item;
-    font-family: 'ff-tisa-web-pro', Palatino, ' Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
-    font-size: 18px;
+    font-family: $dev-p-font;
+    font-size: $dev-p-fontSize;
     text-align: center;
     padding: 0 100px;
     margin: 50px 30px;
@@ -23,7 +29,7 @@
       h1 {
         margin: 0.5em 0 0.5em;
         line-height: 1em;
-        font-size: 30px;
+        font-size: $dev-h1-fontSize;
       }
       p:nth-child(2) {
         letter-spacing: 2px;
@@ -46,7 +52,7 @@
     grid-gap: 30px;
     place-items: center;
     padding: 30px;
-    background-color: lighten(#0b6171, 5%);
+    background-color: $dev-backgroundColor;
 
     #historyDev-query-item {
       grid-area: historyDev-query-item;
@@ -64,14 +70,14 @@
     section:nth-child(1) {
       img {
         max-height: 450px;
-        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+        box-shadow: $dev-boxShadow;
       }
     }
     section:nth-child(2),
     section:nth-child(3) {
       img {
         max-height: 150px;
-        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+        box-shadow: $dev-boxShadow;
       }
     }
   }

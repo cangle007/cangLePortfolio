@@ -5,6 +5,7 @@
     'gmail-bio-item'
     'gmail-details-item';
   grid-template-columns: auto;
+  grid-template-rows: 65px auto auto;
 
   #headerNavComp {
     grid-area: headerNavComp;
@@ -42,11 +43,11 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      background-color: lighten(#0b6171, 5%);
       color: white;
       text-align: justify;
       text-justify: inter-word;
       padding: 30px;
+      background-color: lighten(#0b6171, 5%);
 
       img {
         width: 1000px;

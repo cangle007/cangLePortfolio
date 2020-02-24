@@ -1,3 +1,10 @@
+$responsive-p-font: 'ff-tisa-web-pro', Palatino, ' Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
+$responsive-h1-fontSize: 30px;
+$responsive-p-fontSize: 18px;
+$responsive-background: url(../../../images/cssGrid_banner.png);
+$responsive-backgroundColor: lighten(#0b6171, 5%);
+$responsive-boxShadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+
 .responsive-container {
   display: grid;
   grid-template-areas:
@@ -14,14 +21,14 @@
 
   #responsive-bio-item,
   #responsive-details-container {
-    font-size: 18px;
     text-align: center;
-    font-family: 'ff-tisa-web-pro', Palatino, ' Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
+    font-size: $responsive-p-fontSize;
+    font-family: $responsive-p-font;
   }
 
   #responsive-header-item {
     grid-area: responsive-header-item;
-    background: url(../../../images/cssGrid_banner.png);
+    background: $responsive-background;
     background-size: cover;
     background-position: center;
     max-height: 480px;
@@ -38,7 +45,7 @@
       h1 {
         margin: 0.5em 0 0.5em;
         line-height: 1em;
-        font-size: 30px;
+        font-size: $responsive-h1-fontSize;
       }
       p:nth-child(2) {
         letter-spacing: 2px;
@@ -61,7 +68,7 @@
     grid-row-gap: 30px;
     place-items: center;
     padding: 30px;
-    background-color: lighten(#0b6171, 5%);
+    background-color: $responsive-backgroundColor;
 
     #reponsive-txt-item {
       grid-area: reponsive-txt-item;
@@ -75,9 +82,10 @@
       p {
         padding: 0 100px;
       }
+
       img {
         min-width: 600px;
-        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+        box-shadow: $responsive-boxShadow;
       }
     }
 
@@ -87,7 +95,7 @@
       img {
         max-height: 900px;
         max-width: 900px;
-        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+        box-shadow: $responsive-boxShadow;
       }
     }
   }

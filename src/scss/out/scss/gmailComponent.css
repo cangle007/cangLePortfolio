@@ -1,7 +1,8 @@
 .gmail-container {
   display: grid;
   grid-template-areas: 'headerNavComp' 'gmail-bio-item' 'gmail-details-item';
-  grid-template-columns: auto; }
+  grid-template-columns: auto;
+  grid-template-rows: 65px auto auto; }
   .gmail-container #headerNavComp {
     grid-area: headerNavComp; }
   .gmail-container #gmail-bio-item {
@@ -27,11 +28,11 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      background-color: #0d7588;
       color: white;
       text-align: justify;
       text-justify: inter-word;
-      padding: 30px; }
+      padding: 30px;
+      background-color: #0d7588; }
       .gmail-container #gmail-details-item section img {
         width: 1000px;
         box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }

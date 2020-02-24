@@ -7,9 +7,9 @@
     grid-area: headerNavComp; }
   .inspector-container #inspector-bio-item,
   .inspector-container #inspector-details-container {
-    font-size: 18px;
     text-align: center;
-    font-family: 'ff-tisa-web-pro', Palatino, ' Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif; }
+    font-size: 18px;
+    font-family: "ff-tisa-web-pro", Palatino, " Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif; }
   .inspector-container #inspector-header-item {
     grid-area: inspector-header-item;
     background: url(../../../images/inspector_header.png);
@@ -24,7 +24,8 @@
     .inspector-container #inspector-bio-item article h1 {
       margin: 0.5em 0 0.5em;
       line-height: 1em;
-      font-size: 30px; }
+      font-size: 30px;
+      font-family: "din-condensed-web", "Trebuchet MS", "Arial Narrow", Arial, sans-serif; }
     .inspector-container #inspector-bio-item article p:nth-child(2) {
       letter-spacing: 2px; }
     .inspector-container #inspector-bio-item article p:nth-child(3) {
@@ -36,6 +37,7 @@
     grid-template-areas: 'inspector-homeTxt-item inspector-homeImg-item' 'inspector-mainImg-item inspector-mainImg-item' 'inspector-mainTxt-item inspector-mainTxt-item';
     background-color: #0d7588;
     grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(3, auto);
     grid-row-gap: 30px;
     padding: 30px; }
     .inspector-container #inspector-details-container #inspector-homeTxt-item {
@@ -61,7 +63,3 @@
       .inspector-container #inspector-details-container #inspector-homeImg-item img {
         max-height: 600px;
         box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
-
-.ui.label {
-  margin: 20px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24); }

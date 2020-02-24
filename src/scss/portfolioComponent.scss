@@ -1,3 +1,9 @@
+$portfolio-font: 'ff-tisa-web-pro', Palatino, ' Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
+$portfolio-h1-fontSize: 30px;
+$portfolio-p-fontSize: 18px;
+$card-span-fontSize: 22px;
+$card-p-fontSize: 18px;
+
 .portfolio-container {
   display: grid;
   grid-template-areas:
@@ -18,12 +24,12 @@
     h1 {
       margin: 0.5em 0 0.5em;
       line-height: 1em;
-      font-size: 30px;
+      font-size: $portfolio-h1-fontSize;
     }
     p {
       letter-spacing: 2px;
-      font-size: 18px;
-      font-family: 'ff-tisa-web-pro', Palatino, ' Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
+      font-size: $portfolio-p-fontSize;
+      font-family: $portfolio-font;
     }
   }
 
@@ -171,23 +177,23 @@
 
   .card-text {
     position: absolute;
-    font-family: 'ff-tisa-web-pro', Palatino, ' Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: $portfolio-font;
     letter-spacing: 1px;
     color: white;
     text-align: center;
-    width: 100%;
     word-wrap: break-word;
-    left: 50%;
-    transform: translateX(-50%);
+    width: 100%;
     opacity: 0; //subject to change for dev, 0
     transition: opacity ease-out 250ms;
 
     span {
-      font-size: 22px;
+      font-size: $card-span-fontSize;
       font-weight: bold;
     }
     p {
-      font-size: 17px;
+      font-size: $card-p-fontSize;
     }
   }
 
@@ -208,7 +214,7 @@
       bottom: 0.7em;
       left: 0.7em;
       right: 0.7em;
-      opacity: 1; //subject to change
+      opacity: 1; //subject to change, 1
       transition: transform ease-out 250ms;
     }
 
@@ -297,11 +303,9 @@
     grid-template-areas:
       'bannerComp'
       'myBioComp'
-      'portfolioComp'
-      'inquiryComp';
-
+      'portfolioComp';
     grid-template-columns: 1fr;
-    grid-template-rows: repeact(4, auto);
+    grid-template-rows: repeat(3, auto);
     place-content: center;
 
     #sidebarComp {

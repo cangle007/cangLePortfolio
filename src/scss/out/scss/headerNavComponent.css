@@ -1,15 +1,17 @@
 .headerNav-container {
   display: grid;
-  grid-template-columns: 1fr 150px 150px 150px;
+  grid-template-columns: auto 150px 150px 150px;
+  position: fixed;
+  width: 100%;
   z-index: 1; }
   .headerNav-container a {
     place-self: center;
     padding: 10px;
     text-align: center;
-    font-size: 18px;
     font-weight: bold;
-    color: black;
-    font-family: 'din-condensed-web', 'Trebuchet MS', 'Arial Narrow', Arial, sans-serif; }
+    font-size: 18px;
+    font-family: "din-condensed-web", "Trebuchet MS", "Arial Narrow", Arial, sans-serif;
+    color: black; }
     .headerNav-container a p {
       display: inline-block;
       margin: 10px; }
@@ -18,8 +20,6 @@
       cursor: pointer; }
 
 #headerNav-fixed {
-  position: fixed;
-  width: 100%;
   background-color: whitesmoke;
   transition: ease-in 0.6s;
   opacity: 0.9;
@@ -32,3 +32,9 @@
     #headerNav-fixed a:hover {
       color: black;
       cursor: pointer; }
+
+@media (max-width: 800px) {
+  .headerNav-container {
+    grid-template-columns: auto auto auto; }
+    .headerNav-container div {
+      display: none; } }

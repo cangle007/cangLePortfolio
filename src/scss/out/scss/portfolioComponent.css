@@ -15,7 +15,7 @@
     .portfolio-container .portfolio-title p {
       letter-spacing: 2px;
       font-size: 18px;
-      font-family: 'ff-tisa-web-pro', Palatino, ' Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif; }
+      font-family: "ff-tisa-web-pro", Palatino, " Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif; }
   .portfolio-container #professional-title-item {
     grid-area: professional-title-item;
     place-self: center; }
@@ -124,21 +124,21 @@
       max-height: 200%; }
   .portfolio-container .card-text {
     position: absolute;
-    font-family: 'ff-tisa-web-pro', Palatino, ' Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: "ff-tisa-web-pro", Palatino, " Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
     letter-spacing: 1px;
     color: white;
     text-align: center;
-    width: 100%;
     word-wrap: break-word;
-    left: 50%;
-    transform: translateX(-50%);
+    width: 100%;
     opacity: 0;
     transition: opacity ease-out 250ms; }
     .portfolio-container .card-text span {
       font-size: 22px;
       font-weight: bold; }
     .portfolio-container .card-text p {
-      font-size: 17px; }
+      font-size: 18px; }
   .portfolio-container #deviceHistory-item::before, .portfolio-container #deviceHistory-item::after,
   .portfolio-container #inspector-item::before,
   .portfolio-container #inspector-item::after,
@@ -368,9 +368,9 @@
         left: 0;
         transform: translateX(0); }
   .main-container {
-    grid-template-areas: 'bannerComp' 'myBioComp' 'portfolioComp' 'inquiryComp';
+    grid-template-areas: 'bannerComp' 'myBioComp' 'portfolioComp';
     grid-template-columns: 1fr;
-    grid-template-rows: repeact(4, auto);
+    grid-template-rows: repeat(3, auto);
     place-content: center; }
     .main-container #sidebarComp {
       display: none; } }

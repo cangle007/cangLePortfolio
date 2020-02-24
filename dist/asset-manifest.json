@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.41232dbd.chunk.css",
+    "main.css": "/static/css/main.936a6849.chunk.css",
     "main.js": "/static/js/main.c3aa6d85.chunk.js",
     "runtime-main.js": "/static/js/runtime-main.a7444c66.js",
     "static/js/2.a9a010cb.chunk.js": "/static/js/2.a9a010cb.chunk.js",
     "index.html": "/index.html",
-    "precache-manifest.d9bd0affa501382abeae5f6446c3e07f.js": "/precache-manifest.d9bd0affa501382abeae5f6446c3e07f.js",
+    "precache-manifest.5bb17e7e8114dadc9c3b97b719a48ab4.js": "/precache-manifest.5bb17e7e8114dadc9c3b97b719a48ab4.js",
     "service-worker.js": "/service-worker.js",
     "static/js/2.a9a010cb.chunk.js.LICENSE": "/static/js/2.a9a010cb.chunk.js.LICENSE",
     "static/media/af-device-history-logo.svg": "/static/media/af-device-history-logo.1f294d84.svg",
@@ -42,7 +42,7 @@
   "entrypoints": [
     "static/js/runtime-main.a7444c66.js",
     "static/js/2.a9a010cb.chunk.js",
-    "static/css/main.41232dbd.chunk.css",
+    "static/css/main.936a6849.chunk.css",
     "static/js/main.c3aa6d85.chunk.js"
   ]
 }

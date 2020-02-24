@@ -7,7 +7,7 @@
     grid-area: headerNavComp; }
   .art-container #art-bio-item {
     grid-area: art-bio-item;
-    font-family: 'ff-tisa-web-pro', Palatino, ' Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
+    font-family: "ff-tisa-web-pro", Palatino, " Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
     place-self: center;
     font-size: 18px;
     text-align: center;
@@ -18,7 +18,7 @@
       line-height: 1em;
       font-size: 30px;
       font-weight: bold;
-      font-family: 'din-condensed-web', 'Trebuchet MS', 'Arial Narrow', Arial, sans-serif; }
+      font-family: "din-condensed-web", "Trebuchet MS", "Arial Narrow", Arial, sans-serif; }
     .art-container #art-bio-item article p:nth-child(2) {
       letter-spacing: 2px;
       font-size: 20px; }

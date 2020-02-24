@@ -1,3 +1,11 @@
+$inspector-p-font: 'ff-tisa-web-pro', Palatino, ' Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
+$inspector-h1-fontSize: 30px;
+$inspector-h1-font: 'din-condensed-web', 'Trebuchet MS', 'Arial Narrow', Arial, sans-serif;
+$inspector-p-fontSize: 18px;
+$inspector-backgroundColor: lighten(#0b6171, 5%);
+$inspector-boxShadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+$inspector-background: url(../../../images/inspector_header.png);
+
 .inspector-container {
   display: grid;
   grid-template-areas:
@@ -14,14 +22,14 @@
 
   #inspector-bio-item,
   #inspector-details-container {
-    font-size: 18px;
     text-align: center;
-    font-family: 'ff-tisa-web-pro', Palatino, ' Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
+    font-size: $inspector-p-fontSize;
+    font-family: $inspector-p-font;
   }
 
   #inspector-header-item {
     grid-area: inspector-header-item;
-    background: url(../../../images/inspector_header.png);
+    background: $inspector-background;
     background-size: cover;
     background-position: center;
     max-height: 500px;
@@ -37,7 +45,8 @@
       h1 {
         margin: 0.5em 0 0.5em;
         line-height: 1em;
-        font-size: 30px;
+        font-size: $inspector-h1-fontSize;
+        font-family: $inspector-h1-font;
       }
       p:nth-child(2) {
         letter-spacing: 2px;
@@ -56,8 +65,9 @@
       'inspector-homeTxt-item inspector-homeImg-item'
       'inspector-mainImg-item inspector-mainImg-item'
       'inspector-mainTxt-item inspector-mainTxt-item';
-    background-color: lighten(#0b6171, 5%);
+    background-color: $inspector-backgroundColor;
     grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(3, auto);
     grid-row-gap: 30px;
     padding: 30px;
 
@@ -93,13 +103,13 @@
 
       img {
         max-height: 600px;
-        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+        box-shadow: $inspector-boxShadow;
       }
     }
   }
 }
 
-.ui.label {
-  margin: 20px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-}
+// .ui.tag.label {
+//   margin: 20px;
+//   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+// }

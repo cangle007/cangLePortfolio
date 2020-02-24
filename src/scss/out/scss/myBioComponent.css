@@ -11,7 +11,7 @@
     text-justify: inter-word;
     letter-spacing: 0.2px;
     font-size: 18px;
-    font-family: 'ff-tisa-web-pro', Palatino, ' Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif; }
+    font-family: "ff-tisa-web-pro", Palatino, " Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif; }
     .myBio-container #myBio-item ul > li {
       margin: 0 0 5px 0; }
   .myBio-container #expertise-item {
@@ -40,9 +40,9 @@
     .myBio-container #resume-item p,
     .myBio-container #linkedin-item p,
     .myBio-container #github-item p {
-      font-size: 20px;
       letter-spacing: 2px;
-      font-family: 'ff-tisa-web-pro', Palatino, ' Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif; }
+      font-size: 18px;
+      font-family: "ff-tisa-web-pro", Palatino, " Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif; }
     .myBio-container #resume-item a,
     .myBio-container #linkedin-item a,
     .myBio-container #github-item a {

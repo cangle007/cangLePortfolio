@@ -1,3 +1,5 @@
+$sidebar-p3-font: 'ff-tisa-web-pro', Palatino, ' Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
+
 .sidebar-container {
   display: grid;
   grid-template-areas:
@@ -36,7 +38,7 @@
     p:nth-child(3) {
       font-size: 15px;
       letter-spacing: 2px;
-      font-family: 'ff-tisa-web-pro', Palatino, ' Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
+      font-family: $sidebar-p3-font;
     }
 
     &:hover {
