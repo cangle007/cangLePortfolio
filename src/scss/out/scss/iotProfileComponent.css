@@ -1,8 +1,8 @@
 .iot-container {
   display: grid;
-  grid-template-areas: 'headerNavComp' 'iot-bio-item' 'iot-details-container';
+  grid-template-areas: 'headerNavComp' 'iot-bio-item' 'iot-tech-item' 'iot-details-container';
   grid-template-columns: auto;
-  grid-template-rows: 65px auto auto; }
+  grid-template-rows: 65px auto auto auto; }
   .iot-container #headerNavComp {
     grid-area: headerNavComp; }
   .iot-container #iot-bio-item {
@@ -21,6 +21,18 @@
     .iot-container #iot-bio-item article p:nth-child(3) {
       text-align: justify;
       text-justify: inter-word; }
+  .iot-container #iot-tech-item {
+    grid-area: iot-tech-item;
+    place-self: center;
+    text-align: center;
+    font-size: 18px;
+    font-family: "ff-tisa-web-pro", Palatino, " Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+    margin: 0px 30px 40px 30px; }
+    .iot-container #iot-tech-item span {
+      padding: 0 10px; }
+      .iot-container #iot-tech-item span:hover {
+        color: black;
+        cursor: pointer; }
   .iot-container #iot-details-container {
     grid-area: iot-details-container;
     display: grid;

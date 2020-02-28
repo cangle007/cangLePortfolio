@@ -1,11 +1,11 @@
 import React from 'react';
-import { Label } from 'semantic-ui-react';
+import { Icon, Label } from 'semantic-ui-react';
 
 import iotprofile_cells from '../../images/iotprofile_cells.png';
 import iotdemo from '../../images/iotdemo.gif';
 import HeaderNavComponent from '../headers/HeaderNavComponent';
 
-export default function IotProfileComponent({ handle_routeMain }) {
+export default function IotProfileComponent({ handle_routeMain, handle_openProjectGithub }) {
   return (
     <div className='iot-container'>
       <HeaderNavComponent id='headerNavComp' handle_routeMain={handle_routeMain} />
@@ -19,8 +19,20 @@ export default function IotProfileComponent({ handle_routeMain }) {
             with their devices, and how they connect to Afero's softhub and Wi-Fi
           </p>
         </article>
+      </div>
 
-        <span>
+      <div id='iot-tech-item'>
+        <span
+          className='launch-website'
+          onClick={() => {
+            handle_openProjectGithub('userProfile-editor');
+          }}
+        >
+          LAUNCH GITHUB
+          <Icon name='external alternate' />
+        </span>
+
+        <div>
           <Label as='a' tag>
             CSS-Grid
           </Label>
@@ -30,7 +42,7 @@ export default function IotProfileComponent({ handle_routeMain }) {
           <Label as='a' tag>
             UI/UX Design
           </Label>
-        </span>
+        </div>
       </div>
 
       <div id='iot-details-container'>

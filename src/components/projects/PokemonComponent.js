@@ -26,20 +26,20 @@ export default function PokemonComponent({ handle_routeMain, handle_openProjectG
             front-end UI design with authentication to keep your Pokemon data safe.
           </p>
         </article>
+      </div>
 
-        <div
-          className='launch-github'
+      <div id='pokemon-tech-item'>
+        <span
+          className='launch-website'
           onClick={() => {
             handle_openProjectGithub('react-pokemon-frontend');
           }}
         >
-          <span>
-            LAUNCH GITHUB
-            <Icon name='external alternate' />
-          </span>
-        </div>
+          LAUNCH GITHUB
+          <Icon name='external alternate' />
+        </span>
 
-        <span>
+        <div>
           <Label as='a' tag>
             React-Redux
           </Label>
@@ -61,7 +61,7 @@ export default function PokemonComponent({ handle_routeMain, handle_openProjectG
           <Label as='a' tag>
             Back-End Development
           </Label>
-        </span>
+        </div>
       </div>
 
       <div id='pokemon-details-container'>

@@ -16,6 +16,14 @@ export default class DisplayWorkComponent extends Component {
     this.state = {};
   }
 
+  componentDidMount() {
+    window.addEventListener('scroll', this.handle_headerScroll);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('scroll', this.handle_headerScroll);
+  }
+
   handle_openProjectGithub = route => {
     var win = window.open(`https://github.com/cangle007/${route}`, '_blank');
     win.focus();
@@ -30,14 +38,6 @@ export default class DisplayWorkComponent extends Component {
       element.removeAttribute('id');
     }
   };
-
-  componentDidMount() {
-    window.addEventListener('scroll', this.handle_headerScroll);
-  }
-
-  componentWillUnmount() {
-    window.removeEventListener('scroll', this.handle_headerScroll);
-  }
 
   handle_routeMain = () => {
     window.scrollTo(0, 0);
@@ -54,11 +54,26 @@ export default class DisplayWorkComponent extends Component {
 
     switch (displayWork) {
       case 'inspector':
-        return <InspectorComponent handle_routeMain={this.handle_routeMain} />;
+        return (
+          <InspectorComponent
+            handle_routeMain={this.handle_routeMain}
+            handle_openProjectGithub={this.handle_openProjectGithub}
+          />
+        );
       case 'deviceHistory':
-        return <DeviceHistoryComponent handle_routeMain={this.handle_routeMain} />;
+        return (
+          <DeviceHistoryComponent
+            handle_routeMain={this.handle_routeMain}
+            handle_openProjectGithub={this.handle_openProjectGithub}
+          />
+        );
       case 'iotProfile':
-        return <IotProfileComponent handle_routeMain={this.handle_routeMain} />;
+        return (
+          <IotProfileComponent
+            handle_routeMain={this.handle_routeMain}
+            handle_openProjectGithub={this.handle_openProjectGithub}
+          />
+        );
       case 'pokemonBattleArea':
         return (
           <PokemonComponent
@@ -67,9 +82,19 @@ export default class DisplayWorkComponent extends Component {
           />
         );
       case 'responsiveGrid':
-        return <ResponsiveComponent handle_routeMain={this.handle_routeMain} />;
+        return (
+          <ResponsiveComponent
+            handle_routeMain={this.handle_routeMain}
+            handle_openProjectGithub={this.handle_openProjectGithub}
+          />
+        );
       case 'gmailClone':
-        return <GmailComponent handle_routeMain={this.handle_routeMain} />;
+        return (
+          <GmailComponent
+            handle_routeMain={this.handle_routeMain}
+            handle_openProjectGithub={this.handle_openProjectGithub}
+          />
+        );
       case 'artAcademy':
         return (
           <ArtComponent
@@ -79,7 +104,12 @@ export default class DisplayWorkComponent extends Component {
           />
         );
       case 'toDos':
-        return <TodoComponent handle_routeMain={this.handle_routeMain} />;
+        return (
+          <TodoComponent
+            handle_routeMain={this.handle_routeMain}
+            handle_openProjectGithub={this.handle_openProjectGithub}
+          />
+        );
       default:
         return <MainComponent />;
     }

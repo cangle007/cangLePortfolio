@@ -9,9 +9,10 @@ $iot-boxShadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   grid-template-areas:
     'headerNavComp'
     'iot-bio-item'
+    'iot-tech-item'
     'iot-details-container';
   grid-template-columns: auto;
-  grid-template-rows: 65px auto auto;
+  grid-template-rows: 65px auto auto auto;
 
   #headerNavComp {
     grid-area: headerNavComp;
@@ -37,6 +38,23 @@ $iot-boxShadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
       p:nth-child(3) {
         text-align: justify;
         text-justify: inter-word;
+      }
+    }
+  }
+
+  #iot-tech-item {
+    grid-area: iot-tech-item;
+    place-self: center;
+    text-align: center;
+    font-size: $iot-p-fontSize;
+    font-family: $iot-p-font;
+    margin: 0px 30px 40px 30px;
+
+    span {
+      padding: 0 10px;
+      &:hover {
+        color: black;
+        cursor: pointer;
       }
     }
   }

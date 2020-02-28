@@ -1,13 +1,13 @@
 .gmail-container {
   display: grid;
-  grid-template-areas: 'headerNavComp' 'gmail-bio-item' 'gmail-details-item';
+  grid-template-areas: 'headerNavComp' 'gmail-bio-item' 'gmail-tech-item' 'gmail-details-item';
   grid-template-columns: auto;
-  grid-template-rows: 65px auto auto; }
+  grid-template-rows: 65px auto auto auto; }
   .gmail-container #headerNavComp {
     grid-area: headerNavComp; }
   .gmail-container #gmail-bio-item {
     grid-area: gmail-bio-item;
-    font-family: 'ff-tisa-web-pro', Palatino, ' Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
+    font-family: "ff-tisa-web-pro", Palatino, " Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
     font-size: 18px;
     text-align: center;
     place-self: center;
@@ -22,6 +22,18 @@
     .gmail-container #gmail-bio-item article p:nth-child(3) {
       text-align: justify;
       text-justify: inter-word; }
+  .gmail-container #gmail-tech-item {
+    grid-area: gmail-tech-item;
+    place-self: center;
+    text-align: center;
+    font-size: 18px;
+    font-family: "ff-tisa-web-pro", Palatino, " Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+    margin: 0px 30px 40px 30px; }
+    .gmail-container #gmail-tech-item span {
+      padding: 0 10px; }
+      .gmail-container #gmail-tech-item span:hover {
+        color: black;
+        cursor: pointer; }
   .gmail-container #gmail-details-item {
     grid-area: gmail-details-item; }
     .gmail-container #gmail-details-item section {

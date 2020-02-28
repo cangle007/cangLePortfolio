@@ -11,9 +11,10 @@ $responsive-boxShadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.
     'headerNavComp'
     'responsive-header-item'
     'responsive-bio-item'
+    'responsive-tech-item'
     'responsive-details-container';
   grid-template-columns: auto;
-  grid-template-rows: 65px auto auto auto;
+  grid-template-rows: 65px auto auto auto auto;
 
   #headerNavComp {
     grid-area: headerNavComp;
@@ -54,6 +55,22 @@ $responsive-boxShadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.
         text-align: justify;
         text-justify: inter-word;
       }
+    }
+  }
+
+  #responsive-tech-item {
+    grid-area: responsive-tech-item;
+    place-self: center;
+    text-align: center;
+    font-size: $responsive-p-fontSize;
+    font-family: $responsive-p-font;
+    margin: 0px 30px 40px 30px;
+  }
+  span {
+    padding: 0 10px;
+    &:hover {
+      color: black;
+      cursor: pointer;
     }
   }
 

@@ -9,6 +9,7 @@ $todo-boxShadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   grid-template-areas:
     'headerNavComp'
     'todo-bio-item'
+    'todo-tech-item'
     'todo-details-item';
   grid-template-columns: auto;
   grid-template-rows: 65px auto auto;
@@ -38,6 +39,23 @@ $todo-boxShadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
       p:nth-child(3) {
         text-align: justify;
         text-justify: inter-word;
+      }
+    }
+  }
+
+  #todo-tech-item {
+    grid-area: todo-tech-item;
+    place-self: center;
+    text-align: center;
+    font-size: $todo-p-fontSize;
+    font-family: $todo-p-font;
+    margin: 0px 30px 40px 30px;
+
+    span {
+      padding: 0 10px;
+      &:hover {
+        color: black;
+        cursor: pointer;
       }
     }
   }

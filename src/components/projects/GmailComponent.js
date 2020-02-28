@@ -1,10 +1,10 @@
 import React from 'react';
 
-import { Label } from 'semantic-ui-react';
+import { Icon, Label } from 'semantic-ui-react';
 import gmail_demo from '../../images/gmail_demo.gif';
 import HeaderNavComponent from '../headers/HeaderNavComponent';
 
-export default function GmailComponent({ handle_routeMain }) {
+export default function GmailComponent({ handle_routeMain, handle_openProjectGithub }) {
   return (
     <div className='gmail-container'>
       <HeaderNavComponent id='headerNavComp' handle_routeMain={handle_routeMain} />
@@ -17,8 +17,20 @@ export default function GmailComponent({ handle_routeMain }) {
             favorite their emails.
           </p>
         </article>
+      </div>
 
-        <span>
+      <div id='gmail-tech-item'>
+        <span
+          className='launch-website'
+          onClick={() => {
+            handle_openProjectGithub('react-inbox');
+          }}
+        >
+          LAUNCH GITHUB
+          <Icon name='external alternate' />
+        </span>
+
+        <div>
           <Label as='a' tag>
             Front-End Development
           </Label>
@@ -34,7 +46,7 @@ export default function GmailComponent({ handle_routeMain }) {
           <Label as='a' tag>
             Airtable
           </Label>
-        </span>
+        </div>
       </div>
 
       <div id='gmail-details-item'>

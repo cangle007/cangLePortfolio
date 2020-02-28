@@ -11,9 +11,10 @@ $pokemon-boxShadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23)
     'headerNavComp'
     'pokemon-header-item'
     'pokemon-bio-item'
+    'pokemon-tech-item'
     'pokemon-details-container';
   grid-template-columns: auto;
-  grid-template-rows: 65px auto auto auto;
+  grid-template-rows: 65px auto auto auto auto;
 
   #headerNavComp {
     grid-area: headerNavComp;
@@ -55,18 +56,21 @@ $pokemon-boxShadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23)
         text-justify: inter-word;
       }
     }
+  }
 
-    .launch-github {
-      padding: 10px 0px 0px 0px;
-      color: rgb(204, 51, 51);
+  #pokemon-tech-item {
+    grid-area: pokemon-tech-item;
+    place-self: center;
+    text-align: center;
+    font-size: $pokemon-p-fontSize;
+    font-family: $pokemon-p-font;
+    margin: 0px 30px 40px 30px;
 
-      :hover {
+    span {
+      padding: 0 10px;
+      &:hover {
         color: black;
         cursor: pointer;
-      }
-
-      i.icon {
-        padding-left: 5px;
       }
     }
   }
@@ -148,6 +152,11 @@ $pokemon-boxShadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23)
       'pokemon-bio-item'
       'pokemon-details-container';
     grid-template-rows: 65px auto auto;
+
+    #pokemon-header-item,
+    #pokemon-tech-item {
+      display: none;
+    }
 
     #pokemon-bio-item {
       article {

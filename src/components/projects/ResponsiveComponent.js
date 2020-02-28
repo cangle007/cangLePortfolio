@@ -1,11 +1,11 @@
 import React from 'react';
-import { Label } from 'semantic-ui-react';
+import { Label, Icon } from 'semantic-ui-react';
 
 import responsive_screen from '../../images/responsive_screen.png';
 import responsive from '../../images/responsive.gif';
 import HeaderNavComponent from '../headers/HeaderNavComponent';
 
-export default function ResponsiveComponent({ handle_routeMain }) {
+export default function ResponsiveComponent({ handle_routeMain, handle_openProjectGithub }) {
   return (
     <div className='responsive-container'>
       <HeaderNavComponent id='headerNavComp' handle_routeMain={handle_routeMain} />
@@ -24,15 +24,27 @@ export default function ResponsiveComponent({ handle_routeMain }) {
             component driven development.
           </p>
         </article>
+      </div>
 
-        <span>
+      <div id='responsive-tech-item'>
+        <span
+          className='launch-website'
+          onClick={() => {
+            handle_openProjectGithub('cssGrids-responsive-website');
+          }}
+        >
+          LAUNCH GITHUB
+          <Icon name='external alternate' />
+        </span>
+
+        <div>
           <Label as='a' tag>
             Front-End Development
           </Label>
           <Label as='a' tag>
             CSS-Grid
           </Label>
-        </span>
+        </div>
       </div>
 
       <div id='responsive-details-container'>
