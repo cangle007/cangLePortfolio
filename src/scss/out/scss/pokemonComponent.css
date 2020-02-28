@@ -10,8 +10,8 @@
     background: url(../../../images/pokemon_banner.jpg);
     background-size: cover;
     background-position: center;
-    max-height: 600px;
-    min-height: 600px; }
+    max-height: 500px;
+    min-height: 500px; }
   .pokemon-container #pokemon-bio-item,
   .pokemon-container #pokemon-details-container {
     font-size: 18px;

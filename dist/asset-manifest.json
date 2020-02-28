@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.281d4e45.chunk.css",
-    "main.js": "/static/js/main.33b6650a.chunk.js",
+    "main.css": "/static/css/main.c762804d.chunk.css",
+    "main.js": "/static/js/main.c812a6e0.chunk.js",
     "runtime-main.js": "/static/js/runtime-main.a7444c66.js",
     "static/js/2.a9a010cb.chunk.js": "/static/js/2.a9a010cb.chunk.js",
     "index.html": "/index.html",
-    "precache-manifest.e93d28ce803b566cf5feb4e65b2e3e7b.js": "/precache-manifest.e93d28ce803b566cf5feb4e65b2e3e7b.js",
+    "precache-manifest.cf307b47c69e2d75bd15aa902f16e65f.js": "/precache-manifest.cf307b47c69e2d75bd15aa902f16e65f.js",
     "service-worker.js": "/service-worker.js",
     "static/js/2.a9a010cb.chunk.js.LICENSE": "/static/js/2.a9a010cb.chunk.js.LICENSE",
     "static/media/af-device-history-logo.svg": "/static/media/af-device-history-logo.1f294d84.svg",
@@ -15,7 +15,7 @@
     "static/media/art_demo.gif": "/static/media/art_demo.eff283e2.gif",
     "static/media/cang01.jpg": "/static/media/cang01.1d832637.jpg",
     "static/media/cl_resume.pdf": "/static/media/cl_resume.8ec24db7.pdf",
-    "static/media/bannerComponent.css": "/static/media/cover02.55fc5b0a.jpg",
+    "static/media/bannerComponent.css": "/static/media/cover02.c99e431f.jpg",
     "static/media/gmail-clone-logo.png": "/static/media/gmail-clone-logo.351d1fbe.png",
     "static/media/gmail_demo.gif": "/static/media/gmail_demo.626a8901.gif",
     "static/media/historyDev_bar.png": "/static/media/historyDev_bar.64b54d74.png",
@@ -32,7 +32,7 @@
     "static/media/poke_home.png": "/static/media/poke_home.fea60669.png",
     "static/media/poke_manage.png": "/static/media/poke_manage.2bba9b8f.png",
     "static/media/pokemon-logo.png": "/static/media/pokemon-logo.9578e4ce.png",
-    "static/media/pokemonComponent.css": "/static/media/pokemon_banner.eb0e2eec.jpg",
+    "static/media/pokemonComponent.css": "/static/media/pokemon_banner.a3b5d201.jpg",
     "static/media/respGrid-logo.png": "/static/media/respGrid-logo.44889983.png",
     "static/media/responsive.gif": "/static/media/responsive.7bf3d9be.gif",
     "static/media/responsive_screen.png": "/static/media/responsive_screen.b9b4a0e3.png",
@@ -42,7 +42,7 @@
   "entrypoints": [
     "static/js/runtime-main.a7444c66.js",
     "static/js/2.a9a010cb.chunk.js",
-    "static/css/main.281d4e45.chunk.css",
-    "static/js/main.33b6650a.chunk.js"
+    "static/css/main.c762804d.chunk.css",
+    "static/js/main.c812a6e0.chunk.js"
   ]
 }
