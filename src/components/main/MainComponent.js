@@ -13,7 +13,7 @@ export default class MainComponent extends Component {
   }
 
   handle_openTabGithub = () => {
-    var win = window.open('https://github.com/cangle007', '_blank');
+    let win = window.open('https://github.com/cangle007', '_blank');
     win.focus();
   };
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Label } from 'semantic-ui-react';
+import { Icon, Label } from 'semantic-ui-react';
 
 import poke_demo from '../../images/poke_demo.gif';
 import poke_battle from '../../images/poke_battle.png';
@@ -8,7 +8,7 @@ import poke_home from '../../images/poke_home.png';
 import poke_manage from '../../images/poke_manage.png';
 import HeaderNavComponent from '../headers/HeaderNavComponent';
 
-export default function PokemonComponent({ handle_routeMain }) {
+export default function PokemonComponent({ handle_routeMain, handle_openProjectGithub }) {
   return (
     <div className='pokemon-container'>
       <HeaderNavComponent id='headerNavComp' handle_routeMain={handle_routeMain} />
@@ -26,6 +26,18 @@ export default function PokemonComponent({ handle_routeMain }) {
             front-end UI design with authentication to keep your Pokemon data safe.
           </p>
         </article>
+
+        <div
+          className='launch-github'
+          onClick={() => {
+            handle_openProjectGithub('react-pokemon-frontend');
+          }}
+        >
+          <span>
+            LAUNCH GITHUB
+            <Icon name='external alternate' />
+          </span>
+        </div>
 
         <span>
           <Label as='a' tag>

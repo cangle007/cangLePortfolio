@@ -16,6 +16,11 @@ export default class DisplayWorkComponent extends Component {
     this.state = {};
   }
 
+  handle_openProjectGithub = route => {
+    var win = window.open(`https://github.com/cangle007/${route}`, '_blank');
+    win.focus();
+  };
+
   handle_headerScroll = () => {
     const element = document.querySelector('.headerNav-container');
 
@@ -55,14 +60,23 @@ export default class DisplayWorkComponent extends Component {
       case 'iotProfile':
         return <IotProfileComponent handle_routeMain={this.handle_routeMain} />;
       case 'pokemonBattleArea':
-        return <PokemonComponent handle_routeMain={this.handle_routeMain} />;
+        return (
+          <PokemonComponent
+            handle_routeMain={this.handle_routeMain}
+            handle_openProjectGithub={this.handle_openProjectGithub}
+          />
+        );
       case 'responsiveGrid':
         return <ResponsiveComponent handle_routeMain={this.handle_routeMain} />;
       case 'gmailClone':
         return <GmailComponent handle_routeMain={this.handle_routeMain} />;
       case 'artAcademy':
         return (
-          <ArtComponent handle_routeMain={this.handle_routeMain} handle_openArtAcademy={this.handle_openArtAcademy} />
+          <ArtComponent
+            handle_routeMain={this.handle_routeMain}
+            handle_openArtAcademy={this.handle_openArtAcademy}
+            handle_openProjectGithub={this.handle_openProjectGithub}
+          />
         );
       case 'toDos':
         return <TodoComponent handle_routeMain={this.handle_routeMain} />;

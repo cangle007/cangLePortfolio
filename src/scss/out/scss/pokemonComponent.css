@@ -31,6 +31,14 @@
     .pokemon-container #pokemon-bio-item article :nth-child(4) {
       text-align: justify;
       text-justify: inter-word; }
+    .pokemon-container #pokemon-bio-item .launch-github {
+      padding: 10px 0px 0px 0px;
+      color: #cc3333; }
+      .pokemon-container #pokemon-bio-item .launch-github :hover {
+        color: black;
+        cursor: pointer; }
+      .pokemon-container #pokemon-bio-item .launch-github i.icon {
+        padding-left: 5px; }
   .pokemon-container #pokemon-details-container {
     grid-area: pokemon-details-container;
     display: grid;
