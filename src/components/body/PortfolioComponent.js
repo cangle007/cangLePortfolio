@@ -8,6 +8,7 @@ import iotProfileLogo from '../../images/af-iotProfile-logo.png';
 import pokemonLogo from '../../images/pokemon-logo.png';
 import respGridLogo from '../../images/respGrid-logo.png';
 import toDosLogo from '../../images/toDos-logo.png';
+import slackLogo from '../../images/slack-logo.png';
 
 export default function PortfolioComponent({ display_work, handle_routeDisplayWork }) {
   return (
@@ -103,7 +104,7 @@ export default function PortfolioComponent({ display_work, handle_routeDisplayWo
         <img id='gmailClone-logo' src={gmailCloneLogo} alt='gmailCloneLogo' />
         <section className='card-text'>
           <span>GMAIL-CLONE</span>
-          <p>cloning Gmail's with React-Redux</p>
+          <p>cloning Gmail's with React</p>
         </section>
       </div>
 
@@ -117,7 +118,7 @@ export default function PortfolioComponent({ display_work, handle_routeDisplayWo
         <img id='artAcademy-logo' src={artAcademyLogo} alt='artAcademylogo' />
         <section className='card-text'>
           <span>ART-ACADEMY</span>
-          <p>pixel-Art with vanilla JavaScriptL</p>
+          <p>pixel-Art with vanilla JS</p>
         </section>
       </div>
 
@@ -132,6 +133,20 @@ export default function PortfolioComponent({ display_work, handle_routeDisplayWo
         <section className='card-text'>
           <span>TO-DO'S</span>
           <p>mock-up for mobile app</p>
+        </section>
+      </div>
+
+      <div
+        id='slack-item'
+        onClick={() => {
+          display_work('slack');
+          handle_routeDisplayWork();
+        }}
+      >
+        <img id='slack-logo' src={slackLogo} alt='slackLogo' />
+        <section className='card-text'>
+          <span>SLACK-THEMES</span>
+          <p>don't slack off your theme</p>
         </section>
       </div>
     </div>

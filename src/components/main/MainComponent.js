@@ -49,7 +49,11 @@ export default class MainComponent extends Component {
         </div>
 
         <div id='portfolioComp'>
-          <PortfolioComponent display_work={display_work} handle_routeDisplayWork={this.handle_routeDisplayWork} />
+          <PortfolioComponent
+            display_work={display_work}
+            handle_routeDisplayWork={this.handle_routeDisplayWork}
+            handle_selectTheme={this.handle_selectTheme}
+          />
         </div>
 
         <div id='sidebarComp'>

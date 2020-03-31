@@ -18,5 +18,6 @@ import './scss/out/scss/pokemonComponent.css';
 import './scss/out/scss/responsiveComponent.css';
 import './scss/out/scss/sidebarComponent.css';
 import './scss/out/scss/todoComponent.css';
+import './scss/out/scss/slackComponent.css';
 
 ReactDOM.render(<App />, document.getElementById('root'));

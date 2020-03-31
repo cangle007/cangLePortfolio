@@ -12,9 +12,11 @@ $card-p-fontSize: 18px;
     '. iotProfile-item iotProfile-item'
     'personal-title-item personal-title-item personal-title-item'
     'pokemonBattleArea-item pokemonBattleArea-item responsiveGrid-item'
-    'gmailClone-item artAcademy-item toDos-item';
+    'gmailClone-item slack-item slack-item'
+    'artAcademy-item slack-item slack-item'
+    'toDos-item . .';
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 150px 200px 200px 150px 200px 200px;
+  grid-template-rows: 150px 200px 200px 150px 200px 200px 200px 200px;
   grid-gap: 20px;
   padding: 0 80px 50px;
 
@@ -175,6 +177,22 @@ $card-p-fontSize: 18px;
     }
   }
 
+  #slack-item {
+    grid-area: slack-item;
+    display: flex;
+    align-items: center;
+    place-content: center;
+    position: relative;
+    background-color: black;
+    cursor: pointer;
+
+    img {
+      position: relative;
+      max-width: 100%;
+      max-height: 100%;
+    }
+  }
+
   .card-text {
     position: absolute;
     left: 50%;
@@ -205,7 +223,8 @@ $card-p-fontSize: 18px;
   #responsiveGrid-item,
   #gmailClone-item,
   #artAcademy-item,
-  #toDos-item {
+  #toDos-item,
+  #slack-item {
     &::before,
     &::after {
       content: '';
@@ -233,7 +252,7 @@ $card-p-fontSize: 18px;
       transform: scale(1.05, 1);
     }
     &:hover::after {
-      transform: scale(1, 1.2);
+      transform: scale(1, 1.1);
     }
 
     //hover to show text, 1
@@ -251,7 +270,8 @@ $card-p-fontSize: 18px;
       #respGrid-logo,
       #gmailClone-logo,
       #artAcademy-logo,
-      #toDos-logo {
+      #toDos-logo,
+      #slack-logo {
         opacity: 0;
       }
     }
@@ -270,9 +290,10 @@ $card-p-fontSize: 18px;
       'responsiveGrid-item'
       'gmailClone-item'
       'artAcademy-item'
-      'toDos-item';
+      'toDos-item'
+      'slack-item';
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(10, 250px);
+    grid-template-rows: repeat(11, 250px);
     place-content: center;
 
     #deviceHistory-item,
@@ -282,7 +303,8 @@ $card-p-fontSize: 18px;
     #responsiveGrid-item,
     #gmailClone-item,
     #artAcademy-item,
-    #toDos-item {
+    #toDos-item,
+    #slack-item {
       place-content: center;
 
       #deviceHistory-logo,
@@ -292,7 +314,8 @@ $card-p-fontSize: 18px;
       #respGrid-logo,
       #gmailClone-logo,
       #artAcademy-logo,
-      #toDos-logo {
+      #toDos-logo,
+      #slack-logo {
         left: 0;
         transform: translateX(0);
       }
