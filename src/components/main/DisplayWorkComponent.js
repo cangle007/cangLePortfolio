@@ -76,7 +76,7 @@ export default class DisplayWorkComponent extends Component {
       { id: 'colBG-hex', val: '#dcdcdc' },
       { id: 'menuBGHover-hex', val: '#f8f8fa' },
       { id: 'active-hex', val: '#2d9ee0' },
-      { id: 'activeItemText-hex', val: '#ffffff' },
+      { id: 'activeItemText-hex', val: '#383f45' },
       { id: 'hoverItem-hex', val: '#ffffff' },
       { id: 'textColor-hex', val: '#383f45' },
       { id: 'activePresence-hex', val: '#60d156' },

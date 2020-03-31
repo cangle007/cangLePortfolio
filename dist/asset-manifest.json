@@ -1,23 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.2aa2a4b3.chunk.css",
-    "main.js": "/static/js/main.c812a6e0.chunk.js",
+    "main.css": "/static/css/main.624d48d8.chunk.css",
+    "main.js": "/static/js/main.54323f08.chunk.js",
     "runtime-main.js": "/static/js/runtime-main.a7444c66.js",
-    "static/js/2.a9a010cb.chunk.js": "/static/js/2.a9a010cb.chunk.js",
+    "static/js/2.c24ff9ef.chunk.js": "/static/js/2.c24ff9ef.chunk.js",
     "index.html": "/index.html",
-    "precache-manifest.9e82447ec0669c69bdfb9567019484ee.js": "/precache-manifest.9e82447ec0669c69bdfb9567019484ee.js",
+    "precache-manifest.270225c6f5dcb84ef3296f75ea3cd59b.js": "/precache-manifest.270225c6f5dcb84ef3296f75ea3cd59b.js",
     "service-worker.js": "/service-worker.js",
-    "static/js/2.a9a010cb.chunk.js.LICENSE": "/static/js/2.a9a010cb.chunk.js.LICENSE",
+    "static/js/2.c24ff9ef.chunk.js.LICENSE": "/static/js/2.c24ff9ef.chunk.js.LICENSE",
     "static/media/af-device-history-logo.svg": "/static/media/af-device-history-logo.1f294d84.svg",
     "static/media/af-inspector-logo.svg": "/static/media/af-inspector-logo.5bfc747c.svg",
     "static/media/af-iotProfile-logo.png": "/static/media/af-iotProfile-logo.b5f30fa9.png",
     "static/media/artAcademy-logo.png": "/static/media/artAcademy-logo.1479234c.png",
     "static/media/art_demo.gif": "/static/media/art_demo.eff283e2.gif",
     "static/media/cang01.jpg": "/static/media/cang01.1d832637.jpg",
-    "static/media/cl_resume.pdf": "/static/media/cl_resume.8ec24db7.pdf",
+    "static/media/cl_resume.pdf": "/static/media/cl_resume.5f43157a.pdf",
+    "static/media/clippers-icon.png": "/static/media/clippers-icon.b1c846d3.png",
     "static/media/bannerComponent.css": "/static/media/cover02.c99e431f.jpg",
     "static/media/gmail-clone-logo.png": "/static/media/gmail-clone-logo.351d1fbe.png",
     "static/media/gmail_demo.gif": "/static/media/gmail_demo.626a8901.gif",
+    "static/media/gs-icon.png": "/static/media/gs-icon.dc65e47e.png",
     "static/media/historyDev_bar.png": "/static/media/historyDev_bar.64b54d74.png",
     "static/media/historyDev_google.png": "/static/media/historyDev_google.c9cd3bd2.png",
     "static/media/historyDev_query.png": "/static/media/historyDev_query.9b971863.png",
@@ -26,6 +28,7 @@
     "static/media/inspector_main.png": "/static/media/inspector_main.cd11a01b.png",
     "static/media/iotdemo.gif": "/static/media/iotdemo.0aa8fa06.gif",
     "static/media/iotprofile_cells.png": "/static/media/iotprofile_cells.26e2e009.png",
+    "static/media/lakers-icon.png": "/static/media/lakers-icon.4bc96790.png",
     "static/media/poke_battle.png": "/static/media/poke_battle.709cffde.png",
     "static/media/poke_deck.png": "/static/media/poke_deck.264b7238.png",
     "static/media/poke_demo.gif": "/static/media/poke_demo.24e9adb3.gif",
@@ -36,13 +39,17 @@
     "static/media/respGrid-logo.png": "/static/media/respGrid-logo.44889983.png",
     "static/media/responsive.gif": "/static/media/responsive.7bf3d9be.gif",
     "static/media/responsive_screen.png": "/static/media/responsive_screen.b9b4a0e3.png",
+    "static/media/rockets-icon.png": "/static/media/rockets-icon.fa185952.png",
+    "static/media/slack-logo.png": "/static/media/slack-logo.979c4290.png",
+    "static/media/slackComponent.css": "/static/media/slack_banner.d83d3bad.png",
     "static/media/toDos-logo.png": "/static/media/toDos-logo.b42ad8a6.png",
-    "static/media/todoApp_demo.gif": "/static/media/todoApp_demo.9bc10e87.gif"
+    "static/media/todoApp_demo.gif": "/static/media/todoApp_demo.9bc10e87.gif",
+    "static/media/toronto-icon.png": "/static/media/toronto-icon.0d50218e.png"
   },
   "entrypoints": [
     "static/js/runtime-main.a7444c66.js",
-    "static/js/2.a9a010cb.chunk.js",
-    "static/css/main.2aa2a4b3.chunk.css",
-    "static/js/main.c812a6e0.chunk.js"
+    "static/js/2.c24ff9ef.chunk.js",
+    "static/css/main.624d48d8.chunk.css",
+    "static/js/main.54323f08.chunk.js"
   ]
 }

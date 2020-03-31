@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "10997bc10f08095b7b95fc5491152ea1",
+    "revision": "4e695460818d3702cb446cf7d5a729da",
     "url": "/index.html"
   },
   {
-    "revision": "54a69b5eef6ae3791afd",
-    "url": "/static/css/main.2aa2a4b3.chunk.css"
+    "revision": "4a0acd84f14c196615c7",
+    "url": "/static/css/main.624d48d8.chunk.css"
   },
   {
-    "revision": "a5a044089fe35578c8af",
-    "url": "/static/js/2.a9a010cb.chunk.js"
+    "revision": "0272a3ae2a618a0c70e8",
+    "url": "/static/js/2.c24ff9ef.chunk.js"
   },
   {
     "revision": "f8513fb9f2981a1b206fb733b985f272",
-    "url": "/static/js/2.a9a010cb.chunk.js.LICENSE"
+    "url": "/static/js/2.c24ff9ef.chunk.js.LICENSE"
   },
   {
-    "revision": "54a69b5eef6ae3791afd",
-    "url": "/static/js/main.c812a6e0.chunk.js"
+    "revision": "4a0acd84f14c196615c7",
+    "url": "/static/js/main.54323f08.chunk.js"
   },
   {
     "revision": "55517a2f457b8ba9ab63",
@@ -48,8 +48,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/cang01.1d832637.jpg"
   },
   {
-    "revision": "8ec24db7df4a7f92e18a2c8b61859787",
-    "url": "/static/media/cl_resume.8ec24db7.pdf"
+    "revision": "5f43157a99dd023b0def92c7e576927f",
+    "url": "/static/media/cl_resume.5f43157a.pdf"
+  },
+  {
+    "revision": "b1c846d377864233aa1c1f6926af09b3",
+    "url": "/static/media/clippers-icon.b1c846d3.png"
   },
   {
     "revision": "c99e431f4d8b65599a926f09dbd71863",
@@ -62,6 +66,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "626a890149f45332264d823ea87b646e",
     "url": "/static/media/gmail_demo.626a8901.gif"
+  },
+  {
+    "revision": "dc65e47ef8743a37704d0e0ff6c55987",
+    "url": "/static/media/gs-icon.dc65e47e.png"
   },
   {
     "revision": "64b54d746f9370c0fcae2467209b8ce5",
@@ -94,6 +102,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "26e2e009f886b9c4529ae4898d9d472d",
     "url": "/static/media/iotprofile_cells.26e2e009.png"
+  },
+  {
+    "revision": "4bc967901ee0e4bd76cd708c9e6a7550",
+    "url": "/static/media/lakers-icon.4bc96790.png"
   },
   {
     "revision": "709cffde44ee16337e4f3b22747edc47",
@@ -136,11 +148,27 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/responsive_screen.b9b4a0e3.png"
   },
   {
+    "revision": "fa185952e41901dc70df3132794d69f3",
+    "url": "/static/media/rockets-icon.fa185952.png"
+  },
+  {
+    "revision": "979c42909b02b637b96a92b38846c8de",
+    "url": "/static/media/slack-logo.979c4290.png"
+  },
+  {
+    "revision": "d83d3bad836c5128fa77b1004f8462ea",
+    "url": "/static/media/slack_banner.d83d3bad.png"
+  },
+  {
     "revision": "b42ad8a6ab5355e949006552bfa965ad",
     "url": "/static/media/toDos-logo.b42ad8a6.png"
   },
   {
     "revision": "9bc10e879b16c196602cd682f7ee35cc",
     "url": "/static/media/todoApp_demo.9bc10e87.gif"
+  },
+  {
+    "revision": "0d50218ea765be79bde207bbba23af13",
+    "url": "/static/media/toronto-icon.0d50218e.png"
   }
 ]);
