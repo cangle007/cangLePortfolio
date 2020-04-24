@@ -7,27 +7,35 @@ export default function MyBioComponent({ handle_openTabGithub, handle_openTabLin
     <div className='myBio-container'>
       <section id='myBio-item'>
         <p>
-          Graduated from San Jose State University with a Finance/Economics degree and spent 5 years in Corporate
-          Finance but decided to make a career switch to become a Frontend developer.
+          Graduated from San Jose State University with a Finance/Economics degree and
+          spent 5 years in Corporate Finance but decided to make a career switch to become
+          a Frontend developer.
         </p>
         <p>2 years of hands-on software engineering experience, specializing in:</p>
         <ul>
-          <li>Frontend development (UI) with Javascript and React-Redux</li>
+          <li>
+            Frontend development (UI) with Javascript, React-Redux, and React-Apollo
+          </li>
           <li>UX/UI design with CSS/HTML, SASS/SCSS, and CSS-Grid</li>
           <li>Backend development (APIs) with Nodes.js and PostgreSQL</li>
           <li>Object-oriented programming and design patterns</li>
           <li>Data modeling, persistence, and relational databases</li>
         </ul>
         <p>
-          2 years of leading and developing product design (UI/UX), managing the product development lifecycle and
-          roadmap, and as well as release management and production support.
+          2 years of leading and developing product design (UI/UX), managing the product
+          development lifecycle and roadmap, and as well as release management and
+          production support.
         </p>
 
-        <p>2 years of spearheading medium-scale projects from scratch at an early-stage tech startup environment.</p>
+        <p>
+          2 years of spearheading medium-scale projects from scratch at an early-stage
+          tech startup environment.
+        </p>
 
         <p>
-          When I am not coding I train at the gym to shape up for the Ironman Triathlon, and occasionally skydive. I
-          believe in having an efficient workflow and constantly work toward the inbox zero.
+          When I am not coding I train at the gym to shape up for the Ironman Triathlon,
+          and occasionally skydive. I believe in having an efficient workflow and
+          constantly work toward the inbox zero.
         </p>
         <p>Let's get in touch!</p>
       </section>
@@ -61,6 +69,7 @@ export default function MyBioComponent({ handle_openTabGithub, handle_openTabLin
           <Icon name='desktop' size='large' />
           <h3>Front-End</h3>
           <li>React-Redux</li>
+          <li>React-Apollo</li>
           <li>HTML/CSS</li>
           <li>Scss/Sass</li>
         </ul>
@@ -72,6 +81,7 @@ export default function MyBioComponent({ handle_openTabGithub, handle_openTabLin
           <li>Knex.js</li>
           <li>PostgreSQL</li>
           <li>Python</li>
+          <li>GraphQL</li>
         </ul>
         <ul id='others-item'>
           <Icon name='puzzle' size='large' />
