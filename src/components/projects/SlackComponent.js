@@ -36,10 +36,7 @@ export default function ArtComponent({ handle_routeMain, handle_selectTheme }) {
           SASS/SCSS
         </Label>
         <Label as='a' tag>
-          HTML/SCSS
-        </Label>
-        <Label as='a' tag>
-          Front-End Development
+          HTML/CSS
         </Label>
       </div>
 
