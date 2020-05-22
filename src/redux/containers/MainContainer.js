@@ -10,16 +10,16 @@ function mapStateToProps(state, ownProps) {
 
 function mapDispatchToProps(dispatch, ownProps) {
   return {
-    display_work: displayWork => {
+    display_work: (displayWork) => {
       dispatch(displayWorkProcess(displayWork));
-    }
+    },
   };
 }
 
 const withlifecycle = lifecycle({
   /*LifeCycle: Birth/Mounting*/
   //static getDerivedStateFromProps(props, state) {},
-  componentDidMount() {}
+  componentDidMount() {},
   /*LifeCycle: Growth/Update*/
   //static getDerivedStateFromProps(props, state) {},
   // getSnapshotBeforeUpdate(prevProps, prevState) {},
@@ -28,6 +28,12 @@ const withlifecycle = lifecycle({
   // componentWillUnmount() {}
 });
 
-const connectToStore = connect(mapStateToProps, mapDispatchToProps);
+const connectToStore = connect(
+  mapStateToProps,
+  mapDispatchToProps
+);
 
-export default compose(connectToStore, withlifecycle)(withRouter(MainPage));
+export default compose(
+  connectToStore,
+  withlifecycle
+)(withRouter(MainPage));
